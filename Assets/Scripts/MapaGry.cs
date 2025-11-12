@@ -24,6 +24,11 @@ public class MapaGry : MonoBehaviour
     public PanelPotwierdzenia panelPotwierdzenia;
     public PanelMiastoInfo panelMiastoInfo;
 
+    public bool CzyMapaZablokowana =>
+    (panelMiastoInfo != null && panelMiastoInfo.Widoczny)
+    || (panelPotwierdzenia != null && panelPotwierdzenia.Widoczny);
+
+
     private void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -63,6 +68,7 @@ public class MapaGry : MonoBehaviour
     public void KliknietoMiasto(Miasto miasto)
     {
         if (gracz == null || gracz.czyWTrasie) return;
+        if (CzyMapaZablokowana) return;
 
         _ostatnioKlikniete = miasto;
         WyczyscPodswietlenia();

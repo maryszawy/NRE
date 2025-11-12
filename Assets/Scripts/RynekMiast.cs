@@ -36,7 +36,7 @@ public class WorldFile
     [JsonProperty("after")] public List<CityData> after;
 }
 
-public class RynekMiast : MonoBehaviour
+public partial class RynekMiast : MonoBehaviour
 {
     public static RynekMiast Instance { get; private set; }
 

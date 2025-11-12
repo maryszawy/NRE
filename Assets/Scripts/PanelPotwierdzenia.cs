@@ -54,6 +54,8 @@ public class PanelPotwierdzenia : MonoBehaviour
         }
     }
 
+    public bool Widoczny => gameObject != null && gameObject.activeSelf;
+
     public void Pokaz(string nazwaStart, string nazwaCel, string tekstCzasu,
                       Action poPotwierdzeniu, Action poAnulowaniu)
     {
