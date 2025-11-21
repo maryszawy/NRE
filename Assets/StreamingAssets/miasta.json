@@ -7,8 +7,8 @@
       "fee": 100,
       "nr_of_conn": "5",
       "commodities": {
-        "metal": {"quantity": 200, "price": 200, "regular_price": 150, "regular_quantity": 100},
-        "gems": {"quantity": 100, "price": 250, "regular_price": 300, "regular_quantity": 100},
+        "metal": {"quantity": 200, "price": 200, "regular_price": 150, "regular_quantity": 250},
+        "gems": {"quantity": 100, "price": 450, "regular_price": 300, "regular_quantity": 100},
         "food": {"quantity": 150, "price": 60, "regular_price": 45, "regular_quantity": 100},
         "fuel": {"quantity": 80, "price": 120, "regular_price": 80, "regular_quantity": 100},
         "relics": {"quantity": 10, "price": 1300, "regular_price": 1300, "regular_quantity": 100},
@@ -377,6 +377,312 @@
       "missions": 0,
       "missions_titles": [],
       "connections": ["Bar"]
+    },
+    {
+      "name": "city1",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city2",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city2",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city3",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city4",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city5",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city6",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city7",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city8",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city9",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city10",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city11",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city12",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city13",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city14",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city15",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city16",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
     }
   ],
   "after": [
@@ -387,8 +693,8 @@
       "fee": 100,
       "nr_of_conn": "5",
       "commodities": {
-        "metal": {"quantity": 200, "price": 200, "regular_price": 150, "regular_quantity": 100},
-        "gems": {"quantity": 100, "price": 250, "regular_price": 300, "regular_quantity": 100},
+        "metal": {"quantity": 200, "price": 200, "regular_price": 150, "regular_quantity": 250},
+        "gems": {"quantity": 100, "price": 450, "regular_price": 300, "regular_quantity": 100},
         "food": {"quantity": 150, "price": 60, "regular_price": 45, "regular_quantity": 100},
         "fuel": {"quantity": 80, "price": 120, "regular_price": 80, "regular_quantity": 100},
         "relics": {"quantity": 10, "price": 1300, "regular_price": 1300, "regular_quantity": 100},
@@ -757,6 +1063,312 @@
       "missions": 0,
       "missions_titles": [],
       "connections": ["Bar"]
+    },
+    {
+      "name": "city1",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city2",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city2",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city3",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city4",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city5",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city6",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city7",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city8",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city9",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city10",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city11",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city12",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city13",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city14",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city15",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    },
+    {
+      "name": "city16",
+      "size": "small",
+      "factory": [],
+      "fee": 0,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {"quantity": 5, "price": 45, "regular_price": 50, "regular_quantity": 100},
+        "gems": {"quantity": 2, "price": 60, "regular_price": 100, "regular_quantity": 100},
+        "food": {"quantity": 14, "price": 23, "regular_price": 30, "regular_quantity": 100},
+        "fuel": {"quantity": 8, "price": 30, "regular_price": 40, "regular_quantity": 100},
+        "relics": {"quantity": 0, "price": 0, "regular_price": 0, "regular_quantity": 100},
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
     }
   ]
 }
