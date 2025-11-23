@@ -8,11 +8,11 @@ public class UIHandelToggle : MonoBehaviour
     public PanelMiastoInfo panelMiastoInfo;
     public GraczController gracz;
     public Button przycisk;
+    public Image tloIkony;
 
     [Header("Wygl¹d")]
     public Color kolorNormalny = Color.white;
     public Color kolorAktywny = new Color(1f, 0.85f, 0.4f);
-    public Image tloIkony;
 
     private bool _aktywny;
 
@@ -25,6 +25,7 @@ public class UIHandelToggle : MonoBehaviour
     {
         if (!przycisk) przycisk = GetComponent<Button>();
         przycisk.onClick.AddListener(OnKlik);
+        UstawKolor(false);
     }
 
     void OnDestroy()
@@ -34,43 +35,54 @@ public class UIHandelToggle : MonoBehaviour
 
     void Update()
     {
-        if (gracz)
-            przycisk.interactable = !gracz.czyWTrasie;
-
         if (Input.GetKeyDown(KeyCode.H))
         {
-            var go = EventSystem.current ? EventSystem.current.currentSelectedGameObject : null;
-            if (go == null || go.GetComponent<TMPro.TMP_InputField>() == null)
+            if (przycisk != null && przycisk.interactable && CzyMoznaHandlowac())
             {
                 ToggleHandel();
             }
         }
     }
 
+    private bool CzyMoznaHandlowac()
+    {
+        if (MapaGry.Instance == null) return false;
+        if (gracz != null && gracz.czyWTrasie) return false;
+        return MapaGry.Instance.moznaHandlowac;
+    }
+
     private void OnKlik()
     {
+        if (!przycisk.interactable) return;
+        if (!CzyMoznaHandlowac()) return;
+
         ToggleHandel();
     }
 
     private void ToggleHandel()
     {
-        if (!panelMiastoInfo || !gracz) return;
-        if (gracz.czyWTrasie) return;
+        if (panelMiastoInfo == null || gracz == null) return;
 
-        _aktywny = !_aktywny;
-
-        if (_aktywny)
+        if (!_aktywny)
         {
             var miasto = gracz.AktualneMiasto;
-            if (miasto != null)
-                panelMiastoInfo.Pokaz(miasto.nazwa);
+            if (miasto == null) return;
+
+            panelMiastoInfo.Pokaz(miasto.nazwa);
+            _aktywny = true;
         }
         else
         {
             panelMiastoInfo.Ukryj();
+            _aktywny = false;
         }
 
-        if (tloIkony)
-            tloIkony.color = _aktywny ? kolorAktywny : kolorNormalny;
+        UstawKolor(_aktywny);
+    }
+
+    private void UstawKolor(bool aktywny)
+    {
+        if (tloIkony != null)
+            tloIkony.color = aktywny ? kolorAktywny : kolorNormalny;
     }
 }

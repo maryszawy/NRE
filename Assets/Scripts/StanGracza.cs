@@ -20,6 +20,20 @@ public class StanGracza : MonoBehaviour
 
     public DaneGracza dane = new DaneGracza();
 
+    [Header("Udüwig")]
+    [Tooltip("Maksymalny udüwig ekwipunku")]
+    public float maksUdzwig = 10f;
+
+    Dictionary<string, float> wagiTowarow = new Dictionary<string, float>
+    {
+        {"metal", 5f},
+        {"gems",  1f},
+        {"food",  2f},
+        {"fuel",  3f},
+        {"relics",10f}
+    };
+
+    public event Action<float, float> OnObciazenieZmiana;
     public event Action<int> OnZlotoZmiana;
     public event Action<string, int> OnEkwipunekZmiana;
 
@@ -37,6 +51,8 @@ public class StanGracza : MonoBehaviour
         if (dane.ekwipunek != null)
             foreach (var kv in dane.ekwipunek)
                 OnEkwipunekZmiana?.Invoke(kv.Key, kv.Value);
+
+        OnObciazenieZmiana?.Invoke(AktualneObciazenie, maksUdzwig);
     }
 
     public void DodajZloto(int ilosc)
@@ -60,6 +76,8 @@ public class StanGracza : MonoBehaviour
         dane.ekwipunek[nazwa] = Math.Max(0, dane.ekwipunek[nazwa] + delta);
         OnEkwipunekZmiana?.Invoke(nazwa, dane.ekwipunek[nazwa]);
         Zapisz();
+
+        OnObciazenieZmiana?.Invoke(AktualneObciazenie, maksUdzwig);
     }
 
     public void Zapisz()
@@ -92,5 +110,25 @@ public class StanGracza : MonoBehaviour
 
         foreach (var k in new[] { "metal", "gems", "food", "fuel", "relics" })
             if (!dane.ekwipunek.ContainsKey(k)) dane.ekwipunek[k] = 0;
+    }
+
+    public float ObliczObciazenie()
+    {
+        if (dane.ekwipunek == null) return 0f;
+
+        float suma = 0f;
+        foreach (var kv in dane.ekwipunek)
+        {
+            if (wagiTowarow.TryGetValue(kv.Key, out float waga))
+                suma += kv.Value * waga;
+        }
+        return suma;
+    }
+
+    public float AktualneObciazenie => ObliczObciazenie();
+
+    public float PobierzWageTowaru(string nazwa)
+    {
+        return wagiTowarow.TryGetValue(nazwa, out float w) ? w : 0f;
     }
 }

@@ -52,7 +52,7 @@ public class PanelMiastoInfo : MonoBehaviour
         var miasto = RynekMiast.Instance?.FindCity(nazwaMiasta);
         if (miasto == null) { Debug.LogWarning("[PanelMiastoInfo] Brak miasta: " + nazwaMiasta); return; }
 
-        if (txtTytul) txtTytul.text = $"{miasto.name}  —  op³ata: {miasto.fee}";
+        if (txtTytul) txtTytul.text = $"{miasto.name}";
 
         foreach (Transform t in content) Destroy(t.gameObject);
         _wiersze.Clear();
@@ -101,8 +101,27 @@ public class PanelMiastoInfo : MonoBehaviour
         var c = miasto.commodities[towar];
         int cena = RynekMiast.ObliczCeneKupna(miasto, towar);
 
-        if (c.quantity <= 0) { Debug.Log("Miasto nie ma ju¿ tego towaru."); return; }
-        if (StanGracza.Instance.dane.zloto < cena) { Debug.Log("Za ma³o z³ota."); return; }
+        if (c.quantity <= 0)
+        {
+            Debug.Log("Miasto nie ma ju¿ tego towaru.");
+            return;
+        }
+
+        if (StanGracza.Instance.dane.zloto < cena)
+        {
+            Debug.Log("Za ma³o z³ota.");
+            return;
+        }
+
+        float wagaJednostki = StanGracza.Instance.PobierzWageTowaru(towar);
+        float aktualneObc = StanGracza.Instance.AktualneObciazenie;
+        float maxObc = StanGracza.Instance.maksUdzwig;
+
+        if (aktualneObc + wagaJednostki > maxObc)
+        {
+            Debug.Log("Nie uniesiesz wiêcej tego towaru – przekroczysz maksymalny udŸwig.");
+            return;
+        }
 
         StanGracza.Instance.DodajZloto(-cena);
         StanGracza.Instance.DodajTowar(towar, +1);
@@ -110,6 +129,7 @@ public class PanelMiastoInfo : MonoBehaviour
 
         OdswiezWiersz(towar);
     }
+
 
     void SprzedajJednostke(string towar)
     {

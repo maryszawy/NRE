@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MapaGry : MonoBehaviour
 {
@@ -23,11 +24,18 @@ public class MapaGry : MonoBehaviour
     [Header("UI")]
     public PanelPotwierdzenia panelPotwierdzenia;
     public PanelMiastoInfo panelMiastoInfo;
+    public PanelWejsciaMiasta panelWejsciaMiasta;
+
+    [Header("UI — przyciski")]
+    public Button btnHandel;
+
+    [Header("Gameplay")]
+    public bool moznaHandlowac = false;
 
     public bool CzyMapaZablokowana =>
     (panelMiastoInfo != null && panelMiastoInfo.Widoczny)
-    || (panelPotwierdzenia != null && panelPotwierdzenia.Widoczny);
-
+    || (panelPotwierdzenia != null && panelPotwierdzenia.Widoczny)
+    || (panelWejsciaMiasta != null && panelWejsciaMiasta.Widoczny);
 
     private void Awake()
     {
@@ -63,6 +71,10 @@ public class MapaGry : MonoBehaviour
             _kamera.SkonfigurujGranice(spriteMapy.bounds);
 
         PodkreslMiasto(startMiasto);
+
+        moznaHandlowac = false;
+        if (btnHandel != null)
+            btnHandel.interactable = false;
     }
 
     public void KliknietoMiasto(Miasto miasto)
@@ -107,12 +119,57 @@ public class MapaGry : MonoBehaviour
     {
         PodgladujSciezke(null);
 
-        if (panelMiastoInfo != null && miasto != null)
+        var dataMiasta = RynekMiast.Instance?.FindCity(miasto.nazwa);
+        if (dataMiasta == null)
         {
-            Debug.Log($"Zawitano do miasta: {miasto.nazwa}, pokazujê panel zasobów.");
-            panelMiastoInfo.Pokaz(miasto.nazwa);
+            Debug.LogWarning($"Brak danych miasta w RynekMiast dla: {miasto.nazwa}");
+            return;
         }
+
+        if (panelWejsciaMiasta == null || StanGracza.Instance == null)
+        {
+            moznaHandlowac = true;
+            if (btnHandel != null) btnHandel.interactable = true;
+            panelMiastoInfo?.Pokaz(miasto.nazwa);
+            return;
+        }
+
+        int fee = dataMiasta.fee;
+
+        panelWejsciaMiasta.Pokaz(
+            miasto.nazwa,
+            fee,
+            poWejsciu: () =>
+            {
+                if (StanGracza.Instance.dane.zloto < fee)
+                {
+                    Debug.Log("Za ma³o z³ota, ¿eby wejœæ do miasta.");
+                    return;
+                }
+
+                StanGracza.Instance.DodajZloto(-fee);
+                Debug.Log($"Pobrano op³atê {fee} za wejœcie do {miasto.nazwa}");
+
+                moznaHandlowac = true;
+                if (btnHandel != null)
+                    btnHandel.interactable = true;
+
+                panelMiastoInfo?.Pokaz(miasto.nazwa);
+            },
+            poOdejscie: () =>
+            {
+                Debug.Log($"Gracz zrezygnowa³ z wejœcia do {miasto.nazwa}");
+
+                moznaHandlowac = false;
+                if (btnHandel != null)
+                    btnHandel.interactable = false;
+
+                panelMiastoInfo?.Ukryj();
+            }
+        );
     }
+
+
 
     private void PodkreslMiasto(Miasto m) => m?.UstawZaznaczenie(true);
 

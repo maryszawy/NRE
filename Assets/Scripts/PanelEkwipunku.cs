@@ -12,6 +12,8 @@ public class PanelEkwipunku : MonoBehaviour
     public TextMeshProUGUI txtFood;
     public TextMeshProUGUI txtFuel;
     public TextMeshProUGUI txtRelics;
+    public TextMeshProUGUI txtObciazenie;
+
 
     [Header("Sterowanie")]
     public KeyCode klawiszToggle = KeyCode.I;
@@ -54,4 +56,30 @@ public class PanelEkwipunku : MonoBehaviour
         txtFuel.text = $"Paliwo: {sg.dane.ekwipunek["fuel"]}";
         txtRelics.text = $"Relikty: {sg.dane.ekwipunek["relics"]}";
     }
+
+    private void OnEnable()
+    {
+        if (StanGracza.Instance != null)
+        {
+            StanGracza.Instance.OnObciazenieZmiana += OnObciazenieZmiana;
+            OnObciazenieZmiana(
+                StanGracza.Instance.AktualneObciazenie,
+                StanGracza.Instance.maksUdzwig);
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (StanGracza.Instance != null)
+            StanGracza.Instance.OnObciazenieZmiana -= OnObciazenieZmiana;
+    }
+
+    void OnObciazenieZmiana(float aktualne, float max)
+    {
+        if (txtObciazenie != null)
+        {
+            txtObciazenie.text = $"{aktualne:0.#} / {max:0.#}";
+        }
+    }
+
 }
