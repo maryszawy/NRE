@@ -4,45 +4,46 @@
       "name": "Stolica",
       "size": "big",
       "factory": [
-        "Mine",
-        "Farm"
+        "Kosciol",
+        "Grobowiec",
+        "Wysypisko"
       ],
-      "fee": 100,
+      "fee": 629,
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 200,
-          "price": 200,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 218,
+          "price": 2.26,
+          "regular_price": 2.26,
+          "regular_quantity": 218,
           "special": null
         },
         "gems": {
-          "quantity": 100,
-          "price": 250,
-          "regular_price": 300,
-          "regular_quantity": 100,
+          "quantity": 41,
+          "price": 1.0,
+          "regular_price": 3.88,
+          "regular_quantity": 41,
           "special": null
         },
         "food": {
-          "quantity": 150,
-          "price": 60,
-          "regular_price": 45,
-          "regular_quantity": 100,
+          "quantity": 343,
+          "price": 1.0,
+          "regular_price": 1.89,
+          "regular_quantity": 510,
           "special": null
         },
         "fuel": {
-          "quantity": 80,
-          "price": 120,
-          "regular_price": 80,
-          "regular_quantity": 100,
+          "quantity": 144,
+          "price": 1.0,
+          "regular_price": 2.92,
+          "regular_quantity": 144,
           "special": null
         },
         "relics": {
-          "quantity": 10,
-          "price": 1300,
-          "regular_price": 1300,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 37.0,
+          "regular_price": 48.21,
+          "regular_quantity": 9,
           "special": null
         },
         "special": null
@@ -51,7 +52,7 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Nadstole"
       ]
     },
@@ -59,44 +60,44 @@
       "name": "Miasteczko",
       "size": "small",
       "factory": [
-        "Shipyard"
+        "Jubiler"
       ],
-      "fee": 25,
+      "fee": 21,
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 60,
-          "price": 180,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 13,
+          "price": 1.84,
+          "regular_price": 1.84,
+          "regular_quantity": 13,
           "special": null
         },
         "gems": {
-          "quantity": 20,
-          "price": 270,
-          "regular_price": 300,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 1.0,
+          "regular_price": 6.5,
+          "regular_quantity": 9,
           "special": null
         },
         "food": {
-          "quantity": 100,
-          "price": 55,
-          "regular_price": 45,
-          "regular_quantity": 100,
+          "quantity": 50,
+          "price": 1.0,
+          "regular_price": 0.78,
+          "regular_quantity": 50,
           "special": null
         },
         "fuel": {
-          "quantity": 70,
-          "price": 95,
-          "regular_price": 80,
-          "regular_quantity": 100,
+          "quantity": 43,
+          "price": 1.0,
+          "regular_price": 2.13,
+          "regular_quantity": 43,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 58.69,
+          "regular_price": 58.69,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -113,43 +114,45 @@
     {
       "name": "Cypel",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 44,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 10,
-          "price": 50,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 8,
+          "price": 1.19,
+          "regular_price": 1.19,
+          "regular_quantity": 8,
           "special": null
         },
         "gems": {
           "quantity": 5,
-          "price": 80,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 4.49,
+          "regular_price": 4.49,
+          "regular_quantity": 9,
           "special": null
         },
         "food": {
-          "quantity": 20,
-          "price": 30,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 30,
+          "price": 2.0,
+          "regular_price": 2.21,
+          "regular_quantity": 30,
           "special": null
         },
         "fuel": {
-          "quantity": 15,
-          "price": 40,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 79,
+          "price": 4.0,
+          "regular_price": 5.8,
+          "regular_quantity": 79,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 48.88,
+          "regular_price": 48.88,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -158,49 +161,51 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ]
     },
     {
-      "name": "Mieścinka",
+      "name": "Mie\u015bcinka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 40,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 3.08,
+          "regular_price": 3.08,
+          "regular_quantity": 6,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 70,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 13,
+          "price": 13.08,
+          "regular_price": 13.08,
+          "regular_quantity": 13,
           "special": null
         },
         "food": {
-          "quantity": 15,
-          "price": 25,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 1.0,
+          "regular_price": 0.94,
+          "regular_quantity": 26,
           "special": null
         },
         "fuel": {
-          "quantity": 10,
-          "price": 35,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 50,
+          "price": 3.0,
+          "regular_price": 5.62,
+          "regular_quantity": 50,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 69.91,
+          "regular_price": 69.91,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -217,43 +222,45 @@
     {
       "name": "Czubek",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 37,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 8,
-          "price": 55,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 28,
+          "price": 2.0,
+          "regular_price": 3.23,
+          "regular_quantity": 51,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 75,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 2,
+          "price": 1.0,
+          "regular_price": 4.2,
+          "regular_quantity": 4,
           "special": null
         },
         "food": {
-          "quantity": 18,
-          "price": 28,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 17,
+          "price": 1.09,
+          "regular_price": 1.09,
+          "regular_quantity": 42,
           "special": null
         },
         "fuel": {
-          "quantity": 12,
-          "price": 38,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 95,
+          "price": 3.9,
+          "regular_price": 3.9,
+          "regular_quantity": 69,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 57.36,
+          "regular_price": 57.36,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -261,7 +268,7 @@
       "missions": 0,
       "missions_titles": [],
       "connections": [
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Czubek",
         "Etnacity"
       ]
@@ -269,43 +276,45 @@
     {
       "name": "Obcas",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 29,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 7,
-          "price": 50,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 2.0,
+          "regular_price": 7.44,
+          "regular_quantity": 0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 70,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 1,
+          "price": 21.0,
+          "regular_price": 29.93,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 16,
-          "price": 27,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 1.42,
+          "regular_price": 1.42,
+          "regular_quantity": 0,
           "special": null
         },
         "fuel": {
-          "quantity": 11,
-          "price": 35,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 25.35,
+          "regular_price": 25.35,
+          "regular_quantity": 0,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 163.75,
+          "regular_price": 163.75,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -313,50 +322,52 @@
       "missions": 0,
       "missions_titles": [
         "Czubek",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ],
       "connections": []
     },
     {
       "name": "Nadstole",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 26,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 6,
-          "price": 48,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 43,
+          "price": 2.06,
+          "regular_price": 2.06,
+          "regular_quantity": 5,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 65,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 6.68,
+          "regular_price": 6.68,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 15,
-          "price": 25,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 24,
+          "price": 0.47,
+          "regular_price": 0.47,
+          "regular_quantity": 7,
           "special": null
         },
         "fuel": {
-          "quantity": 10,
-          "price": 33,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 81,
+          "price": 1.0,
+          "regular_price": 4.56,
+          "regular_quantity": 93,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 22.0,
+          "regular_price": 43.84,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -373,43 +384,45 @@
     {
       "name": "Zachodnioka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 41,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 2.75,
+          "regular_price": 2.75,
+          "regular_quantity": 12,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 4.88,
+          "regular_price": 4.88,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 21,
+          "price": 1,
+          "regular_price": 0.64,
+          "regular_quantity": 46,
           "special": null
         },
         "fuel": {
-          "quantity": 9,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 74,
+          "price": 3.0,
+          "regular_price": 5.52,
+          "regular_quantity": 84,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 49.94,
+          "regular_price": 49.94,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -425,43 +438,45 @@
     {
       "name": "Przyrzecze",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 14,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 20,
+          "price": 1.0,
+          "regular_price": 1.2,
+          "regular_quantity": 84,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 6.55,
+          "regular_price": 6.55,
+          "regular_quantity": 2,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 48,
+          "price": 1.0,
+          "regular_price": 0.91,
+          "regular_quantity": 27,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 96,
+          "price": 4.28,
+          "regular_price": 4.28,
+          "regular_quantity": 55,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 75.04,
+          "regular_price": 75.04,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -477,43 +492,45 @@
     {
       "name": "Wschodnioka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 28,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 67,
+          "price": 0.73,
+          "regular_price": 0.73,
+          "regular_quantity": 57,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 2.0,
+          "regular_price": 4.86,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 41,
+          "price": 1.81,
+          "regular_price": 1.81,
+          "regular_quantity": 8,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 3.96,
+          "regular_price": 3.96,
+          "regular_quantity": 56,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 60.77,
+          "regular_price": 60.77,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -528,43 +545,45 @@
     {
       "name": "Como",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 39,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 93,
+          "price": 1.19,
+          "regular_price": 1.19,
+          "regular_quantity": 53,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 3,
+          "price": 5.0,
+          "regular_price": 9.99,
+          "regular_quantity": 2,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 27,
+          "price": 1.0,
+          "regular_price": 0.83,
+          "regular_quantity": 38,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 83,
+          "price": 1.85,
+          "regular_price": 1.85,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 38.43,
+          "regular_price": 38.43,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -578,43 +597,45 @@
     {
       "name": "Etnacity",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 47,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 68,
+          "price": 1.3,
+          "regular_price": 1.3,
+          "regular_quantity": 55,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 5,
+          "price": 2.0,
+          "regular_price": 4.04,
+          "regular_quantity": 2,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 50,
+          "price": 1.0,
+          "regular_price": 1.25,
+          "regular_quantity": 50,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 1.0,
+          "regular_price": 3.82,
+          "regular_quantity": 75,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 24.0,
+          "regular_price": 31.12,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -629,43 +650,45 @@
     {
       "name": "Megatona",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 91,
+          "price": 1.0,
+          "regular_price": 1.74,
+          "regular_quantity": 71,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 5,
+          "price": 5.03,
+          "regular_price": 5.03,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 0.91,
+          "regular_price": 0.91,
+          "regular_quantity": 6,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 95,
+          "price": 2.0,
+          "regular_price": 4.22,
+          "regular_quantity": 67,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 31.0,
+          "regular_price": 41.46,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -680,43 +703,45 @@
     {
       "name": "Flotsam",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 13,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 23,
+          "price": 1.0,
+          "regular_price": 2.31,
+          "regular_quantity": 23,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 3,
+          "price": 6.18,
+          "regular_price": 6.18,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 19,
+          "price": 1.0,
+          "regular_price": 1.26,
+          "regular_quantity": 15,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 58,
+          "price": 1.0,
+          "regular_price": 2.85,
+          "regular_quantity": 82,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 41.0,
+          "regular_price": 118.58,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -732,43 +757,45 @@
     {
       "name": "Francja",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 37,
+          "price": 2.0,
+          "regular_price": 3.52,
+          "regular_quantity": 92,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 6.0,
+          "regular_price": 8.03,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 31,
+          "price": 0.99,
+          "regular_price": 0.99,
+          "regular_quantity": 34,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 84,
+          "price": 1.0,
+          "regular_price": 2.68,
+          "regular_quantity": 57,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 41.0,
+          "regular_price": 82.18,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -783,43 +810,45 @@
     {
       "name": "Chorwacja",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 50,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 7,
+          "price": 1.0,
+          "regular_price": 2.08,
+          "regular_quantity": 41,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 8,
+          "price": 7.29,
+          "regular_price": 7.29,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 45,
+          "price": 0.57,
+          "regular_price": 0.57,
+          "regular_quantity": 6,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
+          "quantity": 68,
+          "price": 3.0,
+          "regular_price": 3.74,
           "regular_quantity": 100,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 121.59,
+          "regular_price": 121.59,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -834,43 +863,45 @@
     {
       "name": "Ryburg",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 38,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 98,
+          "price": 1.22,
+          "regular_price": 1.22,
+          "regular_quantity": 57,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 5,
+          "price": 7.78,
+          "regular_price": 7.78,
+          "regular_quantity": 7,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 23,
+          "price": 0.21,
+          "regular_price": 0.21,
+          "regular_quantity": 27,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 3.0,
+          "regular_price": 3.45,
+          "regular_quantity": 69,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 58.6,
+          "regular_price": 58.6,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -880,49 +911,51 @@
       "connections": [
         "Flotsam",
         "Bar",
-        "Praworóg"
+        "Prawor\u00f3g"
       ]
     },
     {
       "name": "Delta",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 49,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 92,
+          "price": 1.0,
+          "regular_price": 1.83,
+          "regular_quantity": 36,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 3.0,
+          "regular_price": 7.19,
+          "regular_quantity": 4,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 8,
+          "price": 0.84,
+          "regular_price": 0.84,
+          "regular_quantity": 29,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 71,
+          "price": 4.0,
+          "regular_price": 5.32,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 63.0,
+          "regular_price": 83.05,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -937,43 +970,45 @@
     {
       "name": "Bar",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 42,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 18,
+          "price": 1.09,
+          "regular_price": 1.09,
+          "regular_quantity": 30,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 2.0,
+          "regular_price": 7.02,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 42,
+          "price": 0.2,
+          "regular_price": 0.2,
+          "regular_quantity": 6,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 1.0,
+          "regular_price": 2.26,
+          "regular_quantity": 65,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 80.4,
+          "regular_price": 80.4,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -989,43 +1024,45 @@
     {
       "name": "Bastion",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 17,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 96,
+          "price": 2.0,
+          "regular_price": 2.99,
+          "regular_quantity": 75,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 9.72,
+          "regular_price": 9.72,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 11,
+          "price": 0.72,
+          "regular_price": 0.72,
+          "regular_quantity": 8,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 98,
+          "price": 6.23,
+          "regular_price": 6.23,
+          "regular_quantity": 79,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 85.72,
+          "regular_price": 85.72,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1039,43 +1076,45 @@
     {
       "name": "Daleko",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 18,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 86,
+          "price": 1.0,
+          "regular_price": 1.31,
+          "regular_quantity": 28,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 3.0,
+          "regular_price": 8.24,
+          "regular_quantity": 8,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 36,
+          "price": 1.0,
+          "regular_price": 0.45,
+          "regular_quantity": 28,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 2.79,
+          "regular_price": 2.79,
+          "regular_quantity": 96,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 74.44,
+          "regular_price": 74.44,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1090,43 +1129,45 @@
     {
       "name": "Stegna",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 47,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 4.0,
+          "regular_price": 5.49,
+          "regular_quantity": 36,
           "special": null
         },
         "gems": {
           "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 3.74,
+          "regular_price": 3.74,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 0.4,
+          "regular_price": 0.4,
+          "regular_quantity": 12,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 79,
+          "price": 2.0,
+          "regular_price": 2.46,
+          "regular_quantity": 56,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 41.0,
+          "regular_price": 75.69,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1140,43 +1181,45 @@
     {
       "name": "Ukent",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 50,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 45,
+          "price": 1.56,
+          "regular_price": 1.56,
+          "regular_quantity": 16,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 3.83,
+          "regular_price": 3.83,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 39,
+          "price": 1,
+          "regular_price": 0.15,
+          "regular_quantity": 12,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 2.0,
+          "regular_price": 2.7,
+          "regular_quantity": 52,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 20.0,
+          "regular_price": 69.65,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1188,45 +1231,47 @@
       ]
     },
     {
-      "name": "Praworóg",
+      "name": "Prawor\u00f3g",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 28,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 85,
+          "price": 0.92,
+          "regular_price": 0.92,
+          "regular_quantity": 63,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 4.0,
+          "regular_price": 6.33,
+          "regular_quantity": 7,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 22,
+          "price": 1.0,
+          "regular_price": 0.93,
+          "regular_quantity": 36,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 56,
+          "price": 2.17,
+          "regular_price": 2.17,
+          "regular_quantity": 66,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 29.32,
+          "regular_price": 29.32,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1240,43 +1285,45 @@
     {
       "name": "Kaczystan",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 34,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 72,
+          "price": 1.9,
+          "regular_price": 1.9,
+          "regular_quantity": 54,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 6.01,
+          "regular_price": 6.01,
+          "regular_quantity": 8,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 11,
+          "price": 0.38,
+          "regular_price": 0.38,
+          "regular_quantity": 33,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
+          "quantity": 100,
+          "price": 1.0,
+          "regular_price": 2.68,
           "regular_quantity": 100,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 54.14,
+          "regular_price": 54.14,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1292,43 +1339,45 @@
     {
       "name": "Alabama",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 19,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 1.0,
+          "regular_price": 1.39,
+          "regular_quantity": 44,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 4.07,
+          "regular_price": 4.07,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 1.0,
+          "regular_price": 1.77,
+          "regular_quantity": 48,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 51,
+          "price": 1.0,
+          "regular_price": 1.89,
+          "regular_quantity": 71,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 24.0,
+          "regular_price": 84.72,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1343,43 +1392,45 @@
     {
       "name": "Vengard",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 33,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 2.81,
+          "regular_price": 2.81,
+          "regular_quantity": 71,
           "special": null
         },
         "gems": {
           "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 7.26,
+          "regular_price": 7.26,
+          "regular_quantity": 7,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 16,
+          "price": 1.0,
+          "regular_price": 1.14,
+          "regular_quantity": 35,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 54,
+          "price": 2.27,
+          "regular_price": 2.27,
+          "regular_quantity": 65,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 50.89,
+          "regular_price": 50.89,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1394,43 +1445,45 @@
     {
       "name": "Khorinis",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 11,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 29,
+          "price": 3.0,
+          "regular_price": 3.77,
+          "regular_quantity": 14,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 3,
+          "price": 4.0,
+          "regular_price": 5.85,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 1.0,
+          "regular_price": 0.62,
+          "regular_quantity": 47,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 61,
+          "price": 2.0,
+          "regular_price": 2.01,
+          "regular_quantity": 94,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 84.36,
+          "regular_price": 84.36,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1447,43 +1500,45 @@
     {
       "name": "Trelis",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 30,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 57,
+          "price": 1.76,
+          "regular_price": 1.76,
+          "regular_quantity": 12,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 4.72,
+          "regular_price": 4.72,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 1.0,
+          "regular_price": 0.12,
+          "regular_quantity": 26,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 72,
+          "price": 1.0,
+          "regular_price": 1.99,
+          "regular_quantity": 61,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 29.0,
+          "regular_price": 57.14,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1498,43 +1553,45 @@
     {
       "name": "Braga",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 37,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 4,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 28,
+          "price": 3.34,
+          "regular_price": 3.34,
+          "regular_quantity": 57,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 1,
+          "price": 1.0,
+          "regular_price": 1.91,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 18,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 38,
+          "price": 1.0,
+          "regular_price": 0.28,
+          "regular_quantity": 36,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 77,
+          "price": 3.15,
+          "regular_price": 3.15,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 16.0,
+          "regular_price": 31.04,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1549,43 +1606,45 @@
     {
       "name": "Szuwary",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 13,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 1.0,
+          "regular_price": 0.65,
+          "regular_quantity": 60,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 3.95,
+          "regular_price": 3.95,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 0.98,
+          "regular_price": 0.98,
+          "regular_quantity": 32,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 2.25,
+          "regular_price": 2.25,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 55.0,
+          "regular_price": 74.1,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1599,43 +1658,45 @@
     {
       "name": "Ateny",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 21,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 2.0,
+          "regular_price": 2.93,
+          "regular_quantity": 67,
           "special": null
         },
         "gems": {
           "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 1.0,
+          "regular_price": 2.74,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 11,
+          "price": 0.64,
+          "regular_price": 0.64,
+          "regular_quantity": 41,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 72,
+          "price": 3.0,
+          "regular_price": 5.23,
+          "regular_quantity": 55,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 39.0,
+          "regular_price": 55.83,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1650,43 +1711,45 @@
     {
       "name": "Afryka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 49,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 1.58,
+          "regular_price": 1.58,
+          "regular_quantity": 86,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 9.0,
+          "regular_price": 10.98,
+          "regular_quantity": 9,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 0.58,
+          "regular_price": 0.58,
+          "regular_quantity": 38,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 1.0,
+          "regular_price": 2.72,
+          "regular_quantity": 65,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 40.0,
+          "regular_price": 56.6,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1701,43 +1764,45 @@
     {
       "name": "Porto",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 33,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 78,
+          "price": 1.99,
+          "regular_price": 1.99,
+          "regular_quantity": 56,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 10.86,
+          "regular_price": 10.86,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 2.0,
+          "regular_price": 2.88,
+          "regular_quantity": 11,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 94,
+          "price": 2.19,
+          "regular_price": 2.19,
+          "regular_quantity": 76,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 89.12,
+          "regular_price": 89.12,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1751,43 +1816,45 @@
     {
       "name": "Aleksandria",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 36,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 45,
+          "price": 1.0,
+          "regular_price": 1.74,
+          "regular_quantity": 8,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 8.74,
+          "regular_price": 8.74,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 35,
+          "price": 1.57,
+          "regular_price": 1.57,
+          "regular_quantity": 35,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 71,
+          "price": 2.0,
+          "regular_price": 2.81,
+          "regular_quantity": 62,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 32.0,
+          "regular_price": 42.53,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1801,43 +1868,45 @@
     {
       "name": "Rybnik",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 40,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 73,
+          "price": 2.82,
+          "regular_price": 2.82,
+          "regular_quantity": 12,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 8.69,
+          "regular_price": 8.69,
+          "regular_quantity": 4,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 41,
+          "price": 1.0,
+          "regular_price": 0.86,
+          "regular_quantity": 35,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 4.42,
+          "regular_price": 4.42,
+          "regular_quantity": 50,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 20.0,
+          "regular_price": 67.77,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1851,43 +1920,45 @@
     {
       "name": "Pasta",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 44,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 34,
+          "price": 1.0,
+          "regular_price": 1.11,
+          "regular_quantity": 93,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 8.94,
+          "regular_price": 8.94,
+          "regular_quantity": 8,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 40,
+          "price": 1.0,
+          "regular_price": 1.45,
+          "regular_quantity": 37,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 78,
+          "price": 2.0,
+          "regular_price": 3.3,
+          "regular_quantity": 63,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 81.56,
+          "regular_price": 81.56,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1899,45 +1970,47 @@
       ]
     },
     {
-      "name": "Świątniki",
+      "name": "\u015awi\u0105tniki",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 37,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 65,
+          "price": 3.0,
+          "regular_price": 4.25,
+          "regular_quantity": 88,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 7,
+          "price": 5.0,
+          "regular_price": 6.48,
+          "regular_quantity": 0,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 7,
+          "price": 1.0,
+          "regular_price": 0.76,
+          "regular_quantity": 13,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 68,
+          "price": 6.02,
+          "regular_price": 6.02,
+          "regular_quantity": 90,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 52.67,
+          "regular_price": 52.67,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -1952,45 +2025,46 @@
       "name": "Stolica",
       "size": "big",
       "factory": [
-        "Mine",
-        "Farm"
+        "Kosciol",
+        "Grobowiec",
+        "Wysypisko"
       ],
-      "fee": 100,
+      "fee": 629,
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 200,
-          "price": 200,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 218,
+          "price": 2.26,
+          "regular_price": 2.26,
+          "regular_quantity": 218,
           "special": null
         },
         "gems": {
-          "quantity": 100,
-          "price": 250,
-          "regular_price": 300,
-          "regular_quantity": 100,
+          "quantity": 41,
+          "price": 1.0,
+          "regular_price": 3.88,
+          "regular_quantity": 41,
           "special": null
         },
         "food": {
-          "quantity": 150,
-          "price": 60,
-          "regular_price": 45,
-          "regular_quantity": 100,
+          "quantity": 343,
+          "price": 1.0,
+          "regular_price": 1.89,
+          "regular_quantity": 510,
           "special": null
         },
         "fuel": {
-          "quantity": 80,
-          "price": 120,
-          "regular_price": 80,
-          "regular_quantity": 100,
+          "quantity": 144,
+          "price": 1.0,
+          "regular_price": 2.92,
+          "regular_quantity": 144,
           "special": null
         },
         "relics": {
-          "quantity": 10,
-          "price": 1300,
-          "regular_price": 1300,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 37.0,
+          "regular_price": 48.21,
+          "regular_quantity": 9,
           "special": null
         },
         "special": null
@@ -1999,7 +2073,7 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Nadstole"
       ]
     },
@@ -2007,44 +2081,44 @@
       "name": "Miasteczko",
       "size": "small",
       "factory": [
-        "Shipyard"
+        "Jubiler"
       ],
-      "fee": 25,
+      "fee": 21,
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 60,
-          "price": 180,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 13,
+          "price": 1.84,
+          "regular_price": 1.84,
+          "regular_quantity": 13,
           "special": null
         },
         "gems": {
-          "quantity": 20,
-          "price": 270,
-          "regular_price": 300,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 1.0,
+          "regular_price": 6.5,
+          "regular_quantity": 9,
           "special": null
         },
         "food": {
-          "quantity": 100,
-          "price": 55,
-          "regular_price": 45,
-          "regular_quantity": 100,
+          "quantity": 50,
+          "price": 1.0,
+          "regular_price": 0.78,
+          "regular_quantity": 50,
           "special": null
         },
         "fuel": {
-          "quantity": 70,
-          "price": 95,
-          "regular_price": 80,
-          "regular_quantity": 100,
+          "quantity": 43,
+          "price": 1.0,
+          "regular_price": 2.13,
+          "regular_quantity": 43,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 58.69,
+          "regular_price": 58.69,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2061,43 +2135,45 @@
     {
       "name": "Cypel",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 44,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 10,
-          "price": 50,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 8,
+          "price": 1.19,
+          "regular_price": 1.19,
+          "regular_quantity": 8,
           "special": null
         },
         "gems": {
           "quantity": 5,
-          "price": 80,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 4.49,
+          "regular_price": 4.49,
+          "regular_quantity": 9,
           "special": null
         },
         "food": {
-          "quantity": 20,
-          "price": 30,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 30,
+          "price": 2.0,
+          "regular_price": 2.21,
+          "regular_quantity": 30,
           "special": null
         },
         "fuel": {
-          "quantity": 15,
-          "price": 40,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 79,
+          "price": 4.0,
+          "regular_price": 5.8,
+          "regular_quantity": 79,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 48.88,
+          "regular_price": 48.88,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2106,49 +2182,51 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ]
     },
     {
-      "name": "Mieścinka",
+      "name": "Mie\u015bcinka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 40,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 3.08,
+          "regular_price": 3.08,
+          "regular_quantity": 6,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 70,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 13,
+          "price": 13.08,
+          "regular_price": 13.08,
+          "regular_quantity": 13,
           "special": null
         },
         "food": {
-          "quantity": 15,
-          "price": 25,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 1.0,
+          "regular_price": 0.94,
+          "regular_quantity": 26,
           "special": null
         },
         "fuel": {
-          "quantity": 10,
-          "price": 35,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 50,
+          "price": 3.0,
+          "regular_price": 5.62,
+          "regular_quantity": 50,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 69.91,
+          "regular_price": 69.91,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2165,43 +2243,45 @@
     {
       "name": "Czubek",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 37,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 8,
-          "price": 55,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 28,
+          "price": 2.0,
+          "regular_price": 3.23,
+          "regular_quantity": 51,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 75,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 2,
+          "price": 1.0,
+          "regular_price": 4.2,
+          "regular_quantity": 4,
           "special": null
         },
         "food": {
-          "quantity": 18,
-          "price": 28,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 17,
+          "price": 1.09,
+          "regular_price": 1.09,
+          "regular_quantity": 42,
           "special": null
         },
         "fuel": {
-          "quantity": 12,
-          "price": 38,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 95,
+          "price": 3.9,
+          "regular_price": 3.9,
+          "regular_quantity": 69,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 57.36,
+          "regular_price": 57.36,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2209,7 +2289,7 @@
       "missions": 0,
       "missions_titles": [],
       "connections": [
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Czubek",
         "Etnacity"
       ]
@@ -2217,43 +2297,45 @@
     {
       "name": "Obcas",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 29,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 7,
-          "price": 50,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 2.0,
+          "regular_price": 7.44,
+          "regular_quantity": 0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 70,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 1,
+          "price": 21.0,
+          "regular_price": 29.93,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 16,
-          "price": 27,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 1.42,
+          "regular_price": 1.42,
+          "regular_quantity": 0,
           "special": null
         },
         "fuel": {
-          "quantity": 11,
-          "price": 35,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 25.35,
+          "regular_price": 25.35,
+          "regular_quantity": 0,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 163.75,
+          "regular_price": 163.75,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2261,50 +2343,52 @@
       "missions": 0,
       "missions_titles": [
         "Czubek",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ],
       "connections": []
     },
     {
       "name": "Nadstole",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 26,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 6,
-          "price": 48,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 43,
+          "price": 2.06,
+          "regular_price": 2.06,
+          "regular_quantity": 5,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 65,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 6.68,
+          "regular_price": 6.68,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 15,
-          "price": 25,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 24,
+          "price": 0.47,
+          "regular_price": 0.47,
+          "regular_quantity": 7,
           "special": null
         },
         "fuel": {
-          "quantity": 10,
-          "price": 33,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 81,
+          "price": 1.0,
+          "regular_price": 4.56,
+          "regular_quantity": 93,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 22.0,
+          "regular_price": 43.84,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2321,43 +2405,45 @@
     {
       "name": "Zachodnioka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 41,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 2.75,
+          "regular_price": 2.75,
+          "regular_quantity": 12,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 4.88,
+          "regular_price": 4.88,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 21,
+          "price": 1,
+          "regular_price": 0.64,
+          "regular_quantity": 46,
           "special": null
         },
         "fuel": {
-          "quantity": 9,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 74,
+          "price": 3.0,
+          "regular_price": 5.52,
+          "regular_quantity": 84,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 49.94,
+          "regular_price": 49.94,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2373,43 +2459,45 @@
     {
       "name": "Przyrzecze",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 14,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 20,
+          "price": 1.0,
+          "regular_price": 1.2,
+          "regular_quantity": 84,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 6.55,
+          "regular_price": 6.55,
+          "regular_quantity": 2,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 48,
+          "price": 1.0,
+          "regular_price": 0.91,
+          "regular_quantity": 27,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 96,
+          "price": 4.28,
+          "regular_price": 4.28,
+          "regular_quantity": 55,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 75.04,
+          "regular_price": 75.04,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2425,43 +2513,45 @@
     {
       "name": "Wschodnioka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 28,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 67,
+          "price": 0.73,
+          "regular_price": 0.73,
+          "regular_quantity": 57,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 2.0,
+          "regular_price": 4.86,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 41,
+          "price": 1.81,
+          "regular_price": 1.81,
+          "regular_quantity": 8,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 3.96,
+          "regular_price": 3.96,
+          "regular_quantity": 56,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 60.77,
+          "regular_price": 60.77,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2476,43 +2566,45 @@
     {
       "name": "Como",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 39,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 93,
+          "price": 1.19,
+          "regular_price": 1.19,
+          "regular_quantity": 53,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 3,
+          "price": 5.0,
+          "regular_price": 9.99,
+          "regular_quantity": 2,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 27,
+          "price": 1.0,
+          "regular_price": 0.83,
+          "regular_quantity": 38,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 83,
+          "price": 1.85,
+          "regular_price": 1.85,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 38.43,
+          "regular_price": 38.43,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2526,43 +2618,45 @@
     {
       "name": "Etnacity",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 47,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 68,
+          "price": 1.3,
+          "regular_price": 1.3,
+          "regular_quantity": 55,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 5,
+          "price": 2.0,
+          "regular_price": 4.04,
+          "regular_quantity": 2,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 50,
+          "price": 1.0,
+          "regular_price": 1.25,
+          "regular_quantity": 50,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 1.0,
+          "regular_price": 3.82,
+          "regular_quantity": 75,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 24.0,
+          "regular_price": 31.12,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2577,43 +2671,45 @@
     {
       "name": "Megatona",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 91,
+          "price": 1.0,
+          "regular_price": 1.74,
+          "regular_quantity": 71,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 5,
+          "price": 5.03,
+          "regular_price": 5.03,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 0.91,
+          "regular_price": 0.91,
+          "regular_quantity": 6,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 95,
+          "price": 2.0,
+          "regular_price": 4.22,
+          "regular_quantity": 67,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 31.0,
+          "regular_price": 41.46,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2628,43 +2724,45 @@
     {
       "name": "Flotsam",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 13,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 23,
+          "price": 1.0,
+          "regular_price": 2.31,
+          "regular_quantity": 23,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 3,
+          "price": 6.18,
+          "regular_price": 6.18,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 19,
+          "price": 1.0,
+          "regular_price": 1.26,
+          "regular_quantity": 15,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 58,
+          "price": 1.0,
+          "regular_price": 2.85,
+          "regular_quantity": 82,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 41.0,
+          "regular_price": 118.58,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2680,43 +2778,45 @@
     {
       "name": "Francja",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 37,
+          "price": 2.0,
+          "regular_price": 3.52,
+          "regular_quantity": 92,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 6.0,
+          "regular_price": 8.03,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 31,
+          "price": 0.99,
+          "regular_price": 0.99,
+          "regular_quantity": 34,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 84,
+          "price": 1.0,
+          "regular_price": 2.68,
+          "regular_quantity": 57,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 41.0,
+          "regular_price": 82.18,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2731,43 +2831,45 @@
     {
       "name": "Chorwacja",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 50,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 7,
+          "price": 1.0,
+          "regular_price": 2.08,
+          "regular_quantity": 41,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 8,
+          "price": 7.29,
+          "regular_price": 7.29,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 45,
+          "price": 0.57,
+          "regular_price": 0.57,
+          "regular_quantity": 6,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
+          "quantity": 68,
+          "price": 3.0,
+          "regular_price": 3.74,
           "regular_quantity": 100,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 121.59,
+          "regular_price": 121.59,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2782,43 +2884,45 @@
     {
       "name": "Ryburg",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 38,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 98,
+          "price": 1.22,
+          "regular_price": 1.22,
+          "regular_quantity": 57,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 5,
+          "price": 7.78,
+          "regular_price": 7.78,
+          "regular_quantity": 7,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 23,
+          "price": 0.21,
+          "regular_price": 0.21,
+          "regular_quantity": 27,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 3.0,
+          "regular_price": 3.45,
+          "regular_quantity": 69,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 58.6,
+          "regular_price": 58.6,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2828,49 +2932,51 @@
       "connections": [
         "Flotsam",
         "Bar",
-        "Praworóg"
+        "Prawor\u00f3g"
       ]
     },
     {
       "name": "Delta",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 49,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 92,
+          "price": 1.0,
+          "regular_price": 1.83,
+          "regular_quantity": 36,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 3.0,
+          "regular_price": 7.19,
+          "regular_quantity": 4,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 8,
+          "price": 0.84,
+          "regular_price": 0.84,
+          "regular_quantity": 29,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 71,
+          "price": 4.0,
+          "regular_price": 5.32,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 63.0,
+          "regular_price": 83.05,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2885,43 +2991,45 @@
     {
       "name": "Bar",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 42,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 18,
+          "price": 1.09,
+          "regular_price": 1.09,
+          "regular_quantity": 30,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 2.0,
+          "regular_price": 7.02,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 42,
+          "price": 0.2,
+          "regular_price": 0.2,
+          "regular_quantity": 6,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 1.0,
+          "regular_price": 2.26,
+          "regular_quantity": 65,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 80.4,
+          "regular_price": 80.4,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2937,43 +3045,45 @@
     {
       "name": "Bastion",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 17,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 96,
+          "price": 2.0,
+          "regular_price": 2.99,
+          "regular_quantity": 75,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 9.72,
+          "regular_price": 9.72,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 11,
+          "price": 0.72,
+          "regular_price": 0.72,
+          "regular_quantity": 8,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 98,
+          "price": 6.23,
+          "regular_price": 6.23,
+          "regular_quantity": 79,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 85.72,
+          "regular_price": 85.72,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -2987,43 +3097,45 @@
     {
       "name": "Daleko",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 18,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 86,
+          "price": 1.0,
+          "regular_price": 1.31,
+          "regular_quantity": 28,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 3.0,
+          "regular_price": 8.24,
+          "regular_quantity": 8,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 36,
+          "price": 1.0,
+          "regular_price": 0.45,
+          "regular_quantity": 28,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 2.79,
+          "regular_price": 2.79,
+          "regular_quantity": 96,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 74.44,
+          "regular_price": 74.44,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3038,43 +3150,45 @@
     {
       "name": "Stegna",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 47,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 4.0,
+          "regular_price": 5.49,
+          "regular_quantity": 36,
           "special": null
         },
         "gems": {
           "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 3.74,
+          "regular_price": 3.74,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 0.4,
+          "regular_price": 0.4,
+          "regular_quantity": 12,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 79,
+          "price": 2.0,
+          "regular_price": 2.46,
+          "regular_quantity": 56,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 41.0,
+          "regular_price": 75.69,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3088,43 +3202,45 @@
     {
       "name": "Ukent",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 50,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 45,
+          "price": 1.56,
+          "regular_price": 1.56,
+          "regular_quantity": 16,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 4,
+          "price": 3.83,
+          "regular_price": 3.83,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 39,
+          "price": 1,
+          "regular_price": 0.15,
+          "regular_quantity": 12,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 63,
+          "price": 2.0,
+          "regular_price": 2.7,
+          "regular_quantity": 52,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 20.0,
+          "regular_price": 69.65,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3136,45 +3252,47 @@
       ]
     },
     {
-      "name": "Praworóg",
+      "name": "Prawor\u00f3g",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 28,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 85,
+          "price": 0.92,
+          "regular_price": 0.92,
+          "regular_quantity": 63,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 4.0,
+          "regular_price": 6.33,
+          "regular_quantity": 7,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 22,
+          "price": 1.0,
+          "regular_price": 0.93,
+          "regular_quantity": 36,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 56,
+          "price": 2.17,
+          "regular_price": 2.17,
+          "regular_quantity": 66,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 29.32,
+          "regular_price": 29.32,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3188,43 +3306,45 @@
     {
       "name": "Kaczystan",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 34,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 72,
+          "price": 1.9,
+          "regular_price": 1.9,
+          "regular_quantity": 54,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 6.01,
+          "regular_price": 6.01,
+          "regular_quantity": 8,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 11,
+          "price": 0.38,
+          "regular_price": 0.38,
+          "regular_quantity": 33,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
+          "quantity": 100,
+          "price": 1.0,
+          "regular_price": 2.68,
           "regular_quantity": 100,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 54.14,
+          "regular_price": 54.14,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3240,43 +3360,45 @@
     {
       "name": "Alabama",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 19,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 1.0,
+          "regular_price": 1.39,
+          "regular_quantity": 44,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 4.07,
+          "regular_price": 4.07,
+          "regular_quantity": 1,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 1.0,
+          "regular_price": 1.77,
+          "regular_quantity": 48,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 51,
+          "price": 1.0,
+          "regular_price": 1.89,
+          "regular_quantity": 71,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 24.0,
+          "regular_price": 84.72,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3291,43 +3413,45 @@
     {
       "name": "Vengard",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 33,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 2.81,
+          "regular_price": 2.81,
+          "regular_quantity": 71,
           "special": null
         },
         "gems": {
           "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 7.26,
+          "regular_price": 7.26,
+          "regular_quantity": 7,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 16,
+          "price": 1.0,
+          "regular_price": 1.14,
+          "regular_quantity": 35,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 54,
+          "price": 2.27,
+          "regular_price": 2.27,
+          "regular_quantity": 65,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 50.89,
+          "regular_price": 50.89,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3342,43 +3466,45 @@
     {
       "name": "Khorinis",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 11,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 29,
+          "price": 3.0,
+          "regular_price": 3.77,
+          "regular_quantity": 14,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 3,
+          "price": 4.0,
+          "regular_price": 5.85,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 1.0,
+          "regular_price": 0.62,
+          "regular_quantity": 47,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 61,
+          "price": 2.0,
+          "regular_price": 2.01,
+          "regular_quantity": 94,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 84.36,
+          "regular_price": 84.36,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3395,43 +3521,45 @@
     {
       "name": "Trelis",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 30,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 57,
+          "price": 1.76,
+          "regular_price": 1.76,
+          "regular_quantity": 12,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 4.72,
+          "regular_price": 4.72,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 1.0,
+          "regular_price": 0.12,
+          "regular_quantity": 26,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 72,
+          "price": 1.0,
+          "regular_price": 1.99,
+          "regular_quantity": 61,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 29.0,
+          "regular_price": 57.14,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3446,43 +3574,45 @@
     {
       "name": "Braga",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 37,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 4,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 28,
+          "price": 3.34,
+          "regular_price": 3.34,
+          "regular_quantity": 57,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 1,
+          "price": 1.0,
+          "regular_price": 1.91,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 18,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 38,
+          "price": 1.0,
+          "regular_price": 0.28,
+          "regular_quantity": 36,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 77,
+          "price": 3.15,
+          "regular_price": 3.15,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 16.0,
+          "regular_price": 31.04,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3497,43 +3627,45 @@
     {
       "name": "Szuwary",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 13,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 1.0,
+          "regular_price": 0.65,
+          "regular_quantity": 60,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 3.95,
+          "regular_price": 3.95,
+          "regular_quantity": 6,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 26,
+          "price": 0.98,
+          "regular_price": 0.98,
+          "regular_quantity": 32,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 2.25,
+          "regular_price": 2.25,
+          "regular_quantity": 86,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 55.0,
+          "regular_price": 74.1,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3547,43 +3679,45 @@
     {
       "name": "Ateny",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 21,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 2.0,
+          "regular_price": 2.93,
+          "regular_quantity": 67,
           "special": null
         },
         "gems": {
           "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "price": 1.0,
+          "regular_price": 2.74,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 11,
+          "price": 0.64,
+          "regular_price": 0.64,
+          "regular_quantity": 41,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 72,
+          "price": 3.0,
+          "regular_price": 5.23,
+          "regular_quantity": 55,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 39.0,
+          "regular_price": 55.83,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3598,43 +3732,45 @@
     {
       "name": "Afryka",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 49,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 1.58,
+          "regular_price": 1.58,
+          "regular_quantity": 86,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 9,
+          "price": 9.0,
+          "regular_price": 10.98,
+          "regular_quantity": 9,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 6,
+          "price": 0.58,
+          "regular_price": 0.58,
+          "regular_quantity": 38,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 64,
+          "price": 1.0,
+          "regular_price": 2.72,
+          "regular_quantity": 65,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 40.0,
+          "regular_price": 56.6,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3649,43 +3785,45 @@
     {
       "name": "Porto",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 33,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 78,
+          "price": 1.99,
+          "regular_price": 1.99,
+          "regular_quantity": 56,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 10.86,
+          "regular_price": 10.86,
+          "regular_quantity": 5,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 25,
+          "price": 2.0,
+          "regular_price": 2.88,
+          "regular_quantity": 11,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 94,
+          "price": 2.19,
+          "regular_price": 2.19,
+          "regular_quantity": 76,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 89.12,
+          "regular_price": 89.12,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3699,43 +3837,45 @@
     {
       "name": "Aleksandria",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 36,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 45,
+          "price": 1.0,
+          "regular_price": 1.74,
+          "regular_quantity": 8,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 0,
+          "price": 8.74,
+          "regular_price": 8.74,
+          "regular_quantity": 10,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 35,
+          "price": 1.57,
+          "regular_price": 1.57,
+          "regular_quantity": 35,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 71,
+          "price": 2.0,
+          "regular_price": 2.81,
+          "regular_quantity": 62,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 32.0,
+          "regular_price": 42.53,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3749,43 +3889,45 @@
     {
       "name": "Rybnik",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 40,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 73,
+          "price": 2.82,
+          "regular_price": 2.82,
+          "regular_quantity": 12,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 8.69,
+          "regular_price": 8.69,
+          "regular_quantity": 4,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 41,
+          "price": 1.0,
+          "regular_price": 0.86,
+          "regular_quantity": 35,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 53,
+          "price": 4.42,
+          "regular_price": 4.42,
+          "regular_quantity": 50,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 20.0,
+          "regular_price": 67.77,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3799,43 +3941,45 @@
     {
       "name": "Pasta",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 44,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 34,
+          "price": 1.0,
+          "regular_price": 1.11,
+          "regular_quantity": 93,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 10,
+          "price": 8.94,
+          "regular_price": 8.94,
+          "regular_quantity": 8,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 40,
+          "price": 1.0,
+          "regular_price": 1.45,
+          "regular_quantity": 37,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 78,
+          "price": 2.0,
+          "regular_price": 3.3,
+          "regular_quantity": 63,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 81.56,
+          "regular_price": 81.56,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
@@ -3847,45 +3991,47 @@
       ]
     },
     {
-      "name": "Świątniki",
+      "name": "\u015awi\u0105tniki",
       "size": "small",
-      "factory": [],
-      "fee": 25,
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 37,
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 5,
-          "price": 45,
-          "regular_price": 50,
-          "regular_quantity": 100,
+          "quantity": 65,
+          "price": 3.0,
+          "regular_price": 4.25,
+          "regular_quantity": 88,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 60,
-          "regular_price": 100,
-          "regular_quantity": 100,
+          "quantity": 7,
+          "price": 5.0,
+          "regular_price": 6.48,
+          "regular_quantity": 0,
           "special": null
         },
         "food": {
-          "quantity": 14,
-          "price": 23,
-          "regular_price": 30,
-          "regular_quantity": 100,
+          "quantity": 7,
+          "price": 1.0,
+          "regular_price": 0.76,
+          "regular_quantity": 13,
           "special": null
         },
         "fuel": {
-          "quantity": 8,
-          "price": 30,
-          "regular_price": 40,
-          "regular_quantity": 100,
+          "quantity": 68,
+          "price": 6.02,
+          "regular_price": 6.02,
+          "regular_quantity": 90,
           "special": null
         },
         "relics": {
           "quantity": 0,
-          "price": 0,
-          "regular_price": 0,
-          "regular_quantity": 100,
+          "price": 52.67,
+          "regular_price": 52.67,
+          "regular_quantity": 0,
           "special": null
         },
         "special": null
