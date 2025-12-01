@@ -2,6 +2,7 @@
   "events": {
     "event1": {
       "name": "Event 1",
+      "target": "city",
       "description": "Description of Event 1",
       "type": "set",
       "effects": {
@@ -44,6 +45,7 @@
     "event2": {
       "name": "Event 2",
       "description": "Description of Event 2",
+      "target": "player",
       "type": "set",
       "effects": {
         "commodities": {
