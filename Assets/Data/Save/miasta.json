@@ -52,7 +52,7 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Nadstole"
       ]
     },
@@ -66,14 +66,14 @@
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 76,
+          "quantity": 77,
           "price": 91,
           "regular_price": 91,
           "regular_quantity": 33,
           "special": null
         },
         "gems": {
-          "quantity": 7,
+          "quantity": 4,
           "price": 299,
           "regular_price": 298,
           "regular_quantity": 7,
@@ -161,11 +161,11 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ]
     },
     {
-      "name": "Mieścinka",
+      "name": "Mie\u015bcinka",
       "size": "small",
       "factory": [
         "Wysypisko"
@@ -268,7 +268,7 @@
       "missions": 0,
       "missions_titles": [],
       "connections": [
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Czubek",
         "Etnacity"
       ]
@@ -322,7 +322,7 @@
       "missions": 0,
       "missions_titles": [
         "Czubek",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ],
       "connections": []
     },
@@ -412,7 +412,7 @@
           "special": null
         },
         "fuel": {
-          "quantity": 75,
+          "quantity": 74,
           "price": 150,
           "regular_price": 150,
           "regular_quantity": 84,
@@ -911,7 +911,7 @@
       "connections": [
         "Flotsam",
         "Bar",
-        "Praworóg"
+        "Prawor\u00f3g"
       ]
     },
     {
@@ -1231,7 +1231,7 @@
       ]
     },
     {
-      "name": "Praworóg",
+      "name": "Prawor\u00f3g",
       "size": "small",
       "factory": [
         "McRoman"
@@ -1970,7 +1970,7 @@
       ]
     },
     {
-      "name": "Świątniki",
+      "name": "\u015awi\u0105tniki",
       "size": "small",
       "factory": [
         "Jubiler"
@@ -2073,7 +2073,7 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Nadstole"
       ]
     },
@@ -2087,14 +2087,14 @@
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 76,
+          "quantity": 77,
           "price": 91,
           "regular_price": 91,
           "regular_quantity": 33,
           "special": null
         },
         "gems": {
-          "quantity": 7,
+          "quantity": 4,
           "price": 299,
           "regular_price": 298,
           "regular_quantity": 7,
@@ -2182,11 +2182,11 @@
       "missions_titles": [],
       "connections": [
         "Miasteczko",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ]
     },
     {
-      "name": "Mieścinka",
+      "name": "Mie\u015bcinka",
       "size": "small",
       "factory": [
         "Wysypisko"
@@ -2289,7 +2289,7 @@
       "missions": 0,
       "missions_titles": [],
       "connections": [
-        "Mieścinka",
+        "Mie\u015bcinka",
         "Czubek",
         "Etnacity"
       ]
@@ -2343,7 +2343,7 @@
       "missions": 0,
       "missions_titles": [
         "Czubek",
-        "Mieścinka"
+        "Mie\u015bcinka"
       ],
       "connections": []
     },
@@ -2433,7 +2433,7 @@
           "special": null
         },
         "fuel": {
-          "quantity": 75,
+          "quantity": 74,
           "price": 150,
           "regular_price": 150,
           "regular_quantity": 84,
@@ -2932,7 +2932,7 @@
       "connections": [
         "Flotsam",
         "Bar",
-        "Praworóg"
+        "Prawor\u00f3g"
       ]
     },
     {
@@ -3252,7 +3252,7 @@
       ]
     },
     {
-      "name": "Praworóg",
+      "name": "Prawor\u00f3g",
       "size": "small",
       "factory": [
         "McRoman"
@@ -3991,7 +3991,7 @@
       ]
     },
     {
-      "name": "Świątniki",
+      "name": "\u015awi\u0105tniki",
       "size": "small",
       "factory": [
         "Jubiler"
