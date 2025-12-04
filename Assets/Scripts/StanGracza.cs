@@ -7,10 +7,10 @@ using Newtonsoft.Json;
 [Serializable]
 public class DaneGracza
 {
-    public int zloto = 500;
+    public int zloto = 15000;
 
     public Dictionary<string, int> ekwipunek = new Dictionary<string, int> {
-        {"metal",0}, {"gems",0}, {"food",0}, {"fuel",0}, {"relics",0}
+        {"metal",100}, {"gems",20}, {"food",50}, {"fuel",50}, {"relics",0}
     };
 }
 
@@ -36,8 +36,6 @@ public class StanGracza : MonoBehaviour
     public event Action<float, float> OnObciazenieZmiana;
     public event Action<int> OnZlotoZmiana;
     public event Action<string, int> OnEkwipunekZmiana;
-
-    private string sciezkaPliku => Path.Combine(Application.persistentDataPath, "player_state.json");
 
     private void Awake()
     {
@@ -82,35 +80,38 @@ public class StanGracza : MonoBehaviour
 
     public void Zapisz()
     {
+        if (!Directory.Exists(SciezkiZapisu.Folder))
+            Directory.CreateDirectory(SciezkiZapisu.Folder);
+
         var json = JsonConvert.SerializeObject(dane, Formatting.Indented);
-        File.WriteAllText(sciezkaPliku, json);
+        File.WriteAllText(SciezkiZapisu.PlikGracza, json);
+
+        Debug.Log("Zapisano stan gracza " + SciezkiZapisu.PlikGracza);
     }
+
 
     public void Wczytaj()
     {
-        if (!File.Exists(sciezkaPliku))
+        if (File.Exists(SciezkiZapisu.PlikGracza))
         {
-            dane = new DaneGracza();
-            Zapisz();
-            return;
-        }
-
-        try
-        {
-            var json = File.ReadAllText(sciezkaPliku);
+            var json = File.ReadAllText(SciezkiZapisu.PlikGracza);
             dane = JsonConvert.DeserializeObject<DaneGracza>(json);
         }
-        catch
+        else
         {
+            Debug.Log("Tworzê nowy plik save — brak istniej¹cego");
             dane = new DaneGracza();
+            Zapisz();
         }
 
         if (dane == null) dane = new DaneGracza();
         if (dane.ekwipunek == null) dane.ekwipunek = new Dictionary<string, int>();
 
         foreach (var k in new[] { "metal", "gems", "food", "fuel", "relics" })
-            if (!dane.ekwipunek.ContainsKey(k)) dane.ekwipunek[k] = 0;
+            if (!dane.ekwipunek.ContainsKey(k))
+                dane.ekwipunek[k] = 0;
     }
+
 
     public float ObliczObciazenie()
     {

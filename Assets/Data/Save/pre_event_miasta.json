@@ -1,0 +1,4044 @@
+{
+  "cities": [
+    {
+      "name": "Stolica",
+      "size": "big",
+      "factory": [
+        "Kosciol",
+        "Grobowiec",
+        "Wysypisko"
+      ],
+      "fee": 629,
+      "nr_of_conn": "5",
+      "commodities": {
+        "metal": {
+          "quantity": 278,
+          "price": 47,
+          "regular_price": 98,
+          "regular_quantity": 218,
+          "special": null
+        },
+        "gems": {
+          "quantity": 108,
+          "price": 100,
+          "regular_price": 168,
+          "regular_quantity": 96,
+          "special": null
+        },
+        "food": {
+          "quantity": 475,
+          "price": 6,
+          "regular_price": 92,
+          "regular_quantity": 510,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 165,
+          "price": 111,
+          "regular_price": 118,
+          "regular_quantity": 144,
+          "special": null
+        },
+        "relics": {
+          "quantity": 8,
+          "price": 2267,
+          "regular_price": 2519,
+          "regular_quantity": 9,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 2,
+      "missions_titles": [],
+      "connections": [
+        "Miasteczko",
+        "Mie\u015bcinka",
+        "Nadstole"
+      ]
+    },
+    {
+      "name": "Miasteczko",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 21,
+      "nr_of_conn": "5",
+      "commodities": {
+        "metal": {
+          "quantity": 77,
+          "price": 91,
+          "regular_price": 91,
+          "regular_quantity": 33,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 299,
+          "regular_price": 298,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 21,
+          "price": 74,
+          "regular_price": 65,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 60,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 83,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 1,
+      "missions_titles": [],
+      "connections": [
+        "Stolica",
+        "Cypel",
+        "Nadstole",
+        "Przyrzecze"
+      ]
+    },
+    {
+      "name": "Cypel",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 44,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 17,
+          "price": 94,
+          "regular_price": 80,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 294,
+          "regular_price": 290,
+          "regular_quantity": 9,
+          "special": null
+        },
+        "food": {
+          "quantity": 30,
+          "price": 76,
+          "regular_price": 64,
+          "regular_quantity": 30,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 86,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 79,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Miasteczko",
+        "Mie\u015bcinka"
+      ]
+    },
+    {
+      "name": "Mie\u015bcinka",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 40,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 14,
+          "price": 90,
+          "regular_price": 90,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 294,
+          "regular_price": 300,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 21,
+          "price": 8,
+          "regular_price": 45,
+          "regular_quantity": 26,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 94,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 50,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Stolica",
+        "Cypel",
+        "Czubek",
+        "Obcas"
+      ]
+    },
+    {
+      "name": "Czubek",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 37,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 28,
+          "price": 96,
+          "regular_price": 96,
+          "regular_quantity": 51,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 298,
+          "regular_price": 300,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 17,
+          "price": 25,
+          "regular_price": 53,
+          "regular_quantity": 42,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 95,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 69,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Mie\u015bcinka",
+        "Czubek",
+        "Etnacity"
+      ]
+    },
+    {
+      "name": "Obcas",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 29,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 25,
+          "price": 99,
+          "regular_price": 98,
+          "regular_quantity": 15,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 300,
+          "regular_price": 294,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 40,
+          "price": 15,
+          "regular_price": 62,
+          "regular_quantity": 16,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 75,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 79,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [
+        "Czubek",
+        "Mie\u015bcinka"
+      ],
+      "connections": []
+    },
+    {
+      "name": "Nadstole",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 26,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 43,
+          "price": 80,
+          "regular_price": 88,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 292,
+          "regular_price": 296,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 24,
+          "price": 62,
+          "regular_price": 30,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 81,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 93,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Stolica",
+        "Miasteczko",
+        "Zachodnioka",
+        "Przyrzecze"
+      ]
+    },
+    {
+      "name": "Zachodnioka",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 41,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 25,
+          "price": 88,
+          "regular_price": 97,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 297,
+          "regular_price": 294,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 21,
+          "price": 16,
+          "regular_price": 47,
+          "regular_quantity": 46,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 74,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 84,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Nadstole",
+        "Como",
+        "Megatona"
+      ]
+    },
+    {
+      "name": "Przyrzecze",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 14,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 20,
+          "price": 92,
+          "regular_price": 85,
+          "regular_quantity": 84,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 298,
+          "regular_price": 297,
+          "regular_quantity": 2,
+          "special": null
+        },
+        "food": {
+          "quantity": 48,
+          "price": 26,
+          "regular_price": 28,
+          "regular_quantity": 27,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 96,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 55,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Miasteczko",
+        "Nadstole",
+        "Wschodnioka"
+      ]
+    },
+    {
+      "name": "Wschodnioka",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 28,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 67,
+          "price": 84,
+          "regular_price": 80,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "gems": {
+          "quantity": 6,
+          "price": 292,
+          "regular_price": 293,
+          "regular_quantity": 1,
+          "special": null
+        },
+        "food": {
+          "quantity": 41,
+          "price": 15,
+          "regular_price": 56,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 56,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Flotsam",
+        "Przyrzecze"
+      ]
+    },
+    {
+      "name": "Como",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 39,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 93,
+          "price": 88,
+          "regular_price": 80,
+          "regular_quantity": 53,
+          "special": null
+        },
+        "gems": {
+          "quantity": 3,
+          "price": 300,
+          "regular_price": 293,
+          "regular_quantity": 2,
+          "special": null
+        },
+        "food": {
+          "quantity": 27,
+          "price": 62,
+          "regular_price": 58,
+          "regular_quantity": 38,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 83,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Zachodnioka"
+      ]
+    },
+    {
+      "name": "Etnacity",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 47,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 68,
+          "price": 88,
+          "regular_price": 83,
+          "regular_quantity": 55,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 298,
+          "regular_price": 293,
+          "regular_quantity": 2,
+          "special": null
+        },
+        "food": {
+          "quantity": 50,
+          "price": 27,
+          "regular_price": 65,
+          "regular_quantity": 50,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 75,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Czubek",
+        "Stegna"
+      ]
+    },
+    {
+      "name": "Megatona",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 91,
+          "price": 86,
+          "regular_price": 87,
+          "regular_quantity": 71,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 296,
+          "regular_price": 298,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 26,
+          "price": 28,
+          "regular_price": 49,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 95,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 67,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Francja",
+        "Zachodnioka"
+      ]
+    },
+    {
+      "name": "Flotsam",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 13,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 23,
+          "price": 97,
+          "regular_price": 96,
+          "regular_quantity": 23,
+          "special": null
+        },
+        "gems": {
+          "quantity": 3,
+          "price": 293,
+          "regular_price": 298,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 19,
+          "price": 34,
+          "regular_price": 50,
+          "regular_quantity": 15,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 58,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 82,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Wschodnioka",
+        "Chorwacja",
+        "Ryburg"
+      ]
+    },
+    {
+      "name": "Francja",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 37,
+          "price": 95,
+          "regular_price": 100,
+          "regular_quantity": 92,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 299,
+          "regular_price": 295,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 31,
+          "price": 14,
+          "regular_price": 44,
+          "regular_quantity": 34,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 84,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Megatona",
+        "Delta"
+      ]
+    },
+    {
+      "name": "Chorwacja",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 50,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 7,
+          "price": 86,
+          "regular_price": 94,
+          "regular_quantity": 41,
+          "special": null
+        },
+        "gems": {
+          "quantity": 8,
+          "price": 297,
+          "regular_price": 293,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 45,
+          "price": 55,
+          "regular_price": 36,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 68,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 100,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Flotsam",
+        "Bar"
+      ]
+    },
+    {
+      "name": "Ryburg",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 38,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 98,
+          "price": 91,
+          "regular_price": 83,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 291,
+          "regular_price": 296,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 23,
+          "price": 37,
+          "regular_price": 11,
+          "regular_quantity": 27,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 63,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 69,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Flotsam",
+        "Bar",
+        "Prawor\u00f3g"
+      ]
+    },
+    {
+      "name": "Delta",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 49,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 92,
+          "price": 96,
+          "regular_price": 98,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 292,
+          "regular_price": 295,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 8,
+          "price": 24,
+          "regular_price": 68,
+          "regular_quantity": 29,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 71,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Francja",
+        "Bastion"
+      ]
+    },
+    {
+      "name": "Bar",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 42,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 18,
+          "price": 90,
+          "regular_price": 85,
+          "regular_quantity": 30,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 293,
+          "regular_price": 300,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 42,
+          "price": 20,
+          "regular_price": 19,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 63,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 65,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Chorwacja",
+        "Ryburg",
+        "Daleko"
+      ]
+    },
+    {
+      "name": "Bastion",
+      "size": "small",
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 17,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 96,
+          "price": 88,
+          "regular_price": 93,
+          "regular_quantity": 75,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 295,
+          "regular_price": 296,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 11,
+          "price": 22,
+          "regular_price": 25,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 98,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 79,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Delta"
+      ]
+    },
+    {
+      "name": "Daleko",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 18,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 86,
+          "price": 81,
+          "regular_price": 96,
+          "regular_quantity": 28,
+          "special": null
+        },
+        "gems": {
+          "quantity": 6,
+          "price": 292,
+          "regular_price": 294,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "food": {
+          "quantity": 36,
+          "price": 68,
+          "regular_price": 41,
+          "regular_quantity": 28,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 96,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Bar",
+        "Kaczystan"
+      ]
+    },
+    {
+      "name": "Stegna",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 47,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 63,
+          "price": 90,
+          "regular_price": 97,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 299,
+          "regular_price": 298,
+          "regular_quantity": 1,
+          "special": null
+        },
+        "food": {
+          "quantity": 25,
+          "price": 69,
+          "regular_price": 22,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 79,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 56,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Etnacity"
+      ]
+    },
+    {
+      "name": "Ukent",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 50,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 45,
+          "price": 84,
+          "regular_price": 84,
+          "regular_quantity": 16,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 295,
+          "regular_price": 290,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 39,
+          "price": 41,
+          "regular_price": 9,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 63,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 52,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Czubek"
+      ]
+    },
+    {
+      "name": "Prawor\u00f3g",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 28,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 85,
+          "price": 92,
+          "regular_price": 92,
+          "regular_quantity": 63,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 300,
+          "regular_price": 298,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 22,
+          "price": 68,
+          "regular_price": 45,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 56,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 66,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Ryburg"
+      ]
+    },
+    {
+      "name": "Kaczystan",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 34,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 72,
+          "price": 95,
+          "regular_price": 99,
+          "regular_quantity": 54,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 300,
+          "regular_price": 291,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "food": {
+          "quantity": 11,
+          "price": 47,
+          "regular_price": 38,
+          "regular_quantity": 33,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 100,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 100,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Daleko",
+        "Khorinis",
+        "Alabama"
+      ]
+    },
+    {
+      "name": "Alabama",
+      "size": "small",
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 19,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 10,
+          "price": 100,
+          "regular_price": 84,
+          "regular_quantity": 44,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 291,
+          "regular_price": 294,
+          "regular_quantity": 1,
+          "special": null
+        },
+        "food": {
+          "quantity": 10,
+          "price": 29,
+          "regular_price": 60,
+          "regular_quantity": 48,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 51,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 71,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Vengard",
+        "Kaczystan"
+      ]
+    },
+    {
+      "name": "Vengard",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 33,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 53,
+          "price": 96,
+          "regular_price": 100,
+          "regular_quantity": 71,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 291,
+          "regular_price": 298,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 16,
+          "price": 11,
+          "regular_price": 79,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 54,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 65,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Khorinis",
+        "Alabama"
+      ]
+    },
+    {
+      "name": "Khorinis",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 11,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 29,
+          "price": 92,
+          "regular_price": 98,
+          "regular_quantity": 14,
+          "special": null
+        },
+        "gems": {
+          "quantity": 3,
+          "price": 292,
+          "regular_price": 291,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 26,
+          "price": 23,
+          "regular_price": 32,
+          "regular_quantity": 47,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 61,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 94,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Kaczystan",
+        "Vengard",
+        "Trelis",
+        "Braga"
+      ]
+    },
+    {
+      "name": "Trelis",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 30,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 57,
+          "price": 88,
+          "regular_price": 100,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 300,
+          "regular_price": 293,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 9,
+          "price": 54,
+          "regular_price": 6,
+          "regular_quantity": 26,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 72,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 61,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Khorinis",
+        "Braga"
+      ]
+    },
+    {
+      "name": "Braga",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 37,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 28,
+          "price": 97,
+          "regular_price": 94,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "gems": {
+          "quantity": 1,
+          "price": 291,
+          "regular_price": 293,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 38,
+          "price": 12,
+          "regular_price": 40,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 77,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Ateny",
+        "Trelis"
+      ]
+    },
+    {
+      "name": "Szuwary",
+      "size": "small",
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 13,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 25,
+          "price": 98,
+          "regular_price": 82,
+          "regular_quantity": 60,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 292,
+          "regular_price": 295,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 26,
+          "price": 25,
+          "regular_price": 72,
+          "regular_quantity": 32,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 53,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Ateny"
+      ]
+    },
+    {
+      "name": "Ateny",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 21,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 53,
+          "price": 86,
+          "regular_price": 87,
+          "regular_quantity": 67,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 294,
+          "regular_price": 300,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 11,
+          "price": 34,
+          "regular_price": 58,
+          "regular_quantity": 41,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 72,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 55,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Szuwary",
+        "Braga"
+      ]
+    },
+    {
+      "name": "Afryka",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 49,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 64,
+          "price": 88,
+          "regular_price": 92,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 299,
+          "regular_price": 297,
+          "regular_quantity": 9,
+          "special": null
+        },
+        "food": {
+          "quantity": 6,
+          "price": 28,
+          "regular_price": 31,
+          "regular_quantity": 38,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 65,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Porto",
+        "Aleksandria"
+      ]
+    },
+    {
+      "name": "Porto",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 33,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 78,
+          "price": 87,
+          "regular_price": 95,
+          "regular_quantity": 56,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 296,
+          "regular_price": 293,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 25,
+          "price": 26,
+          "regular_price": 71,
+          "regular_quantity": 11,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 94,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 76,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Afryka"
+      ]
+    },
+    {
+      "name": "Aleksandria",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 36,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 45,
+          "price": 92,
+          "regular_price": 95,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 295,
+          "regular_price": 290,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 35,
+          "price": 78,
+          "regular_price": 64,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 71,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 62,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Afryka"
+      ]
+    },
+    {
+      "name": "Rybnik",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 40,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 73,
+          "price": 88,
+          "regular_price": 100,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 297,
+          "regular_price": 298,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 41,
+          "price": 11,
+          "regular_price": 53,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 53,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 50,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Pasta"
+      ]
+    },
+    {
+      "name": "Pasta",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 44,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 34,
+          "price": 82,
+          "regular_price": 100,
+          "regular_quantity": 93,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 297,
+          "regular_price": 291,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "food": {
+          "quantity": 40,
+          "price": 20,
+          "regular_price": 39,
+          "regular_quantity": 37,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 78,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 63,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Rybnik"
+      ]
+    },
+    {
+      "name": "\u015awi\u0105tniki",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 37,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 65,
+          "price": 82,
+          "regular_price": 99,
+          "regular_quantity": 88,
+          "special": null
+        },
+        "gems": {
+          "quantity": 7,
+          "price": 293,
+          "regular_price": 295,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "food": {
+          "quantity": 7,
+          "price": 18,
+          "regular_price": 38,
+          "regular_quantity": 13,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 68,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 90,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    }
+  ],
+  "after": [
+    {
+      "name": "Stolica",
+      "size": "big",
+      "factory": [
+        "Kosciol",
+        "Grobowiec",
+        "Wysypisko"
+      ],
+      "fee": 629,
+      "nr_of_conn": "5",
+      "commodities": {
+        "metal": {
+          "quantity": 278,
+          "price": 47,
+          "regular_price": 98,
+          "regular_quantity": 218,
+          "special": null
+        },
+        "gems": {
+          "quantity": 108,
+          "price": 100,
+          "regular_price": 168,
+          "regular_quantity": 96,
+          "special": null
+        },
+        "food": {
+          "quantity": 475,
+          "price": 6,
+          "regular_price": 92,
+          "regular_quantity": 510,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 165,
+          "price": 111,
+          "regular_price": 118,
+          "regular_quantity": 144,
+          "special": null
+        },
+        "relics": {
+          "quantity": 8,
+          "price": 2267,
+          "regular_price": 2519,
+          "regular_quantity": 9,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 2,
+      "missions_titles": [],
+      "connections": [
+        "Miasteczko",
+        "Mie\u015bcinka",
+        "Nadstole"
+      ]
+    },
+    {
+      "name": "Miasteczko",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 21,
+      "nr_of_conn": "5",
+      "commodities": {
+        "metal": {
+          "quantity": 77,
+          "price": 91,
+          "regular_price": 91,
+          "regular_quantity": 33,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 299,
+          "regular_price": 298,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 21,
+          "price": 74,
+          "regular_price": 65,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 60,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 83,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 1,
+      "missions_titles": [],
+      "connections": [
+        "Stolica",
+        "Cypel",
+        "Nadstole",
+        "Przyrzecze"
+      ]
+    },
+    {
+      "name": "Cypel",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 44,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 17,
+          "price": 94,
+          "regular_price": 80,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 294,
+          "regular_price": 290,
+          "regular_quantity": 9,
+          "special": null
+        },
+        "food": {
+          "quantity": 30,
+          "price": 76,
+          "regular_price": 64,
+          "regular_quantity": 30,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 86,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 79,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Miasteczko",
+        "Mie\u015bcinka"
+      ]
+    },
+    {
+      "name": "Mie\u015bcinka",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 40,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 14,
+          "price": 90,
+          "regular_price": 90,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 294,
+          "regular_price": 300,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 21,
+          "price": 8,
+          "regular_price": 45,
+          "regular_quantity": 26,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 94,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 50,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Stolica",
+        "Cypel",
+        "Czubek",
+        "Obcas"
+      ]
+    },
+    {
+      "name": "Czubek",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 37,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 28,
+          "price": 96,
+          "regular_price": 96,
+          "regular_quantity": 51,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 298,
+          "regular_price": 300,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 17,
+          "price": 25,
+          "regular_price": 53,
+          "regular_quantity": 42,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 95,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 69,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Mie\u015bcinka",
+        "Czubek",
+        "Etnacity"
+      ]
+    },
+    {
+      "name": "Obcas",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 29,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 25,
+          "price": 99,
+          "regular_price": 98,
+          "regular_quantity": 15,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 300,
+          "regular_price": 294,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 40,
+          "price": 15,
+          "regular_price": 62,
+          "regular_quantity": 16,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 75,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 79,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [
+        "Czubek",
+        "Mie\u015bcinka"
+      ],
+      "connections": []
+    },
+    {
+      "name": "Nadstole",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 26,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 43,
+          "price": 80,
+          "regular_price": 88,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 292,
+          "regular_price": 296,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 24,
+          "price": 62,
+          "regular_price": 30,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 81,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 93,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Stolica",
+        "Miasteczko",
+        "Zachodnioka",
+        "Przyrzecze"
+      ]
+    },
+    {
+      "name": "Zachodnioka",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 41,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 25,
+          "price": 88,
+          "regular_price": 97,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 297,
+          "regular_price": 294,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 21,
+          "price": 16,
+          "regular_price": 47,
+          "regular_quantity": 46,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 74,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 84,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Nadstole",
+        "Como",
+        "Megatona"
+      ]
+    },
+    {
+      "name": "Przyrzecze",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 14,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 20,
+          "price": 92,
+          "regular_price": 85,
+          "regular_quantity": 84,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 298,
+          "regular_price": 297,
+          "regular_quantity": 2,
+          "special": null
+        },
+        "food": {
+          "quantity": 48,
+          "price": 26,
+          "regular_price": 28,
+          "regular_quantity": 27,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 96,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 55,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Miasteczko",
+        "Nadstole",
+        "Wschodnioka"
+      ]
+    },
+    {
+      "name": "Wschodnioka",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 28,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 67,
+          "price": 84,
+          "regular_price": 80,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "gems": {
+          "quantity": 6,
+          "price": 292,
+          "regular_price": 293,
+          "regular_quantity": 1,
+          "special": null
+        },
+        "food": {
+          "quantity": 41,
+          "price": 15,
+          "regular_price": 56,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 56,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Flotsam",
+        "Przyrzecze"
+      ]
+    },
+    {
+      "name": "Como",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 39,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 93,
+          "price": 88,
+          "regular_price": 80,
+          "regular_quantity": 53,
+          "special": null
+        },
+        "gems": {
+          "quantity": 3,
+          "price": 300,
+          "regular_price": 293,
+          "regular_quantity": 2,
+          "special": null
+        },
+        "food": {
+          "quantity": 27,
+          "price": 62,
+          "regular_price": 58,
+          "regular_quantity": 38,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 83,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Zachodnioka"
+      ]
+    },
+    {
+      "name": "Etnacity",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 47,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 68,
+          "price": 88,
+          "regular_price": 83,
+          "regular_quantity": 55,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 298,
+          "regular_price": 293,
+          "regular_quantity": 2,
+          "special": null
+        },
+        "food": {
+          "quantity": 50,
+          "price": 27,
+          "regular_price": 65,
+          "regular_quantity": 50,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 75,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Czubek",
+        "Stegna"
+      ]
+    },
+    {
+      "name": "Megatona",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 91,
+          "price": 86,
+          "regular_price": 87,
+          "regular_quantity": 71,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 296,
+          "regular_price": 298,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 26,
+          "price": 28,
+          "regular_price": 49,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 95,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 67,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Francja",
+        "Zachodnioka"
+      ]
+    },
+    {
+      "name": "Flotsam",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 13,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 23,
+          "price": 97,
+          "regular_price": 96,
+          "regular_quantity": 23,
+          "special": null
+        },
+        "gems": {
+          "quantity": 3,
+          "price": 293,
+          "regular_price": 298,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 19,
+          "price": 34,
+          "regular_price": 50,
+          "regular_quantity": 15,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 58,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 82,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Wschodnioka",
+        "Chorwacja",
+        "Ryburg"
+      ]
+    },
+    {
+      "name": "Francja",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 36,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 37,
+          "price": 95,
+          "regular_price": 100,
+          "regular_quantity": 92,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 299,
+          "regular_price": 295,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 31,
+          "price": 14,
+          "regular_price": 44,
+          "regular_quantity": 34,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 84,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Megatona",
+        "Delta"
+      ]
+    },
+    {
+      "name": "Chorwacja",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 50,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 7,
+          "price": 86,
+          "regular_price": 94,
+          "regular_quantity": 41,
+          "special": null
+        },
+        "gems": {
+          "quantity": 8,
+          "price": 297,
+          "regular_price": 293,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 45,
+          "price": 55,
+          "regular_price": 36,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 68,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 100,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Flotsam",
+        "Bar"
+      ]
+    },
+    {
+      "name": "Ryburg",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 38,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 98,
+          "price": 91,
+          "regular_price": 83,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "gems": {
+          "quantity": 5,
+          "price": 291,
+          "regular_price": 296,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 23,
+          "price": 37,
+          "regular_price": 11,
+          "regular_quantity": 27,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 63,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 69,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Flotsam",
+        "Bar",
+        "Prawor\u00f3g"
+      ]
+    },
+    {
+      "name": "Delta",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 49,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 92,
+          "price": 96,
+          "regular_price": 98,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 292,
+          "regular_price": 295,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 8,
+          "price": 24,
+          "regular_price": 68,
+          "regular_quantity": 29,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 71,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Francja",
+        "Bastion"
+      ]
+    },
+    {
+      "name": "Bar",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 42,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 18,
+          "price": 90,
+          "regular_price": 85,
+          "regular_quantity": 30,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 293,
+          "regular_price": 300,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 42,
+          "price": 20,
+          "regular_price": 19,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 63,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 65,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Chorwacja",
+        "Ryburg",
+        "Daleko"
+      ]
+    },
+    {
+      "name": "Bastion",
+      "size": "small",
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 17,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 96,
+          "price": 88,
+          "regular_price": 93,
+          "regular_quantity": 75,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 295,
+          "regular_price": 296,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 11,
+          "price": 22,
+          "regular_price": 25,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 98,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 79,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Delta"
+      ]
+    },
+    {
+      "name": "Daleko",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 18,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 86,
+          "price": 81,
+          "regular_price": 96,
+          "regular_quantity": 28,
+          "special": null
+        },
+        "gems": {
+          "quantity": 6,
+          "price": 292,
+          "regular_price": 294,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "food": {
+          "quantity": 36,
+          "price": 68,
+          "regular_price": 41,
+          "regular_quantity": 28,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 96,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Bar",
+        "Kaczystan"
+      ]
+    },
+    {
+      "name": "Stegna",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 47,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 63,
+          "price": 90,
+          "regular_price": 97,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 299,
+          "regular_price": 298,
+          "regular_quantity": 1,
+          "special": null
+        },
+        "food": {
+          "quantity": 25,
+          "price": 69,
+          "regular_price": 22,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 79,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 56,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Etnacity"
+      ]
+    },
+    {
+      "name": "Ukent",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 50,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 45,
+          "price": 84,
+          "regular_price": 84,
+          "regular_quantity": 16,
+          "special": null
+        },
+        "gems": {
+          "quantity": 4,
+          "price": 295,
+          "regular_price": 290,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 39,
+          "price": 41,
+          "regular_price": 9,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 63,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 52,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Czubek"
+      ]
+    },
+    {
+      "name": "Prawor\u00f3g",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 28,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 85,
+          "price": 92,
+          "regular_price": 92,
+          "regular_quantity": 63,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 300,
+          "regular_price": 298,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 22,
+          "price": 68,
+          "regular_price": 45,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 56,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 66,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Ryburg"
+      ]
+    },
+    {
+      "name": "Kaczystan",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 34,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 72,
+          "price": 95,
+          "regular_price": 99,
+          "regular_quantity": 54,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 300,
+          "regular_price": 291,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "food": {
+          "quantity": 11,
+          "price": 47,
+          "regular_price": 38,
+          "regular_quantity": 33,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 100,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 100,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Daleko",
+        "Khorinis",
+        "Alabama"
+      ]
+    },
+    {
+      "name": "Alabama",
+      "size": "small",
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 19,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 10,
+          "price": 100,
+          "regular_price": 84,
+          "regular_quantity": 44,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 291,
+          "regular_price": 294,
+          "regular_quantity": 1,
+          "special": null
+        },
+        "food": {
+          "quantity": 10,
+          "price": 29,
+          "regular_price": 60,
+          "regular_quantity": 48,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 51,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 71,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Vengard",
+        "Kaczystan"
+      ]
+    },
+    {
+      "name": "Vengard",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 33,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 53,
+          "price": 96,
+          "regular_price": 100,
+          "regular_quantity": 71,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 291,
+          "regular_price": 298,
+          "regular_quantity": 7,
+          "special": null
+        },
+        "food": {
+          "quantity": 16,
+          "price": 11,
+          "regular_price": 79,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 54,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 65,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Khorinis",
+        "Alabama"
+      ]
+    },
+    {
+      "name": "Khorinis",
+      "size": "small",
+      "factory": [
+        "Grobowiec"
+      ],
+      "fee": 11,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 29,
+          "price": 92,
+          "regular_price": 98,
+          "regular_quantity": 14,
+          "special": null
+        },
+        "gems": {
+          "quantity": 3,
+          "price": 292,
+          "regular_price": 291,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 26,
+          "price": 23,
+          "regular_price": 32,
+          "regular_quantity": 47,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 61,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 94,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Kaczystan",
+        "Vengard",
+        "Trelis",
+        "Braga"
+      ]
+    },
+    {
+      "name": "Trelis",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 30,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 57,
+          "price": 88,
+          "regular_price": 100,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 300,
+          "regular_price": 293,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 9,
+          "price": 54,
+          "regular_price": 6,
+          "regular_quantity": 26,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 72,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 61,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Khorinis",
+        "Braga"
+      ]
+    },
+    {
+      "name": "Braga",
+      "size": "small",
+      "factory": [
+        "Wysypisko"
+      ],
+      "fee": 37,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 28,
+          "price": 97,
+          "regular_price": 94,
+          "regular_quantity": 57,
+          "special": null
+        },
+        "gems": {
+          "quantity": 1,
+          "price": 291,
+          "regular_price": 293,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 38,
+          "price": 12,
+          "regular_price": 40,
+          "regular_quantity": 36,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 77,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Ateny",
+        "Trelis"
+      ]
+    },
+    {
+      "name": "Szuwary",
+      "size": "small",
+      "factory": [
+        "Kosciol"
+      ],
+      "fee": 13,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 25,
+          "price": 98,
+          "regular_price": 82,
+          "regular_quantity": 60,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 292,
+          "regular_price": 295,
+          "regular_quantity": 6,
+          "special": null
+        },
+        "food": {
+          "quantity": 26,
+          "price": 25,
+          "regular_price": 72,
+          "regular_quantity": 32,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 53,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Ateny"
+      ]
+    },
+    {
+      "name": "Ateny",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 21,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 53,
+          "price": 86,
+          "regular_price": 87,
+          "regular_quantity": 67,
+          "special": null
+        },
+        "gems": {
+          "quantity": 2,
+          "price": 294,
+          "regular_price": 300,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 11,
+          "price": 34,
+          "regular_price": 58,
+          "regular_quantity": 41,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 72,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 55,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Szuwary",
+        "Braga"
+      ]
+    },
+    {
+      "name": "Afryka",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 49,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 64,
+          "price": 88,
+          "regular_price": 92,
+          "regular_quantity": 86,
+          "special": null
+        },
+        "gems": {
+          "quantity": 9,
+          "price": 299,
+          "regular_price": 297,
+          "regular_quantity": 9,
+          "special": null
+        },
+        "food": {
+          "quantity": 6,
+          "price": 28,
+          "regular_price": 31,
+          "regular_quantity": 38,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 64,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 65,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Porto",
+        "Aleksandria"
+      ]
+    },
+    {
+      "name": "Porto",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 33,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 78,
+          "price": 87,
+          "regular_price": 95,
+          "regular_quantity": 56,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 296,
+          "regular_price": 293,
+          "regular_quantity": 5,
+          "special": null
+        },
+        "food": {
+          "quantity": 25,
+          "price": 26,
+          "regular_price": 71,
+          "regular_quantity": 11,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 94,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 76,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Afryka"
+      ]
+    },
+    {
+      "name": "Aleksandria",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 36,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 45,
+          "price": 92,
+          "regular_price": 95,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "gems": {
+          "quantity": 0,
+          "price": 295,
+          "regular_price": 290,
+          "regular_quantity": 10,
+          "special": null
+        },
+        "food": {
+          "quantity": 35,
+          "price": 78,
+          "regular_price": 64,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 71,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 62,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Afryka"
+      ]
+    },
+    {
+      "name": "Rybnik",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 40,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 73,
+          "price": 88,
+          "regular_price": 100,
+          "regular_quantity": 12,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 297,
+          "regular_price": 298,
+          "regular_quantity": 4,
+          "special": null
+        },
+        "food": {
+          "quantity": 41,
+          "price": 11,
+          "regular_price": 53,
+          "regular_quantity": 35,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 53,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 50,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Pasta"
+      ]
+    },
+    {
+      "name": "Pasta",
+      "size": "small",
+      "factory": [
+        "McRoman"
+      ],
+      "fee": 44,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 34,
+          "price": 82,
+          "regular_price": 100,
+          "regular_quantity": 93,
+          "special": null
+        },
+        "gems": {
+          "quantity": 10,
+          "price": 297,
+          "regular_price": 291,
+          "regular_quantity": 8,
+          "special": null
+        },
+        "food": {
+          "quantity": 40,
+          "price": 20,
+          "regular_price": 39,
+          "regular_quantity": 37,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 78,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 63,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": [
+        "Rybnik"
+      ]
+    },
+    {
+      "name": "\u015awi\u0105tniki",
+      "size": "small",
+      "factory": [
+        "Jubiler"
+      ],
+      "fee": 37,
+      "nr_of_conn": "0",
+      "commodities": {
+        "metal": {
+          "quantity": 65,
+          "price": 82,
+          "regular_price": 99,
+          "regular_quantity": 88,
+          "special": null
+        },
+        "gems": {
+          "quantity": 7,
+          "price": 293,
+          "regular_price": 295,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "food": {
+          "quantity": 7,
+          "price": 18,
+          "regular_price": 38,
+          "regular_quantity": 13,
+          "special": null
+        },
+        "fuel": {
+          "quantity": 68,
+          "price": 150,
+          "regular_price": 150,
+          "regular_quantity": 90,
+          "special": null
+        },
+        "relics": {
+          "quantity": 0,
+          "price": 3000,
+          "regular_price": 3000,
+          "regular_quantity": 0,
+          "special": null
+        },
+        "special": null
+      },
+      "missions": 0,
+      "missions_titles": [],
+      "connections": []
+    }
+  ]
+}
