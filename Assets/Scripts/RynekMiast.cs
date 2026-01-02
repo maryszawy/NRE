@@ -51,7 +51,7 @@ public partial class RynekMiast : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("[RynekMiast] Startujê!");
+        Debug.Log("[RynekMiast] Startujï¿½!");
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         DontDestroyOnLoad(gameObject);
@@ -62,18 +62,18 @@ public partial class RynekMiast : MonoBehaviour
     void LoadWorld()
     {
         Debug.Log("Szukam pliku JSON...");
-        Debug.Log("Œcie¿ka StreamingAssets: " + Application.streamingAssetsPath);
+        Debug.Log("ï¿½cieï¿½ka StreamingAssets: " + Application.streamingAssetsPath);
 
         string path = File.Exists(sciezkaStanu) ? sciezkaStanu : sciezkaBazowa;
 
-        Debug.Log("U¿ywam œcie¿ki: " + path);
+        Debug.Log("Uï¿½ywam ï¿½cieï¿½ki: " + path);
         Debug.Log("File.Exists? " + File.Exists(path));
         if (File.Exists(sciezkaBazowa))
-            Debug.Log("Zawartoœæ StreamingAssets:\n" + string.Join("\n", Directory.GetFiles(Application.streamingAssetsPath)));
+            Debug.Log("Zawartoï¿½ï¿½ StreamingAssets:\n" + string.Join("\n", Directory.GetFiles(Application.streamingAssetsPath)));
 
         if (!File.Exists(path))
         {
-            Debug.LogError("NIE ZNALAZ£EM PLIKU: " + path);
+            Debug.LogError("NIE ZNALAZï¿½EM PLIKU: " + path);
             Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
             Current = Data.cities;
             After = Data.after;
@@ -83,12 +83,12 @@ public partial class RynekMiast : MonoBehaviour
         try
         {
             var text = File.ReadAllText(path);
-            Debug.Log($"Wczytano tekst JSON ({text.Length} znaków)");
+            Debug.Log($"Wczytano tekst JSON ({text.Length} znakï¿½w)");
 
             var root = JsonConvert.DeserializeObject<WorldFile>(text);
             if (root == null)
             {
-                Debug.LogError("Deserializacja zwróci³a null!");
+                Debug.LogError("Deserializacja zwrï¿½ciï¿½a null!");
                 Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
                 Current = Data.cities;
                 After = Data.after;
@@ -102,7 +102,7 @@ public partial class RynekMiast : MonoBehaviour
             if (path == sciezkaBazowa && After != null && After.Count > 0)
             {
                 Current = DeepClone(After);
-                Debug.Log("U¿ywam danych z 'after' jako bie¿¹cego stanu œwiata (z bazy).");
+                Debug.Log("Uï¿½ywam danych z 'after' jako bieï¿½ï¿½cego stanu ï¿½wiata (z bazy).");
 
                 SaveAfter();
             }
@@ -111,7 +111,7 @@ public partial class RynekMiast : MonoBehaviour
         }
         catch (System.Exception ex)
         {
-            Debug.LogError("B³¹d parsowania JSON: " + ex.Message);
+            Debug.LogError("Bï¿½ï¿½d parsowania JSON: " + ex.Message);
             Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
             Current = Data.cities;
             After = Data.after;
@@ -149,19 +149,19 @@ public partial class RynekMiast : MonoBehaviour
 
         if (c == null)
         {
-            Debug.LogError($"[RynekMiast] B£¥D KRYTYCZNY: Próba modyfikacji towaru w nieistniej¹cym mieœcie: '{city}'");
+            Debug.LogError($"[RynekMiast] BLAD KRYTYCZNY: Proba modyfikacji towaru w nieistniejacym miescie: '{city}'");
             return false;
         }
 
         if (c.commodities == null)
         {
-            Debug.LogError($"[RynekMiast] B£¥D DANYCH: Miasto '{city}' ma pust¹ sekcjê 'commodities' w JSON!");
+            Debug.LogError($"[RynekMiast] BLAD DANYCH: Miasto '{city}' ma pusta sekcje 'commodities' w JSON!");
             return false;
         }
 
         if (!c.commodities.ContainsKey(commodity))
         {
-            Debug.LogError($"[RynekMiast] B£¥D DANYCH: Miasto '{city}' nie posiada zdefiniowanego towaru '{commodity}'. SprawdŸ plik JSON pod k¹tem literówek!");
+            Debug.LogError($"[RynekMiast] BLAD DANYCH: Miasto '{city}' nie posiada zdefiniowanego towaru '{commodity}'. Sprawdz plik JSON pod katem literowek!");
             return false;
         }
 
@@ -174,7 +174,6 @@ public partial class RynekMiast : MonoBehaviour
         c.commodities[commodity] = ce;
 
         SaveAfter();
-
         return true;
     }
 }

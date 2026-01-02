@@ -20,8 +20,8 @@ public class StanGracza : MonoBehaviour
 
     public DaneGracza dane = new DaneGracza();
 
-    [Header("Udüwig")]
-    [Tooltip("Maksymalny udüwig ekwipunku")]
+    [Header("Udzwig")]
+    [Tooltip("Maksymalny udzwig ekwipunku")]
     public float maksUdzwig = 10f;
 
     Dictionary<string, float> wagiTowarow = new Dictionary<string, float>
@@ -99,13 +99,14 @@ public class StanGracza : MonoBehaviour
         try
         {
             File.WriteAllText(SciezkiZapisu.PlikGracza, json);
-            Debug.Log($"[StanGracza] Zapisano stan (Z≥oto: {dane.zloto})");
+            Debug.Log($"[StanGracza] Zapisano stan (Zloto: {dane.zloto})");
         }
         catch (Exception ex)
         {
-            Debug.LogError("[StanGracza] B≥πd zapisu!: " + ex.Message);
+            Debug.LogError("[StanGracza] Blad zapisu!: " + ex.Message);
         }
     }
+
 
     public void Wczytaj()
     {
@@ -118,13 +119,13 @@ public class StanGracza : MonoBehaviour
             }
             catch (Exception ex)
             {
-                Debug.LogError("[StanGracza] B≥πd wczytywania (plik uszkodzony?): " + ex.Message);
+                Debug.LogError("[StanGracza] Blad wczytywania (plik uszkodzony?): " + ex.Message);
                 dane = new DaneGracza();
             }
         }
         else
         {
-            Debug.Log("TworzÍ nowy plik save ó brak istniejπcego");
+            Debug.Log("Tworze nowy plik save, brak istniejacego");
             dane = new DaneGracza();
             Zapisz();
         }
@@ -138,6 +139,7 @@ public class StanGracza : MonoBehaviour
                 dane.ekwipunek[k] = 0;
         }
     }
+
 
     public float ObliczObciazenie()
     {
