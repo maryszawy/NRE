@@ -5,19 +5,20 @@ public partial class RynekMiast : MonoBehaviour
 {
     static readonly Dictionary<string, string> _fabrykaDlaTowaru = new()
     {
-        {"metal","mine"},
-        {"gems","mine"},
-        {"food","farm"},
-        {"fuel","refinery"},
-        {"relics","excavation_site"},
+        { GameIDs.Metal,  "mine" },
+        { GameIDs.Gems,   "mine" },
+        { GameIDs.Food,   "farm" },
+        { GameIDs.Fuel,   "refinery" },
+        { GameIDs.Relics, "excavation_site" },
     };
 
     public static float GetStockRatio(CityData miasto, string towar)
     {
         if (miasto == null || miasto.commodities == null) return 1f;
         if (!miasto.commodities.TryGetValue(towar, out var c) || c == null) return 1f;
+
         float rq = Mathf.Max(1, c.regular_quantity);
-        return Mathf.Clamp01(c.quantity / rq);
+        return c.quantity / rq;
     }
 
     public static float Lerp(float a, float b, float t) => a + (b - a) * Mathf.Clamp01(t);
@@ -27,31 +28,44 @@ public partial class RynekMiast : MonoBehaviour
         float r = GetStockRatio(miasto, towar);
         float mult;
 
-        if (r < 0.10f) mult = Lerp(0.90f, 0.80f, r / 0.10f);          // prawie brak -> du¿y popyt
-        else if (r < 0.40f) mult = Lerp(0.75f, 0.60f, (r - 0.10f) / 0.30f);
-        else if (r <= 0.80f) mult = Lerp(0.50f, 0.30f, (r - 0.40f) / 0.40f);
-        else mult = Lerp(0.25f, 0.00f, (r - 0.80f) / 0.20f);  // du¿o -> prawie nic nie p³ac¹
+        if (r < 0.2f)       // 0% - 20%: Bardzo du¿y popyt
+            mult = Lerp(1.50f, 1.10f, r / 0.2f);
 
-        // bonusy od fabryk
+        else if (r < 0.5f)  // 20% - 50%: Normalny popyt
+            mult = Lerp(1.10f, 0.90f, (r - 0.2f) / 0.3f);
+
+        else if (r < 1.0f)  // 50% - 100%: Nasycanie rynku
+            mult = Lerp(0.90f, 0.50f, (r - 0.5f) / 0.5f);
+
+        else                // > 100%: Nadprodukcja (cena spada powoli do 10%)
+            mult = Mathf.Max(0.1f, 0.50f - (r - 1.0f) * 0.2f);
+
         if (_fabrykaDlaTowaru.TryGetValue(towar, out var fab) && !string.IsNullOrEmpty(fab))
         {
             if (miasto.factory != null && miasto.factory.Contains(fab))
-                mult = Mathf.Min(0.95f, mult + 0.05f);
+                mult += 0.10f;
         }
 
-        return Mathf.Clamp01(mult);
+        return Mathf.Max(0.05f, mult);
     }
 
     public static int ObliczCeneKupna(CityData miasto, string towar)
     {
-        // kupno = 100% ceny bazowej miasta
-        return (miasto != null && miasto.commodities != null && miasto.commodities.TryGetValue(towar, out var c)) ? c.price : 0;
+        if (miasto == null || miasto.commodities == null || !miasto.commodities.TryGetValue(towar, out var c))
+            return 0;
+
+        float sellMult = GetSellMultiplier(miasto, towar);
+
+        float buyMult = sellMult * 1.15f;
+
+        return Mathf.RoundToInt(c.price * buyMult);
     }
 
     public static int ObliczWyplateSprzedazy(CityData miasto, string towar)
     {
         if (miasto == null || miasto.commodities == null || !miasto.commodities.TryGetValue(towar, out var c))
             return 0;
+
         float mult = GetSellMultiplier(miasto, towar);
         return Mathf.RoundToInt(c.price * mult);
     }

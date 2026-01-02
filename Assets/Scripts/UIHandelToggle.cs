@@ -42,6 +42,12 @@ public class UIHandelToggle : MonoBehaviour
                 ToggleHandel();
             }
         }
+
+        if (_aktywny && panelMiastoInfo != null && !panelMiastoInfo.Widoczny)
+        {
+            _aktywny = false;
+            UstawKolor(false);
+        }
     }
 
     private bool CzyMoznaHandlowac()
@@ -63,7 +69,9 @@ public class UIHandelToggle : MonoBehaviour
     {
         if (panelMiastoInfo == null || gracz == null) return;
 
-        if (!_aktywny)
+        bool czyFaktycznieOtwarty = panelMiastoInfo.Widoczny;
+
+        if (!czyFaktycznieOtwarty)
         {
             var miasto = gracz.AktualneMiasto;
             if (miasto == null) return;

@@ -1,6 +1,5 @@
 ﻿using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PanelEkwipunku : MonoBehaviour
 {
@@ -14,21 +13,33 @@ public class PanelEkwipunku : MonoBehaviour
     public TextMeshProUGUI txtRelics;
     public TextMeshProUGUI txtObciazenie;
 
-
     [Header("Sterowanie")]
     public KeyCode klawiszToggle = KeyCode.I;
 
     private void Start()
     {
         if (kontener) kontener.SetActive(false);
+
+        // SUBSKRYPCJE (działają poprawnie)
         if (StanGracza.Instance != null)
-            StanGracza.Instance.OnZlotoZmiana += _ => { if (kontener && kontener.activeSelf) Odswiez(); };
+        {
+            StanGracza.Instance.OnZlotoZmiana += OnZlotoZmiana;
+            StanGracza.Instance.OnEkwipunekZmiana += OnEkwipunekZmiana;
+            StanGracza.Instance.OnObciazenieZmiana += OnObciazenieZmiana;
+        }
+
+        // odśwież dane od razu, żeby mieć aktualne wartości
+        Odswiez();
     }
 
     private void OnDestroy()
     {
         if (StanGracza.Instance != null)
-            StanGracza.Instance.OnZlotoZmiana -= _ => { if (kontener && kontener.activeSelf) Odswiez(); };
+        {
+            StanGracza.Instance.OnZlotoZmiana -= OnZlotoZmiana;
+            StanGracza.Instance.OnEkwipunekZmiana -= OnEkwipunekZmiana;
+            StanGracza.Instance.OnObciazenieZmiana -= OnObciazenieZmiana;
+        }
     }
 
     private void Update()
@@ -39,10 +50,33 @@ public class PanelEkwipunku : MonoBehaviour
     public void Przelacz()
     {
         if (!kontener) return;
+
         bool nowe = !kontener.activeSelf;
         kontener.SetActive(nowe);
-        if (nowe) Odswiez();
+
+        if (nowe)
+            Odswiez();
     }
+
+    // --- OBSŁUGA EVENTÓW ---
+
+    private void OnZlotoZmiana(int noweZloto)
+    {
+        Odswiez();
+    }
+
+    private void OnEkwipunekZmiana(string nazwaTowaru, int nowaIlosc)
+    {
+        Odswiez();
+    }
+
+    private void OnObciazenieZmiana(float aktualne, float max)
+    {
+        if (txtObciazenie != null)
+            txtObciazenie.text = $"{aktualne:0.#} / {max:0.#}";
+    }
+
+    // --- ODŚWIEŻANIE UI ---
 
     public void Odswiez()
     {
@@ -50,36 +84,10 @@ public class PanelEkwipunku : MonoBehaviour
         if (sg == null) return;
 
         txtZloto.text = $"Złoto: {sg.dane.zloto}";
-        txtMetal.text = $"Metal: {sg.dane.ekwipunek["metal"]}";
-        txtGems.text = $"Klejnoty: {sg.dane.ekwipunek["gems"]}";
-        txtFood.text = $"Jedzenie: {sg.dane.ekwipunek["food"]}";
-        txtFuel.text = $"Paliwo: {sg.dane.ekwipunek["fuel"]}";
-        txtRelics.text = $"Relikty: {sg.dane.ekwipunek["relics"]}";
+        txtMetal.text = $"Metal: {sg.IleTowaru("metal")}";
+        txtGems.text = $"Klejnoty: {sg.IleTowaru("gems")}";
+        txtFood.text = $"Jedzenie: {sg.IleTowaru("food")}";
+        txtFuel.text = $"Paliwo: {sg.IleTowaru("fuel")}";
+        txtRelics.text = $"Relikty: {sg.IleTowaru("relics")}";
     }
-
-    private void OnEnable()
-    {
-        if (StanGracza.Instance != null)
-        {
-            StanGracza.Instance.OnObciazenieZmiana += OnObciazenieZmiana;
-            OnObciazenieZmiana(
-                StanGracza.Instance.AktualneObciazenie,
-                StanGracza.Instance.maksUdzwig);
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (StanGracza.Instance != null)
-            StanGracza.Instance.OnObciazenieZmiana -= OnObciazenieZmiana;
-    }
-
-    void OnObciazenieZmiana(float aktualne, float max)
-    {
-        if (txtObciazenie != null)
-        {
-            txtObciazenie.text = $"{aktualne:0.#} / {max:0.#}";
-        }
-    }
-
 }

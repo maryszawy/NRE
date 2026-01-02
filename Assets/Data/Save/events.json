@@ -1,0 +1,88 @@
+{
+  "events": {
+    "event1": {
+      "name": "Event 1",
+      "target": "city",
+      "description": "Description of Event 1",
+      "type": "set",
+      "effects": {
+        "commodities": {
+          "metal": {
+            "quantity": 100,
+            "price": 0,
+            "regular_price": 0,
+            "regular_quantity": 0
+          },
+          "gems": {
+            "quantity": 108,
+            "price": 100,
+            "regular_price": 168,
+            "regular_quantity": 96
+          },
+          "food": {
+            "quantity": 475,
+            "price": 6,
+            "regular_price": 92,
+            "regular_quantity": 510
+          },
+          "fuel": {
+            "quantity": 165,
+            "price": 111,
+            "regular_price": 118,
+            "regular_quantity": 144
+          },
+          "relics": {
+            "quantity": 8,
+            "price": 2267,
+            "regular_price": 2519,
+            "regular_quantity": 9
+          },
+          "special": null
+        },
+        "missions": {}
+      }
+    },
+    "event2": {
+      "name": "Event 2",
+      "description": "Description of Event 2",
+      "target": "player",
+      "type": "set",
+      "effects": {
+        "commodities": {
+          "metal": {
+            "quantity": 100,
+            "price": 0,
+            "regular_price": 0,
+            "regular_quantity": 0
+          },
+          "gems": {
+            "quantity": 108,
+            "price": 100,
+            "regular_price": 168,
+            "regular_quantity": 96
+          },
+          "food": {
+            "quantity": 475,
+            "price": 6,
+            "regular_price": 92,
+            "regular_quantity": 510
+          },
+          "fuel": {
+            "quantity": 165,
+            "price": 111,
+            "regular_price": 118,
+            "regular_quantity": 144
+          },
+          "relics": {
+            "quantity": 8,
+            "price": 2267,
+            "regular_price": 2519,
+            "regular_quantity": 9
+          },
+          "special": null
+        },
+        "missions": {}
+      }
+    }
+  }
+}

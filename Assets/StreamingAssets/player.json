@@ -1,0 +1,10 @@
+{
+  "zloto": 15000,
+  "ekwipunek": {
+    "metal": 100,
+    "gems": 20,
+    "food": 50,
+    "fuel": 50,
+    "relics": 0
+  }
+}

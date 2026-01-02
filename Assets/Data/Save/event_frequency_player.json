@@ -1,0 +1,18 @@
+{
+  "events": {
+    "event_food_mold": 9,
+    "event_lucky_find_fuel": 7,
+    "event_rat_infestation": 9,
+    "event_unstable_crate": 7,
+    "event_wandering_merchant": 5,
+    "event_fuel_leak": 6,
+    "event_gem_fragment_found": 6,
+    "event_spilled_food": 4,
+    "event_stolen_by_thief": 3,
+    "event_small_meteorite": 1,
+    "event_spooked_animals": 8,
+    "event_hidden_cache": 4,
+    "event_lucky_trader_encounter": 6,
+    "event_sandstorm_damage": 8
+  }
+}

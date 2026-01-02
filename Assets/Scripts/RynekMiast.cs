@@ -2,7 +2,6 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.IO;
-using System.Xml;
 using UnityEngine;
 
 [System.Serializable]
@@ -22,7 +21,7 @@ public class CityData
     [JsonProperty("size")] public string size;
     [JsonProperty("factory")] public List<string> factory;
     [JsonProperty("fee")] public int fee;
-    [JsonProperty("nr_of_conn")] public string nr_of_conn; 
+    [JsonProperty("nr_of_conn")] public string nr_of_conn;
     [JsonProperty("commodities")] public Dictionary<string, CommodityEntry> commodities;
     [JsonProperty("missions")] public int missions;
     [JsonProperty("missions_titles")] public List<string> missions_titles;
@@ -44,8 +43,11 @@ public partial class RynekMiast : MonoBehaviour
     public List<CityData> Current;
     public List<CityData> After;
 
-    string StreamingPath => Path.Combine(Application.streamingAssetsPath, "miasta.json");
-    string PersistPath => Path.Combine(Application.persistentDataPath, "miasta_state.json");
+    private string sciezkaBazowa =>
+        Path.Combine(Application.streamingAssetsPath, "miasta.json");
+
+    private string sciezkaStanu =>
+        SciezkiZapisu.PlikMiast;
 
     void Awake()
     {
@@ -62,14 +64,19 @@ public partial class RynekMiast : MonoBehaviour
         Debug.Log("Szukam pliku JSON...");
         Debug.Log("Œcie¿ka StreamingAssets: " + Application.streamingAssetsPath);
 
-        string path = File.Exists(PersistPath) ? PersistPath : StreamingPath;
+        string path = File.Exists(sciezkaStanu) ? sciezkaStanu : sciezkaBazowa;
+
         Debug.Log("U¿ywam œcie¿ki: " + path);
         Debug.Log("File.Exists? " + File.Exists(path));
-        Debug.Log("Zawartoœæ StreamingAssets:\n" + string.Join("\n", Directory.GetFiles(Application.streamingAssetsPath)));
+        if (File.Exists(sciezkaBazowa))
+            Debug.Log("Zawartoœæ StreamingAssets:\n" + string.Join("\n", Directory.GetFiles(Application.streamingAssetsPath)));
 
         if (!File.Exists(path))
         {
             Debug.LogError("NIE ZNALAZ£EM PLIKU: " + path);
+            Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
+            Current = Data.cities;
+            After = Data.after;
             return;
         }
 
@@ -82,6 +89,9 @@ public partial class RynekMiast : MonoBehaviour
             if (root == null)
             {
                 Debug.LogError("Deserializacja zwróci³a null!");
+                Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
+                Current = Data.cities;
+                After = Data.after;
                 return;
             }
 
@@ -89,11 +99,12 @@ public partial class RynekMiast : MonoBehaviour
             Current = root.cities ?? new List<CityData>();
             After = root.after ?? null;
 
-            // Jeœli istnieje sekcja "after", u¿yj jej jako bie¿¹cego stanu
-            if (After != null && After.Count > 0)
+            if (path == sciezkaBazowa && After != null && After.Count > 0)
             {
                 Current = DeepClone(After);
-                Debug.Log("U¿ywam danych z 'after' jako bie¿¹cego stanu œwiata");
+                Debug.Log("U¿ywam danych z 'after' jako bie¿¹cego stanu œwiata (z bazy).");
+
+                SaveAfter();
             }
 
             Debug.Log($"Wczytano Current: {Current.Count} miast, After: {(After != null ? After.Count : 0)}");
@@ -101,20 +112,31 @@ public partial class RynekMiast : MonoBehaviour
         catch (System.Exception ex)
         {
             Debug.LogError("B³¹d parsowania JSON: " + ex.Message);
+            Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
+            Current = Data.cities;
+            After = Data.after;
         }
     }
 
     public void SaveAfter()
     {
-        // zaktualizuj „after” bie¿¹cym stanem i zapisz do persist
+        if (Data == null)
+            Data = new WorldFile();
+
         Data.after = DeepClone(Current);
-        string json = JsonConvert.SerializeObject(Data, Newtonsoft.Json.Formatting.Indented);
-        File.WriteAllText(PersistPath, json);
+
+        string folder = Path.GetDirectoryName(sciezkaStanu);
+        if (!Directory.Exists(folder))
+            Directory.CreateDirectory(folder);
+
+        string json = JsonConvert.SerializeObject(Data, Formatting.Indented);
+        File.WriteAllText(sciezkaStanu, json);
+
+        Debug.Log("[RynekMiast] Zapisano stan miast do: " + sciezkaStanu);
     }
 
     public CityData FindCity(string name) => Current.Find(c => c.name == name);
 
-    // proœciutki deep clone przez JSON — wystarczaj¹cy tutaj
     static T DeepClone<T>(T obj)
     {
         var json = JsonConvert.SerializeObject(obj);
@@ -124,18 +146,35 @@ public partial class RynekMiast : MonoBehaviour
     public bool AdjustCommodity(string city, string commodity, int deltaQty, int? newPrice = null)
     {
         var c = FindCity(city);
-        if (c == null || c.commodities == null || !c.commodities.ContainsKey(commodity))
-        { Debug.LogWarning($"Brak {city}/{commodity}"); return false; }
+
+        if (c == null)
+        {
+            Debug.LogError($"[RynekMiast] B£¥D KRYTYCZNY: Próba modyfikacji towaru w nieistniej¹cym mieœcie: '{city}'");
+            return false;
+        }
+
+        if (c.commodities == null)
+        {
+            Debug.LogError($"[RynekMiast] B£¥D DANYCH: Miasto '{city}' ma pust¹ sekcjê 'commodities' w JSON!");
+            return false;
+        }
+
+        if (!c.commodities.ContainsKey(commodity))
+        {
+            Debug.LogError($"[RynekMiast] B£¥D DANYCH: Miasto '{city}' nie posiada zdefiniowanego towaru '{commodity}'. SprawdŸ plik JSON pod k¹tem literówek!");
+            return false;
+        }
 
         var ce = c.commodities[commodity];
         ce.quantity = Mathf.Max(0, ce.quantity + deltaQty);
-        if (newPrice.HasValue) ce.price = newPrice.Value;
+
+        if (newPrice.HasValue)
+            ce.price = newPrice.Value;
+
         c.commodities[commodity] = ce;
 
-        SaveAfter(); // zapisuje bie¿¹cy stan do sekcji "after" w pliku persist
-        Debug.Log($"{city}:{commodity} ? qty={ce.quantity}, price={ce.price} (zapisano do AFTER)");
+        SaveAfter();
+
         return true;
     }
-
 }
-
