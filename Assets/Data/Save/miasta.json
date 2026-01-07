@@ -12,38 +12,38 @@
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 278,
-          "price": 47,
-          "regular_price": 98,
-          "regular_quantity": 218,
+          "quantity": 278.0,
+          "price": 48.0,
+          "regular_price": 88.54,
+          "regular_quantity": 218.0,
           "special": null
         },
         "gems": {
-          "quantity": 108,
-          "price": 100,
-          "regular_price": 168,
-          "regular_quantity": 96,
+          "quantity": 108.0,
+          "price": 98.0,
+          "regular_price": 139.5,
+          "regular_quantity": 96.0,
           "special": null
         },
         "food": {
-          "quantity": 475,
-          "price": 6,
-          "regular_price": 92,
-          "regular_quantity": 510,
+          "quantity": 475.0,
+          "price": 56.0,
+          "regular_price": 80.38,
+          "regular_quantity": 510.0,
           "special": null
         },
         "fuel": {
-          "quantity": 165,
-          "price": 111,
-          "regular_price": 118,
-          "regular_quantity": 144,
+          "quantity": 165.0,
+          "price": 73.0,
+          "regular_price": 104.78,
+          "regular_quantity": 144.0,
           "special": null
         },
         "relics": {
-          "quantity": 8,
-          "price": 2267,
-          "regular_price": 2519,
-          "regular_quantity": 9,
+          "quantity": 8.0,
+          "price": 2136.28,
+          "regular_price": 2136.28,
+          "regular_quantity": 9.0,
           "special": null
         },
         "special": null
@@ -66,38 +66,38 @@
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 50,
-          "price": 91,
-          "regular_price": 91,
-          "regular_quantity": 33,
+          "quantity": 39.0,
+          "price": 41.0,
+          "regular_price": 76.25,
+          "regular_quantity": 33.0,
           "special": null
         },
         "gems": {
-          "quantity": 18,
-          "price": 299,
-          "regular_price": 298,
-          "regular_quantity": 7,
+          "quantity": 9.0,
+          "price": 146.0,
+          "regular_price": 247.32,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 46,
-          "price": 74,
-          "regular_price": 65,
-          "regular_quantity": 35,
+          "quantity": 36.0,
+          "price": 36.0,
+          "regular_price": 50.93,
+          "regular_quantity": 35.0,
           "special": null
         },
         "fuel": {
-          "quantity": 60,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 83,
+          "quantity": 38.0,
+          "price": 63.0,
+          "regular_price": 119.35,
+          "regular_quantity": 83.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1470.0,
+          "regular_price": 2567.39,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -121,38 +121,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 17,
-          "price": 94,
-          "regular_price": 80,
-          "regular_quantity": 8,
+          "quantity": 17.0,
+          "price": 67.74,
+          "regular_price": 67.74,
+          "regular_quantity": 8.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 294,
-          "regular_price": 290,
-          "regular_quantity": 9,
+          "quantity": 5.0,
+          "price": 159.0,
+          "regular_price": 226.88,
+          "regular_quantity": 9.0,
           "special": null
         },
         "food": {
-          "quantity": 30,
-          "price": 76,
-          "regular_price": 64,
-          "regular_quantity": 30,
+          "quantity": 30.0,
+          "price": 60.78,
+          "regular_price": 60.78,
+          "regular_quantity": 30.0,
           "special": null
         },
         "fuel": {
-          "quantity": 86,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 79,
+          "quantity": 86.0,
+          "price": 52.0,
+          "regular_price": 150.0,
+          "regular_quantity": 79.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2504.48,
+          "regular_price": 2504.48,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -174,38 +174,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 14,
-          "price": 90,
-          "regular_price": 90,
-          "regular_quantity": 6,
+          "quantity": 14.0,
+          "price": 41.0,
+          "regular_price": 72.25,
+          "regular_quantity": 6.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 294,
-          "regular_price": 300,
-          "regular_quantity": 10,
+          "quantity": 9.0,
+          "price": 266.9,
+          "regular_price": 266.9,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 21,
-          "price": 8,
-          "regular_price": 45,
-          "regular_quantity": 26,
+          "quantity": 21.0,
+          "price": 24.0,
+          "regular_price": 31.06,
+          "regular_quantity": 26.0,
           "special": null
         },
         "fuel": {
-          "quantity": 94,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 50,
+          "quantity": 94.0,
+          "price": 137.12,
+          "regular_price": 137.12,
+          "regular_quantity": 50.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2489.17,
+          "regular_price": 2489.17,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -229,38 +229,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 28,
-          "price": 96,
-          "regular_price": 96,
-          "regular_quantity": 51,
+          "quantity": 28.0,
+          "price": 43.0,
+          "regular_price": 83.88,
+          "regular_quantity": 51.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 298,
-          "regular_price": 300,
-          "regular_quantity": 4,
+          "quantity": 2.0,
+          "price": 184.0,
+          "regular_price": 243.36,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 17,
-          "price": 25,
-          "regular_price": 53,
-          "regular_quantity": 42,
+          "quantity": 17.0,
+          "price": 36.94,
+          "regular_price": 36.94,
+          "regular_quantity": 42.0,
           "special": null
         },
         "fuel": {
-          "quantity": 95,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 69,
+          "quantity": 95.0,
+          "price": 133.76,
+          "regular_price": 133.76,
+          "regular_quantity": 69.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1682.0,
+          "regular_price": 2402.68,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -283,38 +283,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 25,
-          "price": 99,
-          "regular_price": 98,
-          "regular_quantity": 15,
+          "quantity": 25.0,
+          "price": 92.62,
+          "regular_price": 92.62,
+          "regular_quantity": 15.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 300,
-          "regular_price": 294,
-          "regular_quantity": 4,
+          "quantity": 9.0,
+          "price": 195.0,
+          "regular_price": 278.78,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 40,
-          "price": 15,
-          "regular_price": 62,
-          "regular_quantity": 16,
+          "quantity": 40.0,
+          "price": 49.62,
+          "regular_price": 49.62,
+          "regular_quantity": 16.0,
           "special": null
         },
         "fuel": {
-          "quantity": 75,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 79,
+          "quantity": 75.0,
+          "price": 117.83,
+          "regular_price": 117.83,
+          "regular_quantity": 79.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1864.0,
+          "regular_price": 2662.53,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -336,38 +336,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 43,
-          "price": 80,
-          "regular_price": 88,
-          "regular_quantity": 5,
+          "quantity": 43.0,
+          "price": 75.65,
+          "regular_price": 75.65,
+          "regular_quantity": 5.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 292,
-          "regular_price": 296,
-          "regular_quantity": 5,
+          "quantity": 4.0,
+          "price": 276.0,
+          "regular_price": 276.0,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 24,
-          "price": 62,
-          "regular_price": 30,
-          "regular_quantity": 7,
+          "quantity": 24.0,
+          "price": 18.0,
+          "regular_price": 25.75,
+          "regular_quantity": 7.0,
           "special": null
         },
         "fuel": {
-          "quantity": 81,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 93,
+          "quantity": 81.0,
+          "price": 52.0,
+          "regular_price": 150.0,
+          "regular_quantity": 93.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1324.0,
+          "regular_price": 2498.03,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -391,38 +391,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 25,
-          "price": 88,
-          "regular_price": 97,
-          "regular_quantity": 12,
+          "quantity": 25.0,
+          "price": 75.35,
+          "regular_price": 75.35,
+          "regular_quantity": 12.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 297,
-          "regular_price": 294,
-          "regular_quantity": 10,
+          "quantity": 4.0,
+          "price": 71.0,
+          "regular_price": 247.73,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 21,
-          "price": 16,
-          "regular_price": 47,
-          "regular_quantity": 46,
+          "quantity": 21.0,
+          "price": 40.55,
+          "regular_price": 40.55,
+          "regular_quantity": 46.0,
           "special": null
         },
         "fuel": {
-          "quantity": 75,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 84,
+          "quantity": 75.0,
+          "price": 105.0,
+          "regular_price": 138.47,
+          "regular_quantity": 84.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2794.14,
+          "regular_price": 2794.14,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -445,38 +445,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 20,
-          "price": 92,
-          "regular_price": 85,
-          "regular_quantity": 84,
+          "quantity": 20.0,
+          "price": 35.0,
+          "regular_price": 71.9,
+          "regular_quantity": 84.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 298,
-          "regular_price": 297,
-          "regular_quantity": 2,
+          "quantity": 0.0,
+          "price": 261.96,
+          "regular_price": 261.96,
+          "regular_quantity": 2.0,
           "special": null
         },
         "food": {
-          "quantity": 48,
-          "price": 26,
-          "regular_price": 28,
-          "regular_quantity": 27,
+          "quantity": 48.0,
+          "price": 10.0,
+          "regular_price": 28.0,
+          "regular_quantity": 27.0,
           "special": null
         },
         "fuel": {
-          "quantity": 96,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 55,
+          "quantity": 96.0,
+          "price": 124.92,
+          "regular_price": 124.92,
+          "regular_quantity": 55.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1843.0,
+          "regular_price": 2493.66,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -499,38 +499,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 76,
-          "price": 84,
-          "regular_price": 80,
-          "regular_quantity": 57,
+          "quantity": 76.0,
+          "price": 80.0,
+          "regular_price": 80.0,
+          "regular_quantity": 57.0,
           "special": null
         },
         "gems": {
-          "quantity": 6,
-          "price": 292,
-          "regular_price": 293,
-          "regular_quantity": 1,
+          "quantity": 6.0,
+          "price": 251.4,
+          "regular_price": 251.4,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 41,
-          "price": 15,
-          "regular_price": 56,
-          "regular_quantity": 8,
+          "quantity": 41.0,
+          "price": 31.0,
+          "regular_price": 41.03,
+          "regular_quantity": 8.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 56,
+          "quantity": 64.0,
+          "price": 74.0,
+          "regular_price": 140.32,
+          "regular_quantity": 56.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1963.0,
+          "regular_price": 2804.06,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -552,38 +552,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 93,
-          "price": 88,
-          "regular_price": 80,
-          "regular_quantity": 53,
+          "quantity": 93.0,
+          "price": 36.0,
+          "regular_price": 66.01,
+          "regular_quantity": 53.0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 300,
-          "regular_price": 293,
-          "regular_quantity": 2,
+          "quantity": 3.0,
+          "price": 252.49,
+          "regular_price": 252.49,
+          "regular_quantity": 2.0,
           "special": null
         },
         "food": {
-          "quantity": 27,
-          "price": 62,
-          "regular_price": 58,
-          "regular_quantity": 38,
+          "quantity": 27.0,
+          "price": 48.15,
+          "regular_price": 48.15,
+          "regular_quantity": 38.0,
           "special": null
         },
         "fuel": {
-          "quantity": 83,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 83.0,
+          "price": 95.0,
+          "regular_price": 122.91,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2268.26,
+          "regular_price": 2268.26,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -604,38 +604,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 68,
-          "price": 88,
-          "regular_price": 83,
-          "regular_quantity": 55,
+          "quantity": 68.0,
+          "price": 51.0,
+          "regular_price": 68.11,
+          "regular_quantity": 55.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 298,
-          "regular_price": 293,
-          "regular_quantity": 2,
+          "quantity": 5.0,
+          "price": 144.0,
+          "regular_price": 270.41,
+          "regular_quantity": 2.0,
           "special": null
         },
         "food": {
-          "quantity": 50,
-          "price": 27,
-          "regular_price": 65,
-          "regular_quantity": 50,
+          "quantity": 50.0,
+          "price": 6.0,
+          "regular_price": 50.47,
+          "regular_quantity": 50.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 75,
+          "quantity": 64.0,
+          "price": 123.53,
+          "regular_price": 123.53,
+          "regular_quantity": 75.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1904.0,
+          "regular_price": 2482.58,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -657,38 +657,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 91,
-          "price": 86,
-          "regular_price": 87,
-          "regular_quantity": 71,
+          "quantity": 91.0,
+          "price": 50.0,
+          "regular_price": 64.8,
+          "regular_quantity": 71.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 296,
-          "regular_price": 298,
-          "regular_quantity": 5,
+          "quantity": 5.0,
+          "price": 298.0,
+          "regular_price": 298.0,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 26,
-          "price": 28,
-          "regular_price": 49,
-          "regular_quantity": 6,
+          "quantity": 26.0,
+          "price": 41.27,
+          "regular_price": 41.27,
+          "regular_quantity": 6.0,
           "special": null
         },
         "fuel": {
-          "quantity": 95,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 67,
+          "quantity": 95.0,
+          "price": 60.0,
+          "regular_price": 113.13,
+          "regular_quantity": 67.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2565.31,
+          "regular_price": 2565.31,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -710,38 +710,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 32,
-          "price": 97,
-          "regular_price": 96,
-          "regular_quantity": 23,
+          "quantity": 32.0,
+          "price": 77.58,
+          "regular_price": 77.58,
+          "regular_quantity": 23.0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 293,
-          "regular_price": 298,
-          "regular_quantity": 6,
+          "quantity": 3.0,
+          "price": 236.93,
+          "regular_price": 236.93,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 0,
-          "price": 34,
-          "regular_price": 50,
-          "regular_quantity": 15,
+          "quantity": 0.0,
+          "price": 41.6,
+          "regular_price": 41.6,
+          "regular_quantity": 15.0,
           "special": null
         },
         "fuel": {
-          "quantity": 58,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 82,
+          "quantity": 58.0,
+          "price": 81.0,
+          "regular_price": 110.32,
+          "regular_quantity": 82.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1229.0,
+          "regular_price": 2343.76,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -764,38 +764,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 37,
-          "price": 95,
-          "regular_price": 100,
-          "regular_quantity": 92,
+          "quantity": 37.0,
+          "price": 80.41,
+          "regular_price": 80.41,
+          "regular_quantity": 92.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 299,
-          "regular_price": 295,
-          "regular_quantity": 10,
+          "quantity": 9.0,
+          "price": 71.0,
+          "regular_price": 265.81,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 31,
-          "price": 14,
-          "regular_price": 44,
-          "regular_quantity": 34,
+          "quantity": 31.0,
+          "price": 29.0,
+          "regular_price": 41.07,
+          "regular_quantity": 34.0,
           "special": null
         },
         "fuel": {
-          "quantity": 84,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 57,
+          "quantity": 84.0,
+          "price": 69.0,
+          "regular_price": 119.59,
+          "regular_quantity": 57.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1893.0,
+          "regular_price": 2480.38,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -817,38 +817,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 7,
-          "price": 86,
-          "regular_price": 94,
-          "regular_quantity": 41,
+          "quantity": 7.0,
+          "price": 60.0,
+          "regular_price": 77.68,
+          "regular_quantity": 41.0,
           "special": null
         },
         "gems": {
-          "quantity": 8,
-          "price": 297,
-          "regular_price": 293,
-          "regular_quantity": 10,
+          "quantity": 8.0,
+          "price": 270.77,
+          "regular_price": 270.77,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 45,
-          "price": 55,
-          "regular_price": 36,
-          "regular_quantity": 6,
+          "quantity": 45.0,
+          "price": 25.0,
+          "regular_price": 36.0,
+          "regular_quantity": 6.0,
           "special": null
         },
         "fuel": {
-          "quantity": 68,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 68.0,
+          "price": 89.0,
+          "regular_price": 127.27,
+          "regular_quantity": 100.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2525.02,
+          "regular_price": 2525.02,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -870,38 +870,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 98,
-          "price": 91,
-          "regular_price": 83,
-          "regular_quantity": 57,
+          "quantity": 98.0,
+          "price": 38.0,
+          "regular_price": 67.53,
+          "regular_quantity": 57.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 291,
-          "regular_price": 296,
-          "regular_quantity": 7,
+          "quantity": 5.0,
+          "price": 246.51,
+          "regular_price": 246.51,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 23,
-          "price": 37,
-          "regular_price": 11,
-          "regular_quantity": 27,
+          "quantity": 23.0,
+          "price": 8.91,
+          "regular_price": 8.91,
+          "regular_quantity": 27.0,
           "special": null
         },
         "fuel": {
-          "quantity": 63,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 69,
+          "quantity": 63.0,
+          "price": 142.0,
+          "regular_price": 142.0,
+          "regular_quantity": 69.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2467.38,
+          "regular_price": 2467.38,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -924,38 +924,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 92,
-          "price": 96,
-          "regular_price": 98,
-          "regular_quantity": 36,
+          "quantity": 92.0,
+          "price": 84.98,
+          "regular_price": 84.98,
+          "regular_quantity": 36.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 292,
-          "regular_price": 295,
-          "regular_quantity": 4,
+          "quantity": 0.0,
+          "price": 144.0,
+          "regular_price": 295.0,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 8,
-          "price": 24,
-          "regular_price": 68,
-          "regular_quantity": 29,
+          "quantity": 8.0,
+          "price": 45.0,
+          "regular_price": 58.14,
+          "regular_quantity": 29.0,
           "special": null
         },
         "fuel": {
-          "quantity": 71,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 71.0,
+          "price": 99.0,
+          "regular_price": 132.76,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1029.0,
+          "regular_price": 2488.04,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -977,38 +977,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 18,
-          "price": 90,
-          "regular_price": 85,
-          "regular_quantity": 30,
+          "quantity": 18.0,
+          "price": 66.05,
+          "regular_price": 66.05,
+          "regular_quantity": 30.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 293,
-          "regular_price": 300,
-          "regular_quantity": 5,
+          "quantity": 4.0,
+          "price": 96.0,
+          "regular_price": 258.01,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 42,
-          "price": 20,
-          "regular_price": 19,
-          "regular_quantity": 6,
+          "quantity": 42.0,
+          "price": 8.0,
+          "regular_price": 14.66,
+          "regular_quantity": 6.0,
           "special": null
         },
         "fuel": {
-          "quantity": 63,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 65,
+          "quantity": 63.0,
+          "price": 66.0,
+          "regular_price": 126.58,
+          "regular_quantity": 65.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1732.0,
+          "regular_price": 2474.76,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1031,38 +1031,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 96,
-          "price": 88,
-          "regular_price": 93,
-          "regular_quantity": 75,
+          "quantity": 96.0,
+          "price": 29.0,
+          "regular_price": 75.94,
+          "regular_quantity": 75.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 295,
-          "regular_price": 296,
-          "regular_quantity": 10,
+          "quantity": 4.0,
+          "price": 173.0,
+          "regular_price": 246.75,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 11,
-          "price": 22,
-          "regular_price": 25,
-          "regular_quantity": 8,
+          "quantity": 11.0,
+          "price": 21.41,
+          "regular_price": 21.41,
+          "regular_quantity": 8.0,
           "special": null
         },
         "fuel": {
-          "quantity": 98,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 79,
+          "quantity": 98.0,
+          "price": 89.0,
+          "regular_price": 119.78,
+          "regular_quantity": 79.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2751.09,
+          "regular_price": 2751.09,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1083,38 +1083,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 86,
-          "price": 81,
-          "regular_price": 96,
-          "regular_quantity": 28,
+          "quantity": 86.0,
+          "price": 78.39,
+          "regular_price": 78.39,
+          "regular_quantity": 28.0,
           "special": null
         },
         "gems": {
-          "quantity": 6,
-          "price": 292,
-          "regular_price": 294,
-          "regular_quantity": 8,
+          "quantity": 6.0,
+          "price": 266.93,
+          "regular_price": 266.93,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 36,
-          "price": 68,
-          "regular_price": 41,
-          "regular_quantity": 28,
+          "quantity": 36.0,
+          "price": 26.0,
+          "regular_price": 33.65,
+          "regular_quantity": 28.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 96,
+          "quantity": 64.0,
+          "price": 150.0,
+          "regular_price": 150.0,
+          "regular_quantity": 96.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2593.16,
+          "regular_price": 2593.16,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1136,38 +1136,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 63,
-          "price": 90,
-          "regular_price": 97,
-          "regular_quantity": 36,
+          "quantity": 63.0,
+          "price": 58.0,
+          "regular_price": 77.84,
+          "regular_quantity": 36.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 299,
-          "regular_price": 298,
-          "regular_quantity": 1,
+          "quantity": 2.0,
+          "price": 247.89,
+          "regular_price": 247.89,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 25,
-          "price": 69,
-          "regular_price": 22,
-          "regular_quantity": 12,
+          "quantity": 25.0,
+          "price": 17.6,
+          "regular_price": 17.6,
+          "regular_quantity": 12.0,
           "special": null
         },
         "fuel": {
-          "quantity": 79,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 56,
+          "quantity": 79.0,
+          "price": 52.0,
+          "regular_price": 150.0,
+          "regular_quantity": 56.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2397.56,
+          "regular_price": 2397.56,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1188,38 +1188,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 45,
-          "price": 84,
-          "regular_price": 84,
-          "regular_quantity": 16,
+          "quantity": 45.0,
+          "price": 71.98,
+          "regular_price": 71.98,
+          "regular_quantity": 16.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 295,
-          "regular_price": 290,
-          "regular_quantity": 6,
+          "quantity": 4.0,
+          "price": 167.0,
+          "regular_price": 224.81,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 39,
-          "price": 41,
-          "regular_price": 9,
-          "regular_quantity": 12,
+          "quantity": 39.0,
+          "price": 9.0,
+          "regular_price": 9.0,
+          "regular_quantity": 12.0,
           "special": null
         },
         "fuel": {
-          "quantity": 63,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 52,
+          "quantity": 63.0,
+          "price": 67.0,
+          "regular_price": 124.74,
+          "regular_quantity": 52.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2424.31,
+          "regular_price": 2424.31,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1240,38 +1240,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 85,
-          "price": 92,
-          "regular_price": 92,
-          "regular_quantity": 63,
+          "quantity": 85.0,
+          "price": 38.0,
+          "regular_price": 64.27,
+          "regular_quantity": 63.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 300,
-          "regular_price": 298,
-          "regular_quantity": 7,
+          "quantity": 0.0,
+          "price": 278.96,
+          "regular_price": 278.96,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 22,
-          "price": 68,
-          "regular_price": 45,
-          "regular_quantity": 36,
+          "quantity": 22.0,
+          "price": 39.05,
+          "regular_price": 39.05,
+          "regular_quantity": 36.0,
           "special": null
         },
         "fuel": {
-          "quantity": 56,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 66,
+          "quantity": 56.0,
+          "price": 36.0,
+          "regular_price": 141.77,
+          "regular_quantity": 66.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1250.0,
+          "regular_price": 2193.53,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1292,38 +1292,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 72,
-          "price": 95,
-          "regular_price": 99,
-          "regular_quantity": 54,
+          "quantity": 72.0,
+          "price": 34.0,
+          "regular_price": 90.86,
+          "regular_quantity": 54.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 300,
-          "regular_price": 291,
-          "regular_quantity": 8,
+          "quantity": 10.0,
+          "price": 188.0,
+          "regular_price": 268.55,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 11,
-          "price": 47,
-          "regular_price": 38,
-          "regular_quantity": 33,
+          "quantity": 11.0,
+          "price": 23.0,
+          "regular_price": 32.51,
+          "regular_quantity": 33.0,
           "special": null
         },
         "fuel": {
-          "quantity": 100,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 100.0,
+          "price": 69.0,
+          "regular_price": 133.83,
+          "regular_quantity": 100.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2411.36,
+          "regular_price": 2411.36,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1346,38 +1346,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 10,
-          "price": 100,
-          "regular_price": 84,
-          "regular_quantity": 44,
+          "quantity": 10.0,
+          "price": 37.0,
+          "regular_price": 76.27,
+          "regular_quantity": 44.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 291,
-          "regular_price": 294,
-          "regular_quantity": 1,
+          "quantity": 10.0,
+          "price": 136.0,
+          "regular_price": 253.48,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 10,
-          "price": 29,
-          "regular_price": 60,
-          "regular_quantity": 48,
+          "quantity": 10.0,
+          "price": 50.58,
+          "regular_price": 50.58,
+          "regular_quantity": 48.0,
           "special": null
         },
         "fuel": {
-          "quantity": 51,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 71,
+          "quantity": 51.0,
+          "price": 129.07,
+          "regular_price": 129.07,
+          "regular_quantity": 71.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2239.0,
+          "regular_price": 2239.0,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1399,38 +1399,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 53,
-          "price": 96,
-          "regular_price": 100,
-          "regular_quantity": 71,
+          "quantity": 53.0,
+          "price": 78.05,
+          "regular_price": 78.05,
+          "regular_quantity": 71.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 291,
-          "regular_price": 298,
-          "regular_quantity": 7,
+          "quantity": 2.0,
+          "price": 256.01,
+          "regular_price": 256.01,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 16,
-          "price": 11,
-          "regular_price": 79,
-          "regular_quantity": 35,
+          "quantity": 16.0,
+          "price": 69.9,
+          "regular_price": 69.9,
+          "regular_quantity": 35.0,
           "special": null
         },
         "fuel": {
-          "quantity": 54,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 65,
+          "quantity": 54.0,
+          "price": 105.0,
+          "regular_price": 135.44,
+          "regular_quantity": 65.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2818.67,
+          "regular_price": 2818.67,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1452,38 +1452,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 29,
-          "price": 92,
-          "regular_price": 98,
-          "regular_quantity": 14,
+          "quantity": 29.0,
+          "price": 42.0,
+          "regular_price": 86.21,
+          "regular_quantity": 14.0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 292,
-          "regular_price": 291,
-          "regular_quantity": 6,
+          "quantity": 3.0,
+          "price": 169.0,
+          "regular_price": 219.22,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 26,
-          "price": 23,
-          "regular_price": 32,
-          "regular_quantity": 47,
+          "quantity": 26.0,
+          "price": 25.56,
+          "regular_price": 25.56,
+          "regular_quantity": 47.0,
           "special": null
         },
         "fuel": {
-          "quantity": 61,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 94,
+          "quantity": 61.0,
+          "price": 105.0,
+          "regular_price": 141.73,
+          "regular_quantity": 94.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1470.0,
+          "regular_price": 2782.48,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1507,38 +1507,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 57,
-          "price": 88,
-          "regular_price": 100,
-          "regular_quantity": 12,
+          "quantity": 57.0,
+          "price": 46.0,
+          "regular_price": 84.77,
+          "regular_quantity": 12.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 300,
-          "regular_price": 293,
-          "regular_quantity": 5,
+          "quantity": 10.0,
+          "price": 72.0,
+          "regular_price": 245.53,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 9,
-          "price": 54,
-          "regular_price": 6,
-          "regular_quantity": 26,
+          "quantity": 9.0,
+          "price": 3.0,
+          "regular_price": 5.05,
+          "regular_quantity": 26.0,
           "special": null
         },
         "fuel": {
-          "quantity": 72,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 61,
+          "quantity": 72.0,
+          "price": 36.0,
+          "regular_price": 150.0,
+          "regular_quantity": 61.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1372.0,
+          "regular_price": 2645.95,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1560,38 +1560,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 28,
-          "price": 97,
-          "regular_price": 94,
-          "regular_quantity": 57,
+          "quantity": 28.0,
+          "price": 66.0,
+          "regular_price": 94.0,
+          "regular_quantity": 57.0,
           "special": null
         },
         "gems": {
-          "quantity": 1,
-          "price": 291,
-          "regular_price": 293,
-          "regular_quantity": 10,
+          "quantity": 1.0,
+          "price": 244.42,
+          "regular_price": 244.42,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 38,
-          "price": 12,
-          "regular_price": 40,
-          "regular_quantity": 36,
+          "quantity": 38.0,
+          "price": 16.0,
+          "regular_price": 28.41,
+          "regular_quantity": 36.0,
           "special": null
         },
         "fuel": {
-          "quantity": 77,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 77.0,
+          "price": 97.0,
+          "regular_price": 125.45,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2531.22,
+          "regular_price": 2531.22,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1613,38 +1613,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 25,
-          "price": 98,
-          "regular_price": 82,
-          "regular_quantity": 60,
+          "quantity": 25.0,
+          "price": 77.84,
+          "regular_price": 77.84,
+          "regular_quantity": 60.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 292,
-          "regular_price": 295,
-          "regular_quantity": 6,
+          "quantity": 0.0,
+          "price": 255.57,
+          "regular_price": 255.57,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 26,
-          "price": 25,
-          "regular_price": 72,
-          "regular_quantity": 32,
+          "quantity": 26.0,
+          "price": 67.18,
+          "regular_price": 67.18,
+          "regular_quantity": 32.0,
           "special": null
         },
         "fuel": {
-          "quantity": 53,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 53.0,
+          "price": 122.72,
+          "regular_price": 122.72,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1673.0,
+          "regular_price": 2390.5,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1665,38 +1665,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 53,
-          "price": 86,
-          "regular_price": 87,
-          "regular_quantity": 67,
+          "quantity": 53.0,
+          "price": 43.0,
+          "regular_price": 79.75,
+          "regular_quantity": 67.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 294,
-          "regular_price": 300,
-          "regular_quantity": 5,
+          "quantity": 2.0,
+          "price": 218.44,
+          "regular_price": 218.44,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 11,
-          "price": 34,
-          "regular_price": 58,
-          "regular_quantity": 41,
+          "quantity": 11.0,
+          "price": 8.0,
+          "regular_price": 50.74,
+          "regular_quantity": 41.0,
           "special": null
         },
         "fuel": {
-          "quantity": 72,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 55,
+          "quantity": 72.0,
+          "price": 115.45,
+          "regular_price": 115.45,
+          "regular_quantity": 55.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2396.66,
+          "regular_price": 2396.66,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1718,38 +1718,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 64,
-          "price": 88,
-          "regular_price": 92,
-          "regular_quantity": 86,
+          "quantity": 25.0,
+          "price": 39.0,
+          "regular_price": 79.71,
+          "regular_quantity": 86.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 299,
-          "regular_price": 297,
-          "regular_quantity": 9,
+          "quantity": 8.0,
+          "price": 213.66,
+          "regular_price": 213.66,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 6,
-          "price": 28,
-          "regular_price": 31,
-          "regular_quantity": 38,
+          "quantity": 0.0,
+          "price": 19.0,
+          "regular_price": 23.99,
+          "regular_quantity": 38.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 65,
+          "quantity": 65.0,
+          "price": 135.8,
+          "regular_price": 135.8,
+          "regular_quantity": 65.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2482.89,
+          "regular_price": 2482.89,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1771,38 +1771,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 78,
-          "price": 87,
-          "regular_price": 95,
-          "regular_quantity": 56,
+          "quantity": 35.0,
+          "price": 75.78,
+          "regular_price": 75.78,
+          "regular_quantity": 35.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 296,
-          "regular_price": 293,
-          "regular_quantity": 5,
+          "quantity": 4.0,
+          "price": 205.0,
+          "regular_price": 268.31,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 25,
-          "price": 26,
-          "regular_price": 71,
-          "regular_quantity": 11,
+          "quantity": 4.0,
+          "price": 6.0,
+          "regular_price": 56.56,
+          "regular_quantity": 4.0,
           "special": null
         },
         "fuel": {
-          "quantity": 94,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 76,
+          "quantity": 46.0,
+          "price": 127.81,
+          "regular_price": 127.81,
+          "regular_quantity": 46.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2367.91,
+          "regular_price": 2367.91,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1823,38 +1823,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 45,
-          "price": 92,
-          "regular_price": 95,
-          "regular_quantity": 8,
+          "quantity": 8.0,
+          "price": 22.0,
+          "regular_price": 88.69,
+          "regular_quantity": 8.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 295,
-          "regular_price": 290,
-          "regular_quantity": 10,
+          "quantity": 0.0,
+          "price": 91.0,
+          "regular_price": 265.13,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 35,
-          "price": 78,
-          "regular_price": 64,
-          "regular_quantity": 35,
+          "quantity": 33.0,
+          "price": 29.0,
+          "regular_price": 54.92,
+          "regular_quantity": 33.0,
           "special": null
         },
         "fuel": {
-          "quantity": 71,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 62,
+          "quantity": 41.0,
+          "price": 69.0,
+          "regular_price": 139.62,
+          "regular_quantity": 41.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1350.0,
+          "regular_price": 2549.11,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1875,38 +1875,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 73,
-          "price": 88,
-          "regular_price": 100,
-          "regular_quantity": 12,
+          "quantity": 7.0,
+          "price": 46.0,
+          "regular_price": 87.98,
+          "regular_quantity": 7.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 297,
-          "regular_price": 298,
-          "regular_quantity": 4,
+          "quantity": 1.0,
+          "price": 71.0,
+          "regular_price": 274.91,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 41,
-          "price": 11,
-          "regular_price": 53,
-          "regular_quantity": 35,
+          "quantity": 35.0,
+          "price": 46.49,
+          "regular_price": 46.49,
+          "regular_quantity": 35.0,
           "special": null
         },
         "fuel": {
-          "quantity": 53,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 50,
+          "quantity": 50.0,
+          "price": 66.0,
+          "regular_price": 135.74,
+          "regular_quantity": 50.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2534.0,
+          "regular_price": 2534.0,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1927,38 +1927,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 34,
-          "price": 82,
-          "regular_price": 100,
-          "regular_quantity": 93,
+          "quantity": 34.0,
+          "price": 100.0,
+          "regular_price": 100.0,
+          "regular_quantity": 93.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 297,
-          "regular_price": 291,
-          "regular_quantity": 8,
+          "quantity": 10.0,
+          "price": 265.89,
+          "regular_price": 265.89,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 40,
-          "price": 20,
-          "regular_price": 39,
-          "regular_quantity": 37,
+          "quantity": 40.0,
+          "price": 34.11,
+          "regular_price": 34.11,
+          "regular_quantity": 37.0,
           "special": null
         },
         "fuel": {
-          "quantity": 78,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 63,
+          "quantity": 78.0,
+          "price": 105.0,
+          "regular_price": 138.32,
+          "regular_quantity": 63.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2365.29,
+          "regular_price": 2365.29,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -1979,38 +1979,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 65,
-          "price": 82,
-          "regular_price": 99,
-          "regular_quantity": 88,
+          "quantity": 65.0,
+          "price": 63.0,
+          "regular_price": 90.07,
+          "regular_quantity": 88.0,
           "special": null
         },
         "gems": {
-          "quantity": 7,
-          "price": 293,
-          "regular_price": 295,
-          "regular_quantity": 0,
+          "quantity": 7.0,
+          "price": 270.1,
+          "regular_price": 270.1,
+          "regular_quantity": 0.0,
           "special": null
         },
         "food": {
-          "quantity": 7,
-          "price": 18,
-          "regular_price": 38,
-          "regular_quantity": 13,
+          "quantity": 7.0,
+          "price": 21.0,
+          "regular_price": 28.6,
+          "regular_quantity": 13.0,
           "special": null
         },
         "fuel": {
-          "quantity": 68,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 90,
+          "quantity": 68.0,
+          "price": 101.83,
+          "regular_price": 101.83,
+          "regular_quantity": 90.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2390.32,
+          "regular_price": 2390.32,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2033,38 +2033,38 @@
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 278,
-          "price": 47,
-          "regular_price": 98,
-          "regular_quantity": 218,
+          "quantity": 278.0,
+          "price": 48.0,
+          "regular_price": 88.54,
+          "regular_quantity": 218.0,
           "special": null
         },
         "gems": {
-          "quantity": 108,
-          "price": 100,
-          "regular_price": 168,
-          "regular_quantity": 96,
+          "quantity": 108.0,
+          "price": 98.0,
+          "regular_price": 139.5,
+          "regular_quantity": 96.0,
           "special": null
         },
         "food": {
-          "quantity": 475,
-          "price": 6,
-          "regular_price": 92,
-          "regular_quantity": 510,
+          "quantity": 475.0,
+          "price": 56.0,
+          "regular_price": 80.38,
+          "regular_quantity": 510.0,
           "special": null
         },
         "fuel": {
-          "quantity": 165,
-          "price": 111,
-          "regular_price": 118,
-          "regular_quantity": 144,
+          "quantity": 165.0,
+          "price": 73.0,
+          "regular_price": 104.78,
+          "regular_quantity": 144.0,
           "special": null
         },
         "relics": {
-          "quantity": 8,
-          "price": 2267,
-          "regular_price": 2519,
-          "regular_quantity": 9,
+          "quantity": 8.0,
+          "price": 2136.28,
+          "regular_price": 2136.28,
+          "regular_quantity": 9.0,
           "special": null
         },
         "special": null
@@ -2087,38 +2087,38 @@
       "nr_of_conn": "5",
       "commodities": {
         "metal": {
-          "quantity": 50,
-          "price": 91,
-          "regular_price": 91,
-          "regular_quantity": 33,
+          "quantity": 39.0,
+          "price": 41.0,
+          "regular_price": 76.25,
+          "regular_quantity": 33.0,
           "special": null
         },
         "gems": {
-          "quantity": 18,
-          "price": 299,
-          "regular_price": 298,
-          "regular_quantity": 7,
+          "quantity": 9.0,
+          "price": 146.0,
+          "regular_price": 247.32,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 46,
-          "price": 74,
-          "regular_price": 65,
-          "regular_quantity": 35,
+          "quantity": 36.0,
+          "price": 36.0,
+          "regular_price": 50.93,
+          "regular_quantity": 35.0,
           "special": null
         },
         "fuel": {
-          "quantity": 60,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 83,
+          "quantity": 38.0,
+          "price": 63.0,
+          "regular_price": 119.35,
+          "regular_quantity": 83.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1470.0,
+          "regular_price": 2567.39,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2142,38 +2142,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 17,
-          "price": 94,
-          "regular_price": 80,
-          "regular_quantity": 8,
+          "quantity": 17.0,
+          "price": 67.74,
+          "regular_price": 67.74,
+          "regular_quantity": 8.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 294,
-          "regular_price": 290,
-          "regular_quantity": 9,
+          "quantity": 5.0,
+          "price": 159.0,
+          "regular_price": 226.88,
+          "regular_quantity": 9.0,
           "special": null
         },
         "food": {
-          "quantity": 30,
-          "price": 76,
-          "regular_price": 64,
-          "regular_quantity": 30,
+          "quantity": 30.0,
+          "price": 60.78,
+          "regular_price": 60.78,
+          "regular_quantity": 30.0,
           "special": null
         },
         "fuel": {
-          "quantity": 86,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 79,
+          "quantity": 86.0,
+          "price": 52.0,
+          "regular_price": 150.0,
+          "regular_quantity": 79.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2504.48,
+          "regular_price": 2504.48,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2195,38 +2195,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 14,
-          "price": 90,
-          "regular_price": 90,
-          "regular_quantity": 6,
+          "quantity": 14.0,
+          "price": 41.0,
+          "regular_price": 72.25,
+          "regular_quantity": 6.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 294,
-          "regular_price": 300,
-          "regular_quantity": 10,
+          "quantity": 9.0,
+          "price": 266.9,
+          "regular_price": 266.9,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 21,
-          "price": 8,
-          "regular_price": 45,
-          "regular_quantity": 26,
+          "quantity": 21.0,
+          "price": 24.0,
+          "regular_price": 31.06,
+          "regular_quantity": 26.0,
           "special": null
         },
         "fuel": {
-          "quantity": 94,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 50,
+          "quantity": 94.0,
+          "price": 137.12,
+          "regular_price": 137.12,
+          "regular_quantity": 50.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2489.17,
+          "regular_price": 2489.17,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2250,38 +2250,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 28,
-          "price": 96,
-          "regular_price": 96,
-          "regular_quantity": 51,
+          "quantity": 28.0,
+          "price": 43.0,
+          "regular_price": 83.88,
+          "regular_quantity": 51.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 298,
-          "regular_price": 300,
-          "regular_quantity": 4,
+          "quantity": 2.0,
+          "price": 184.0,
+          "regular_price": 243.36,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 17,
-          "price": 25,
-          "regular_price": 53,
-          "regular_quantity": 42,
+          "quantity": 17.0,
+          "price": 36.94,
+          "regular_price": 36.94,
+          "regular_quantity": 42.0,
           "special": null
         },
         "fuel": {
-          "quantity": 95,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 69,
+          "quantity": 95.0,
+          "price": 133.76,
+          "regular_price": 133.76,
+          "regular_quantity": 69.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1682.0,
+          "regular_price": 2402.68,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2304,38 +2304,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 25,
-          "price": 99,
-          "regular_price": 98,
-          "regular_quantity": 15,
+          "quantity": 25.0,
+          "price": 92.62,
+          "regular_price": 92.62,
+          "regular_quantity": 15.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 300,
-          "regular_price": 294,
-          "regular_quantity": 4,
+          "quantity": 9.0,
+          "price": 195.0,
+          "regular_price": 278.78,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 40,
-          "price": 15,
-          "regular_price": 62,
-          "regular_quantity": 16,
+          "quantity": 40.0,
+          "price": 49.62,
+          "regular_price": 49.62,
+          "regular_quantity": 16.0,
           "special": null
         },
         "fuel": {
-          "quantity": 75,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 79,
+          "quantity": 75.0,
+          "price": 117.83,
+          "regular_price": 117.83,
+          "regular_quantity": 79.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1864.0,
+          "regular_price": 2662.53,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2357,38 +2357,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 43,
-          "price": 80,
-          "regular_price": 88,
-          "regular_quantity": 5,
+          "quantity": 43.0,
+          "price": 75.65,
+          "regular_price": 75.65,
+          "regular_quantity": 5.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 292,
-          "regular_price": 296,
-          "regular_quantity": 5,
+          "quantity": 4.0,
+          "price": 276.0,
+          "regular_price": 276.0,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 24,
-          "price": 62,
-          "regular_price": 30,
-          "regular_quantity": 7,
+          "quantity": 24.0,
+          "price": 18.0,
+          "regular_price": 25.75,
+          "regular_quantity": 7.0,
           "special": null
         },
         "fuel": {
-          "quantity": 81,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 93,
+          "quantity": 81.0,
+          "price": 52.0,
+          "regular_price": 150.0,
+          "regular_quantity": 93.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1324.0,
+          "regular_price": 2498.03,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2412,38 +2412,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 25,
-          "price": 88,
-          "regular_price": 97,
-          "regular_quantity": 12,
+          "quantity": 25.0,
+          "price": 75.35,
+          "regular_price": 75.35,
+          "regular_quantity": 12.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 297,
-          "regular_price": 294,
-          "regular_quantity": 10,
+          "quantity": 4.0,
+          "price": 71.0,
+          "regular_price": 247.73,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 21,
-          "price": 16,
-          "regular_price": 47,
-          "regular_quantity": 46,
+          "quantity": 21.0,
+          "price": 40.55,
+          "regular_price": 40.55,
+          "regular_quantity": 46.0,
           "special": null
         },
         "fuel": {
-          "quantity": 75,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 84,
+          "quantity": 75.0,
+          "price": 105.0,
+          "regular_price": 138.47,
+          "regular_quantity": 84.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2794.14,
+          "regular_price": 2794.14,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2466,38 +2466,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 20,
-          "price": 92,
-          "regular_price": 85,
-          "regular_quantity": 84,
+          "quantity": 20.0,
+          "price": 35.0,
+          "regular_price": 71.9,
+          "regular_quantity": 84.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 298,
-          "regular_price": 297,
-          "regular_quantity": 2,
+          "quantity": 0.0,
+          "price": 261.96,
+          "regular_price": 261.96,
+          "regular_quantity": 2.0,
           "special": null
         },
         "food": {
-          "quantity": 48,
-          "price": 26,
-          "regular_price": 28,
-          "regular_quantity": 27,
+          "quantity": 48.0,
+          "price": 10.0,
+          "regular_price": 28.0,
+          "regular_quantity": 27.0,
           "special": null
         },
         "fuel": {
-          "quantity": 96,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 55,
+          "quantity": 96.0,
+          "price": 124.92,
+          "regular_price": 124.92,
+          "regular_quantity": 55.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1843.0,
+          "regular_price": 2493.66,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2520,38 +2520,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 76,
-          "price": 84,
-          "regular_price": 80,
-          "regular_quantity": 57,
+          "quantity": 76.0,
+          "price": 80.0,
+          "regular_price": 80.0,
+          "regular_quantity": 57.0,
           "special": null
         },
         "gems": {
-          "quantity": 6,
-          "price": 292,
-          "regular_price": 293,
-          "regular_quantity": 1,
+          "quantity": 6.0,
+          "price": 251.4,
+          "regular_price": 251.4,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 41,
-          "price": 15,
-          "regular_price": 56,
-          "regular_quantity": 8,
+          "quantity": 41.0,
+          "price": 31.0,
+          "regular_price": 41.03,
+          "regular_quantity": 8.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 56,
+          "quantity": 64.0,
+          "price": 74.0,
+          "regular_price": 140.32,
+          "regular_quantity": 56.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1963.0,
+          "regular_price": 2804.06,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2573,38 +2573,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 93,
-          "price": 88,
-          "regular_price": 80,
-          "regular_quantity": 53,
+          "quantity": 93.0,
+          "price": 36.0,
+          "regular_price": 66.01,
+          "regular_quantity": 53.0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 300,
-          "regular_price": 293,
-          "regular_quantity": 2,
+          "quantity": 3.0,
+          "price": 252.49,
+          "regular_price": 252.49,
+          "regular_quantity": 2.0,
           "special": null
         },
         "food": {
-          "quantity": 27,
-          "price": 62,
-          "regular_price": 58,
-          "regular_quantity": 38,
+          "quantity": 27.0,
+          "price": 48.15,
+          "regular_price": 48.15,
+          "regular_quantity": 38.0,
           "special": null
         },
         "fuel": {
-          "quantity": 83,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 83.0,
+          "price": 95.0,
+          "regular_price": 122.91,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2268.26,
+          "regular_price": 2268.26,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2625,38 +2625,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 68,
-          "price": 88,
-          "regular_price": 83,
-          "regular_quantity": 55,
+          "quantity": 68.0,
+          "price": 51.0,
+          "regular_price": 68.11,
+          "regular_quantity": 55.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 298,
-          "regular_price": 293,
-          "regular_quantity": 2,
+          "quantity": 5.0,
+          "price": 144.0,
+          "regular_price": 270.41,
+          "regular_quantity": 2.0,
           "special": null
         },
         "food": {
-          "quantity": 50,
-          "price": 27,
-          "regular_price": 65,
-          "regular_quantity": 50,
+          "quantity": 50.0,
+          "price": 6.0,
+          "regular_price": 50.47,
+          "regular_quantity": 50.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 75,
+          "quantity": 64.0,
+          "price": 123.53,
+          "regular_price": 123.53,
+          "regular_quantity": 75.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1904.0,
+          "regular_price": 2482.58,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2678,38 +2678,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 91,
-          "price": 86,
-          "regular_price": 87,
-          "regular_quantity": 71,
+          "quantity": 91.0,
+          "price": 50.0,
+          "regular_price": 64.8,
+          "regular_quantity": 71.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 296,
-          "regular_price": 298,
-          "regular_quantity": 5,
+          "quantity": 5.0,
+          "price": 298.0,
+          "regular_price": 298.0,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 26,
-          "price": 28,
-          "regular_price": 49,
-          "regular_quantity": 6,
+          "quantity": 26.0,
+          "price": 41.27,
+          "regular_price": 41.27,
+          "regular_quantity": 6.0,
           "special": null
         },
         "fuel": {
-          "quantity": 95,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 67,
+          "quantity": 95.0,
+          "price": 60.0,
+          "regular_price": 113.13,
+          "regular_quantity": 67.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2565.31,
+          "regular_price": 2565.31,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2731,38 +2731,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 32,
-          "price": 97,
-          "regular_price": 96,
-          "regular_quantity": 23,
+          "quantity": 32.0,
+          "price": 77.58,
+          "regular_price": 77.58,
+          "regular_quantity": 23.0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 293,
-          "regular_price": 298,
-          "regular_quantity": 6,
+          "quantity": 3.0,
+          "price": 236.93,
+          "regular_price": 236.93,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 0,
-          "price": 34,
-          "regular_price": 50,
-          "regular_quantity": 15,
+          "quantity": 0.0,
+          "price": 41.6,
+          "regular_price": 41.6,
+          "regular_quantity": 15.0,
           "special": null
         },
         "fuel": {
-          "quantity": 58,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 82,
+          "quantity": 58.0,
+          "price": 81.0,
+          "regular_price": 110.32,
+          "regular_quantity": 82.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1229.0,
+          "regular_price": 2343.76,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2785,38 +2785,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 37,
-          "price": 95,
-          "regular_price": 100,
-          "regular_quantity": 92,
+          "quantity": 37.0,
+          "price": 80.41,
+          "regular_price": 80.41,
+          "regular_quantity": 92.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 299,
-          "regular_price": 295,
-          "regular_quantity": 10,
+          "quantity": 9.0,
+          "price": 71.0,
+          "regular_price": 265.81,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 31,
-          "price": 14,
-          "regular_price": 44,
-          "regular_quantity": 34,
+          "quantity": 31.0,
+          "price": 29.0,
+          "regular_price": 41.07,
+          "regular_quantity": 34.0,
           "special": null
         },
         "fuel": {
-          "quantity": 84,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 57,
+          "quantity": 84.0,
+          "price": 69.0,
+          "regular_price": 119.59,
+          "regular_quantity": 57.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1893.0,
+          "regular_price": 2480.38,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2838,38 +2838,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 7,
-          "price": 86,
-          "regular_price": 94,
-          "regular_quantity": 41,
+          "quantity": 7.0,
+          "price": 60.0,
+          "regular_price": 77.68,
+          "regular_quantity": 41.0,
           "special": null
         },
         "gems": {
-          "quantity": 8,
-          "price": 297,
-          "regular_price": 293,
-          "regular_quantity": 10,
+          "quantity": 8.0,
+          "price": 270.77,
+          "regular_price": 270.77,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 45,
-          "price": 55,
-          "regular_price": 36,
-          "regular_quantity": 6,
+          "quantity": 45.0,
+          "price": 25.0,
+          "regular_price": 36.0,
+          "regular_quantity": 6.0,
           "special": null
         },
         "fuel": {
-          "quantity": 68,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 68.0,
+          "price": 89.0,
+          "regular_price": 127.27,
+          "regular_quantity": 100.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2525.02,
+          "regular_price": 2525.02,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2891,38 +2891,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 98,
-          "price": 91,
-          "regular_price": 83,
-          "regular_quantity": 57,
+          "quantity": 98.0,
+          "price": 38.0,
+          "regular_price": 67.53,
+          "regular_quantity": 57.0,
           "special": null
         },
         "gems": {
-          "quantity": 5,
-          "price": 291,
-          "regular_price": 296,
-          "regular_quantity": 7,
+          "quantity": 5.0,
+          "price": 246.51,
+          "regular_price": 246.51,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 23,
-          "price": 37,
-          "regular_price": 11,
-          "regular_quantity": 27,
+          "quantity": 23.0,
+          "price": 8.91,
+          "regular_price": 8.91,
+          "regular_quantity": 27.0,
           "special": null
         },
         "fuel": {
-          "quantity": 63,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 69,
+          "quantity": 63.0,
+          "price": 142.0,
+          "regular_price": 142.0,
+          "regular_quantity": 69.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2467.38,
+          "regular_price": 2467.38,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2945,38 +2945,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 92,
-          "price": 96,
-          "regular_price": 98,
-          "regular_quantity": 36,
+          "quantity": 92.0,
+          "price": 84.98,
+          "regular_price": 84.98,
+          "regular_quantity": 36.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 292,
-          "regular_price": 295,
-          "regular_quantity": 4,
+          "quantity": 0.0,
+          "price": 144.0,
+          "regular_price": 295.0,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 8,
-          "price": 24,
-          "regular_price": 68,
-          "regular_quantity": 29,
+          "quantity": 8.0,
+          "price": 45.0,
+          "regular_price": 58.14,
+          "regular_quantity": 29.0,
           "special": null
         },
         "fuel": {
-          "quantity": 71,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 71.0,
+          "price": 99.0,
+          "regular_price": 132.76,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1029.0,
+          "regular_price": 2488.04,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -2998,38 +2998,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 18,
-          "price": 90,
-          "regular_price": 85,
-          "regular_quantity": 30,
+          "quantity": 18.0,
+          "price": 66.05,
+          "regular_price": 66.05,
+          "regular_quantity": 30.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 293,
-          "regular_price": 300,
-          "regular_quantity": 5,
+          "quantity": 4.0,
+          "price": 96.0,
+          "regular_price": 258.01,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 42,
-          "price": 20,
-          "regular_price": 19,
-          "regular_quantity": 6,
+          "quantity": 42.0,
+          "price": 8.0,
+          "regular_price": 14.66,
+          "regular_quantity": 6.0,
           "special": null
         },
         "fuel": {
-          "quantity": 63,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 65,
+          "quantity": 63.0,
+          "price": 66.0,
+          "regular_price": 126.58,
+          "regular_quantity": 65.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1732.0,
+          "regular_price": 2474.76,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3052,38 +3052,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 96,
-          "price": 88,
-          "regular_price": 93,
-          "regular_quantity": 75,
+          "quantity": 96.0,
+          "price": 29.0,
+          "regular_price": 75.94,
+          "regular_quantity": 75.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 295,
-          "regular_price": 296,
-          "regular_quantity": 10,
+          "quantity": 4.0,
+          "price": 173.0,
+          "regular_price": 246.75,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 11,
-          "price": 22,
-          "regular_price": 25,
-          "regular_quantity": 8,
+          "quantity": 11.0,
+          "price": 21.41,
+          "regular_price": 21.41,
+          "regular_quantity": 8.0,
           "special": null
         },
         "fuel": {
-          "quantity": 98,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 79,
+          "quantity": 98.0,
+          "price": 89.0,
+          "regular_price": 119.78,
+          "regular_quantity": 79.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2751.09,
+          "regular_price": 2751.09,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3104,38 +3104,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 86,
-          "price": 81,
-          "regular_price": 96,
-          "regular_quantity": 28,
+          "quantity": 86.0,
+          "price": 78.39,
+          "regular_price": 78.39,
+          "regular_quantity": 28.0,
           "special": null
         },
         "gems": {
-          "quantity": 6,
-          "price": 292,
-          "regular_price": 294,
-          "regular_quantity": 8,
+          "quantity": 6.0,
+          "price": 266.93,
+          "regular_price": 266.93,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 36,
-          "price": 68,
-          "regular_price": 41,
-          "regular_quantity": 28,
+          "quantity": 36.0,
+          "price": 26.0,
+          "regular_price": 33.65,
+          "regular_quantity": 28.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 96,
+          "quantity": 64.0,
+          "price": 150.0,
+          "regular_price": 150.0,
+          "regular_quantity": 96.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2593.16,
+          "regular_price": 2593.16,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3157,38 +3157,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 63,
-          "price": 90,
-          "regular_price": 97,
-          "regular_quantity": 36,
+          "quantity": 63.0,
+          "price": 58.0,
+          "regular_price": 77.84,
+          "regular_quantity": 36.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 299,
-          "regular_price": 298,
-          "regular_quantity": 1,
+          "quantity": 2.0,
+          "price": 247.89,
+          "regular_price": 247.89,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 25,
-          "price": 69,
-          "regular_price": 22,
-          "regular_quantity": 12,
+          "quantity": 25.0,
+          "price": 17.6,
+          "regular_price": 17.6,
+          "regular_quantity": 12.0,
           "special": null
         },
         "fuel": {
-          "quantity": 79,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 56,
+          "quantity": 79.0,
+          "price": 52.0,
+          "regular_price": 150.0,
+          "regular_quantity": 56.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2397.56,
+          "regular_price": 2397.56,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3209,38 +3209,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 45,
-          "price": 84,
-          "regular_price": 84,
-          "regular_quantity": 16,
+          "quantity": 45.0,
+          "price": 71.98,
+          "regular_price": 71.98,
+          "regular_quantity": 16.0,
           "special": null
         },
         "gems": {
-          "quantity": 4,
-          "price": 295,
-          "regular_price": 290,
-          "regular_quantity": 6,
+          "quantity": 4.0,
+          "price": 167.0,
+          "regular_price": 224.81,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 39,
-          "price": 41,
-          "regular_price": 9,
-          "regular_quantity": 12,
+          "quantity": 39.0,
+          "price": 9.0,
+          "regular_price": 9.0,
+          "regular_quantity": 12.0,
           "special": null
         },
         "fuel": {
-          "quantity": 63,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 52,
+          "quantity": 63.0,
+          "price": 67.0,
+          "regular_price": 124.74,
+          "regular_quantity": 52.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2424.31,
+          "regular_price": 2424.31,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3261,38 +3261,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 85,
-          "price": 92,
-          "regular_price": 92,
-          "regular_quantity": 63,
+          "quantity": 85.0,
+          "price": 38.0,
+          "regular_price": 64.27,
+          "regular_quantity": 63.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 300,
-          "regular_price": 298,
-          "regular_quantity": 7,
+          "quantity": 0.0,
+          "price": 278.96,
+          "regular_price": 278.96,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 22,
-          "price": 68,
-          "regular_price": 45,
-          "regular_quantity": 36,
+          "quantity": 22.0,
+          "price": 39.05,
+          "regular_price": 39.05,
+          "regular_quantity": 36.0,
           "special": null
         },
         "fuel": {
-          "quantity": 56,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 66,
+          "quantity": 56.0,
+          "price": 36.0,
+          "regular_price": 141.77,
+          "regular_quantity": 66.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1250.0,
+          "regular_price": 2193.53,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3313,38 +3313,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 72,
-          "price": 95,
-          "regular_price": 99,
-          "regular_quantity": 54,
+          "quantity": 72.0,
+          "price": 34.0,
+          "regular_price": 90.86,
+          "regular_quantity": 54.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 300,
-          "regular_price": 291,
-          "regular_quantity": 8,
+          "quantity": 10.0,
+          "price": 188.0,
+          "regular_price": 268.55,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 11,
-          "price": 47,
-          "regular_price": 38,
-          "regular_quantity": 33,
+          "quantity": 11.0,
+          "price": 23.0,
+          "regular_price": 32.51,
+          "regular_quantity": 33.0,
           "special": null
         },
         "fuel": {
-          "quantity": 100,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 100,
+          "quantity": 100.0,
+          "price": 69.0,
+          "regular_price": 133.83,
+          "regular_quantity": 100.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2411.36,
+          "regular_price": 2411.36,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3367,38 +3367,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 10,
-          "price": 100,
-          "regular_price": 84,
-          "regular_quantity": 44,
+          "quantity": 10.0,
+          "price": 37.0,
+          "regular_price": 76.27,
+          "regular_quantity": 44.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 291,
-          "regular_price": 294,
-          "regular_quantity": 1,
+          "quantity": 10.0,
+          "price": 136.0,
+          "regular_price": 253.48,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 10,
-          "price": 29,
-          "regular_price": 60,
-          "regular_quantity": 48,
+          "quantity": 10.0,
+          "price": 50.58,
+          "regular_price": 50.58,
+          "regular_quantity": 48.0,
           "special": null
         },
         "fuel": {
-          "quantity": 51,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 71,
+          "quantity": 51.0,
+          "price": 129.07,
+          "regular_price": 129.07,
+          "regular_quantity": 71.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2239.0,
+          "regular_price": 2239.0,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3420,38 +3420,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 53,
-          "price": 96,
-          "regular_price": 100,
-          "regular_quantity": 71,
+          "quantity": 53.0,
+          "price": 78.05,
+          "regular_price": 78.05,
+          "regular_quantity": 71.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 291,
-          "regular_price": 298,
-          "regular_quantity": 7,
+          "quantity": 2.0,
+          "price": 256.01,
+          "regular_price": 256.01,
+          "regular_quantity": 7.0,
           "special": null
         },
         "food": {
-          "quantity": 16,
-          "price": 11,
-          "regular_price": 79,
-          "regular_quantity": 35,
+          "quantity": 16.0,
+          "price": 69.9,
+          "regular_price": 69.9,
+          "regular_quantity": 35.0,
           "special": null
         },
         "fuel": {
-          "quantity": 54,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 65,
+          "quantity": 54.0,
+          "price": 105.0,
+          "regular_price": 135.44,
+          "regular_quantity": 65.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2818.67,
+          "regular_price": 2818.67,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3473,38 +3473,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 29,
-          "price": 92,
-          "regular_price": 98,
-          "regular_quantity": 14,
+          "quantity": 29.0,
+          "price": 42.0,
+          "regular_price": 86.21,
+          "regular_quantity": 14.0,
           "special": null
         },
         "gems": {
-          "quantity": 3,
-          "price": 292,
-          "regular_price": 291,
-          "regular_quantity": 6,
+          "quantity": 3.0,
+          "price": 169.0,
+          "regular_price": 219.22,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 26,
-          "price": 23,
-          "regular_price": 32,
-          "regular_quantity": 47,
+          "quantity": 26.0,
+          "price": 25.56,
+          "regular_price": 25.56,
+          "regular_quantity": 47.0,
           "special": null
         },
         "fuel": {
-          "quantity": 61,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 94,
+          "quantity": 61.0,
+          "price": 105.0,
+          "regular_price": 141.73,
+          "regular_quantity": 94.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1470.0,
+          "regular_price": 2782.48,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3528,38 +3528,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 57,
-          "price": 88,
-          "regular_price": 100,
-          "regular_quantity": 12,
+          "quantity": 57.0,
+          "price": 46.0,
+          "regular_price": 84.77,
+          "regular_quantity": 12.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 300,
-          "regular_price": 293,
-          "regular_quantity": 5,
+          "quantity": 10.0,
+          "price": 72.0,
+          "regular_price": 245.53,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 9,
-          "price": 54,
-          "regular_price": 6,
-          "regular_quantity": 26,
+          "quantity": 9.0,
+          "price": 3.0,
+          "regular_price": 5.05,
+          "regular_quantity": 26.0,
           "special": null
         },
         "fuel": {
-          "quantity": 72,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 61,
+          "quantity": 72.0,
+          "price": 36.0,
+          "regular_price": 150.0,
+          "regular_quantity": 61.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1372.0,
+          "regular_price": 2645.95,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3581,38 +3581,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 28,
-          "price": 97,
-          "regular_price": 94,
-          "regular_quantity": 57,
+          "quantity": 28.0,
+          "price": 66.0,
+          "regular_price": 94.0,
+          "regular_quantity": 57.0,
           "special": null
         },
         "gems": {
-          "quantity": 1,
-          "price": 291,
-          "regular_price": 293,
-          "regular_quantity": 10,
+          "quantity": 1.0,
+          "price": 244.42,
+          "regular_price": 244.42,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 38,
-          "price": 12,
-          "regular_price": 40,
-          "regular_quantity": 36,
+          "quantity": 38.0,
+          "price": 16.0,
+          "regular_price": 28.41,
+          "regular_quantity": 36.0,
           "special": null
         },
         "fuel": {
-          "quantity": 77,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 77.0,
+          "price": 97.0,
+          "regular_price": 125.45,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2531.22,
+          "regular_price": 2531.22,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3634,38 +3634,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 25,
-          "price": 98,
-          "regular_price": 82,
-          "regular_quantity": 60,
+          "quantity": 25.0,
+          "price": 77.84,
+          "regular_price": 77.84,
+          "regular_quantity": 60.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 292,
-          "regular_price": 295,
-          "regular_quantity": 6,
+          "quantity": 0.0,
+          "price": 255.57,
+          "regular_price": 255.57,
+          "regular_quantity": 6.0,
           "special": null
         },
         "food": {
-          "quantity": 26,
-          "price": 25,
-          "regular_price": 72,
-          "regular_quantity": 32,
+          "quantity": 26.0,
+          "price": 67.18,
+          "regular_price": 67.18,
+          "regular_quantity": 32.0,
           "special": null
         },
         "fuel": {
-          "quantity": 53,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 86,
+          "quantity": 53.0,
+          "price": 122.72,
+          "regular_price": 122.72,
+          "regular_quantity": 86.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1673.0,
+          "regular_price": 2390.5,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3686,38 +3686,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 53,
-          "price": 86,
-          "regular_price": 87,
-          "regular_quantity": 67,
+          "quantity": 53.0,
+          "price": 43.0,
+          "regular_price": 79.75,
+          "regular_quantity": 67.0,
           "special": null
         },
         "gems": {
-          "quantity": 2,
-          "price": 294,
-          "regular_price": 300,
-          "regular_quantity": 5,
+          "quantity": 2.0,
+          "price": 218.44,
+          "regular_price": 218.44,
+          "regular_quantity": 5.0,
           "special": null
         },
         "food": {
-          "quantity": 11,
-          "price": 34,
-          "regular_price": 58,
-          "regular_quantity": 41,
+          "quantity": 11.0,
+          "price": 8.0,
+          "regular_price": 50.74,
+          "regular_quantity": 41.0,
           "special": null
         },
         "fuel": {
-          "quantity": 72,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 55,
+          "quantity": 72.0,
+          "price": 115.45,
+          "regular_price": 115.45,
+          "regular_quantity": 55.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2396.66,
+          "regular_price": 2396.66,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3739,38 +3739,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 64,
-          "price": 88,
-          "regular_price": 92,
-          "regular_quantity": 86,
+          "quantity": 25.0,
+          "price": 39.0,
+          "regular_price": 79.71,
+          "regular_quantity": 86.0,
           "special": null
         },
         "gems": {
-          "quantity": 9,
-          "price": 299,
-          "regular_price": 297,
-          "regular_quantity": 9,
+          "quantity": 8.0,
+          "price": 213.66,
+          "regular_price": 213.66,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 6,
-          "price": 28,
-          "regular_price": 31,
-          "regular_quantity": 38,
+          "quantity": 0.0,
+          "price": 19.0,
+          "regular_price": 23.99,
+          "regular_quantity": 38.0,
           "special": null
         },
         "fuel": {
-          "quantity": 64,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 65,
+          "quantity": 65.0,
+          "price": 135.8,
+          "regular_price": 135.8,
+          "regular_quantity": 65.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2482.89,
+          "regular_price": 2482.89,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3792,38 +3792,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 78,
-          "price": 87,
-          "regular_price": 95,
-          "regular_quantity": 56,
+          "quantity": 35.0,
+          "price": 75.78,
+          "regular_price": 75.78,
+          "regular_quantity": 35.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 296,
-          "regular_price": 293,
-          "regular_quantity": 5,
+          "quantity": 4.0,
+          "price": 205.0,
+          "regular_price": 268.31,
+          "regular_quantity": 4.0,
           "special": null
         },
         "food": {
-          "quantity": 25,
-          "price": 26,
-          "regular_price": 71,
-          "regular_quantity": 11,
+          "quantity": 4.0,
+          "price": 6.0,
+          "regular_price": 56.56,
+          "regular_quantity": 4.0,
           "special": null
         },
         "fuel": {
-          "quantity": 94,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 76,
+          "quantity": 46.0,
+          "price": 127.81,
+          "regular_price": 127.81,
+          "regular_quantity": 46.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2367.91,
+          "regular_price": 2367.91,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3844,38 +3844,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 45,
-          "price": 92,
-          "regular_price": 95,
-          "regular_quantity": 8,
+          "quantity": 8.0,
+          "price": 22.0,
+          "regular_price": 88.69,
+          "regular_quantity": 8.0,
           "special": null
         },
         "gems": {
-          "quantity": 0,
-          "price": 295,
-          "regular_price": 290,
-          "regular_quantity": 10,
+          "quantity": 0.0,
+          "price": 91.0,
+          "regular_price": 265.13,
+          "regular_quantity": 10.0,
           "special": null
         },
         "food": {
-          "quantity": 35,
-          "price": 78,
-          "regular_price": 64,
-          "regular_quantity": 35,
+          "quantity": 33.0,
+          "price": 29.0,
+          "regular_price": 54.92,
+          "regular_quantity": 33.0,
           "special": null
         },
         "fuel": {
-          "quantity": 71,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 62,
+          "quantity": 41.0,
+          "price": 69.0,
+          "regular_price": 139.62,
+          "regular_quantity": 41.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 1350.0,
+          "regular_price": 2549.11,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3896,38 +3896,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 73,
-          "price": 88,
-          "regular_price": 100,
-          "regular_quantity": 12,
+          "quantity": 7.0,
+          "price": 46.0,
+          "regular_price": 87.98,
+          "regular_quantity": 7.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 297,
-          "regular_price": 298,
-          "regular_quantity": 4,
+          "quantity": 1.0,
+          "price": 71.0,
+          "regular_price": 274.91,
+          "regular_quantity": 1.0,
           "special": null
         },
         "food": {
-          "quantity": 41,
-          "price": 11,
-          "regular_price": 53,
-          "regular_quantity": 35,
+          "quantity": 35.0,
+          "price": 46.49,
+          "regular_price": 46.49,
+          "regular_quantity": 35.0,
           "special": null
         },
         "fuel": {
-          "quantity": 53,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 50,
+          "quantity": 50.0,
+          "price": 66.0,
+          "regular_price": 135.74,
+          "regular_quantity": 50.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2534.0,
+          "regular_price": 2534.0,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -3948,38 +3948,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 34,
-          "price": 82,
-          "regular_price": 100,
-          "regular_quantity": 93,
+          "quantity": 34.0,
+          "price": 100.0,
+          "regular_price": 100.0,
+          "regular_quantity": 93.0,
           "special": null
         },
         "gems": {
-          "quantity": 10,
-          "price": 297,
-          "regular_price": 291,
-          "regular_quantity": 8,
+          "quantity": 10.0,
+          "price": 265.89,
+          "regular_price": 265.89,
+          "regular_quantity": 8.0,
           "special": null
         },
         "food": {
-          "quantity": 40,
-          "price": 20,
-          "regular_price": 39,
-          "regular_quantity": 37,
+          "quantity": 40.0,
+          "price": 34.11,
+          "regular_price": 34.11,
+          "regular_quantity": 37.0,
           "special": null
         },
         "fuel": {
-          "quantity": 78,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 63,
+          "quantity": 78.0,
+          "price": 105.0,
+          "regular_price": 138.32,
+          "regular_quantity": 63.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2365.29,
+          "regular_price": 2365.29,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null
@@ -4000,38 +4000,38 @@
       "nr_of_conn": "0",
       "commodities": {
         "metal": {
-          "quantity": 65,
-          "price": 82,
-          "regular_price": 99,
-          "regular_quantity": 88,
+          "quantity": 65.0,
+          "price": 63.0,
+          "regular_price": 90.07,
+          "regular_quantity": 88.0,
           "special": null
         },
         "gems": {
-          "quantity": 7,
-          "price": 293,
-          "regular_price": 295,
-          "regular_quantity": 0,
+          "quantity": 7.0,
+          "price": 270.1,
+          "regular_price": 270.1,
+          "regular_quantity": 0.0,
           "special": null
         },
         "food": {
-          "quantity": 7,
-          "price": 18,
-          "regular_price": 38,
-          "regular_quantity": 13,
+          "quantity": 7.0,
+          "price": 21.0,
+          "regular_price": 28.6,
+          "regular_quantity": 13.0,
           "special": null
         },
         "fuel": {
-          "quantity": 68,
-          "price": 150,
-          "regular_price": 150,
-          "regular_quantity": 90,
+          "quantity": 68.0,
+          "price": 101.83,
+          "regular_price": 101.83,
+          "regular_quantity": 90.0,
           "special": null
         },
         "relics": {
-          "quantity": 0,
-          "price": 3000,
-          "regular_price": 3000,
-          "regular_quantity": 0,
+          "quantity": 0.0,
+          "price": 2390.32,
+          "regular_price": 2390.32,
+          "regular_quantity": 0.0,
           "special": null
         },
         "special": null

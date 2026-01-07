@@ -1,0 +1,11 @@
+{
+  "name": "bot2",
+  "zloto": 8401.0,
+  "ekwipunek": {
+    "metal": 36,
+    "gems": 192,
+    "food": 36,
+    "fuel": 190,
+    "relics": 1
+  }
+}

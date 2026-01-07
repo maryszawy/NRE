@@ -1,12 +1,13 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Camera))]
 public class KameraMapa : MonoBehaviour
 {
     [Header("Œledzenie gracza")]
-    public Transform gracz;   
-    public bool sledzGracza = true; 
-    public float gladkosc = 5f;  
+    public Transform gracz;
+    public bool sledzGracza = true;
+    public float gladkosc = 5f;
     public Vector3 przesuniecie = new Vector3(0, 0, -10);
 
     [Header("Sterowanie rêczne (opcjonalne)")]
@@ -35,7 +36,17 @@ public class KameraMapa : MonoBehaviour
 
     private void LateUpdate()
     {
-        ObsluzZoom();
+        bool czyUIBlokuje = MenadzerUI.Instance != null && MenadzerUI.Instance.CzyUIBlokuje;
+
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        {
+            czyUIBlokuje = true;
+        }
+
+        if (!czyUIBlokuje)
+        {
+            ObsluzZoom();
+        }
 
         if (sledzGracza && gracz != null)
         {
@@ -45,7 +56,10 @@ public class KameraMapa : MonoBehaviour
         }
         else
         {
-            ObsluzPan();
+            if (!czyUIBlokuje)
+            {
+                ObsluzPan();
+            }
         }
 
         OgraniczWKadrze();
@@ -92,8 +106,18 @@ public class KameraMapa : MonoBehaviour
         var min = _graniceMapy.min;
         var max = _graniceMapy.max;
 
-        float clampX = Mathf.Clamp(transform.position.x, min.x + camW, max.x - camW);
-        float clampY = Mathf.Clamp(transform.position.y, min.y + camH, max.y - camH);
+        float clampX;
+        float clampY;
+
+        if (camW * 2 > max.x - min.x)
+            clampX = (min.x + max.x) / 2f;
+        else
+            clampX = Mathf.Clamp(transform.position.x, min.x + camW, max.x - camW);
+
+        if (camH * 2 > max.y - min.y)
+            clampY = (min.y + max.y) / 2f;
+        else
+            clampY = Mathf.Clamp(transform.position.y, min.y + camH, max.y - camH);
 
         transform.position = new Vector3(clampX, clampY, transform.position.z);
     }

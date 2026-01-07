@@ -42,7 +42,7 @@ public class PanelMiastoInfo : MonoBehaviour
         }
     }
 
-    void OnZloto(int _) { if (Widoczny) OdswiezWidoczne(); }
+    void OnZloto(float _) { if (Widoczny) OdswiezWidoczne(); }
     void OnEkwipunek(string nazwa, int _) { if (Widoczny) OdswiezWiersz(nazwa); }
 
     public void Pokaz(string nazwaMiasta)
@@ -67,15 +67,22 @@ public class PanelMiastoInfo : MonoBehaviour
 
                 ui.nazwaTowaru = kv.Key;
 
-                int cenaKupna = RynekMiast.ObliczCeneKupna(miasto, kv.Key);
-                int wyplata = RynekMiast.ObliczWyplateSprzedazy(miasto, kv.Key);
+                // Pobieramy floaty
+                float cenaKupna = RynekMiast.ObliczCeneKupna(miasto, kv.Key);
+                float wyplata = RynekMiast.ObliczWyplateSprzedazy(miasto, kv.Key);
 
                 ui.txtNazwa.text = kv.Key;
-                ui.txtCena.text = $"Cena: {cenaKupna} | Skup: ~{wyplata}";
+
+                // --- ZMIANA TUTAJ (Dodano :F2) ---
+                ui.txtCena.text = $"Cena: {cenaKupna:F2} | Skup: ~{wyplata:F2}";
+                // ---------------------------------
+
                 ui.txtMiastoIlosc.text = $"Miasto: {kv.Value.quantity}";
                 ui.txtGraczIlosc.text = $"Ty: {StanGracza.Instance.IleTowaru(kv.Key)}";
 
                 ui.btnKup.onClick.RemoveAllListeners();
+                // Uwaga: Tutaj rzutujemy na (int), jeœli AdjustCommodity nadal przyjmuje int
+                // Jeœli zmieni³eœ AdjustCommodity na float, usuñ (int)
                 ui.btnKup.onClick.AddListener(() => KupJednostke(kv.Key));
 
                 ui.btnSprzedaj.onClick.RemoveAllListeners();
@@ -99,7 +106,7 @@ public class PanelMiastoInfo : MonoBehaviour
         if (miasto == null || miasto.commodities == null || !miasto.commodities.ContainsKey(towar)) return;
 
         var c = miasto.commodities[towar];
-        int cena = RynekMiast.ObliczCeneKupna(miasto, towar);
+        float cena = RynekMiast.ObliczCeneKupna(miasto, towar);
 
         if (c.quantity <= 0)
         {
@@ -138,7 +145,7 @@ public class PanelMiastoInfo : MonoBehaviour
 
         if (StanGracza.Instance.IleTowaru(towar) <= 0) { Debug.Log("Nie masz tego towaru."); return; }
 
-        int wyplata = RynekMiast.ObliczWyplateSprzedazy(miasto, towar);
+        float wyplata = RynekMiast.ObliczWyplateSprzedazy(miasto, towar);
 
         StanGracza.Instance.DodajZloto(+wyplata);
         StanGracza.Instance.DodajTowar(towar, -1);
@@ -155,10 +162,13 @@ public class PanelMiastoInfo : MonoBehaviour
         if (m == null || m.commodities == null || !m.commodities.ContainsKey(towar)) return;
 
         var c = m.commodities[towar];
-        int cenaKupna = RynekMiast.ObliczCeneKupna(m, towar);
-        int wyplata = RynekMiast.ObliczWyplateSprzedazy(m, towar);
+        float cenaKupna = RynekMiast.ObliczCeneKupna(m, towar);
+        float wyplata = RynekMiast.ObliczWyplateSprzedazy(m, towar);
 
-        ui.txtCena.text = $"Cena: {cenaKupna}  |  Skup: ~{wyplata}";
+        // --- ZMIANA TUTAJ (Dodano :F2) ---
+        ui.txtCena.text = $"Cena: {cenaKupna:F2}  |  Skup: ~{wyplata:F2}";
+        // ---------------------------------
+
         ui.txtMiastoIlosc.text = $"Miasto: {c.quantity}";
         ui.txtGraczIlosc.text = $"Ty: {StanGracza.Instance.IleTowaru(towar)}";
     }

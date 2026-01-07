@@ -49,7 +49,7 @@ public partial class RynekMiast : MonoBehaviour
         return Mathf.Max(0.05f, mult);
     }
 
-    public static int ObliczCeneKupna(CityData miasto, string towar)
+    public static float ObliczCeneKupna(CityData miasto, string towar)
     {
         if (miasto == null || miasto.commodities == null || !miasto.commodities.TryGetValue(towar, out var c))
             return 0;
@@ -58,15 +58,15 @@ public partial class RynekMiast : MonoBehaviour
 
         float buyMult = sellMult * 1.15f;
 
-        return Mathf.RoundToInt(c.price * buyMult);
+        return c.price * buyMult;
     }
 
-    public static int ObliczWyplateSprzedazy(CityData miasto, string towar)
+    public static float ObliczWyplateSprzedazy(CityData miasto, string towar)
     {
         if (miasto == null || miasto.commodities == null || !miasto.commodities.TryGetValue(towar, out var c))
             return 0;
 
         float mult = GetSellMultiplier(miasto, towar);
-        return Mathf.RoundToInt(c.price * mult);
+        return c.price * mult;
     }
 }

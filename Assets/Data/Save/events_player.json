@@ -3,7 +3,7 @@
     "event_food_mold": {
       "name": "Moldy Supplies",
       "target": "player",
-      "description": "After a long journey, part of your food has spoiled.",
+      "description": "After a long journey, part of your food has spoiled: -10 food.",
       "type": "set",
       "effects": {
         "player": {
@@ -18,7 +18,7 @@
     "event_lucky_find_fuel": {
       "name": "Lucky Fuel Find",
       "target": "player",
-      "description": "You stumble upon an abandoned supply cart and recover some fuel.",
+      "description": "You stumble upon an abandoned supply cart and recover some fuel: +20 fuel.",
       "type": "set",
       "effects": {
         "player": {
@@ -33,7 +33,7 @@
     "event_rat_infestation": {
       "name": "Rat Infestation",
       "target": "player",
-      "description": "Rats have eaten part of your food reserves.",
+      "description": "Rats have eaten part of your food reserves: -15 food.",
       "type": "set",
       "effects": {
         "player": {
@@ -48,7 +48,7 @@
     "event_unstable_crate": {
       "name": "Unstable Crate",
       "target": "player",
-      "description": "A poorly secured crate collapses, damaging some of your metal cargo.",
+      "description": "A poorly secured crate collapses, damaging some of your metal cargo: -25 metal.",
       "type": "set",
       "effects": {
         "player": {
@@ -63,7 +63,7 @@
     "event_wandering_merchant": {
       "name": "Wandering Merchant",
       "target": "player",
-      "description": "A travelling merchant gifts you a rare relic as a token of goodwill.",
+      "description": "A travelling merchant gifts you a rare relic as a token of goodwill: +1 relic.",
       "type": "set",
       "effects": {
         "player": {
@@ -78,7 +78,7 @@
     "event_fuel_leak": {
       "name": "Fuel Leak",
       "target": "player",
-      "description": "A small leak in your tank causes you to lose some fuel.",
+      "description": "A small leak in your tank causes you to lose some fuel: -18 fuel.",
       "type": "set",
       "effects": {
         "player": {
@@ -93,7 +93,7 @@
     "event_gem_fragment_found": {
       "name": "Gem Fragment",
       "target": "player",
-      "description": "You discover a small gem fragment hidden under old debris.",
+      "description": "You discover a small gem fragment hidden under old debris: +2 gems.",
       "type": "set",
       "effects": {
         "player": {
@@ -108,7 +108,7 @@
     "event_spilled_food": {
       "name": "Spilled Rations",
       "target": "player",
-      "description": "A sudden jolt causes some of your food crates to fall and break open.",
+      "description": "A sudden jolt causes some of your food crates to fall and break open: -12 food.",
       "type": "set",
       "effects": {
         "player": {
@@ -123,7 +123,7 @@
     "event_stolen_by_thief": {
       "name": "Thief in the Night",
       "target": "player",
-      "description": "A thief sneaks into your camp and steals valuable supplies.",
+      "description": "A thief sneaks into your camp and steals valuable supplies: -14 metal, -2 gems, -10 food, -8 fuel.",
       "type": "set",
       "effects": {
         "player": {
@@ -141,7 +141,7 @@
     "event_small_meteorite": {
       "name": "Small Meteorite",
       "target": "player",
-      "description": "A small meteorite hits near your camp — inside the crater you find rare minerals.",
+      "description": "A small meteorite hits near your camp — inside the crater you find rare minerals: +10 metal, +2 gems, +1 relic.",
       "type": "set",
       "effects": {
         "player": {
@@ -158,7 +158,7 @@
     "event_spooked_animals": {
       "name": "Spooked Animals",
       "target": "player",
-      "description": "Your pack animals panic, causing you to lose some supplies.",
+      "description": "Your pack animals panic, causing you to lose some supplies: -8 metal, -14 food, -5 fuel, -1 relic.",
       "type": "set",
       "effects": {
         "player": {
@@ -176,7 +176,7 @@
     "event_hidden_cache": {
       "name": "Hidden Cache",
       "target": "player",
-      "description": "You uncover a hidden cache left by previous travelers.",
+      "description": "You uncover a hidden cache left by previous travelers: +20 metal, +3 gems, +12 food, +10 fuel, +1 relic.",
       "type": "set",
       "effects": {
         "player": {
@@ -195,7 +195,7 @@
     "event_lucky_trader_encounter": {
       "name": "Lucky Trader Encounter",
       "target": "player",
-      "description": "You meet a friendly trader who gifts you a small bundle of supplies.",
+      "description": "You meet a friendly trader who gifts you a small bundle of supplies: +12 metal, +1 gem, +9 food, +6 fuel.",
       "type": "set",
       "effects": {
         "player": {
@@ -213,7 +213,7 @@
     "event_sandstorm_damage": {
       "name": "Sandstorm Damage",
       "target": "player",
-      "description": "A sudden sandstorm damages part of your metal cargo.",
+      "description": "A sudden sandstorm damages part of your metal cargo: -18 metal, -5 food, -3 fuel.",
       "type": "set",
       "effects": {
         "player": {
@@ -222,20 +222,6 @@
             "metal": -18,
             "food": -5,
             "fuel": -3
-          }
-        }
-      }
-    },
-
-    "event_test": {
-      "name": "Testowy event",
-      "description": "Dostajesz 5 jedzenia i tracisz 20 złota.",
-      "target": "player",
-      "effects": {
-        "player": {
-          "gold": -20,
-          "inventory": {
-            "food": 5
           }
         }
       }

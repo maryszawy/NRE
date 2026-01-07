@@ -20,8 +20,8 @@ public class UIWaluta : MonoBehaviour
             StanGracza.Instance.OnZlotoZmiana -= AktualizujUI;
     }
 
-    private void AktualizujUI(int nowaWartosc)
+    private void AktualizujUI(float nowaWartosc)
     {
-        txtZloto.text = $"{nowaWartosc}";
+        txtZloto.text = $"{nowaWartosc:F2}";
     }
 }

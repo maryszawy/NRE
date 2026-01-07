@@ -7,10 +7,10 @@ using UnityEngine;
 [System.Serializable]
 public class CommodityEntry
 {
-    [JsonProperty("quantity")] public int quantity;
-    [JsonProperty("price")] public int price;
-    [JsonProperty("regular_price")] public int regular_price;
-    [JsonProperty("regular_quantity")] public int regular_quantity;
+    [JsonProperty("quantity")] public float quantity;
+    [JsonProperty("price")] public float price;
+    [JsonProperty("regular_price")] public float regular_price;
+    [JsonProperty("regular_quantity")] public float regular_quantity;
     [JsonProperty("special")] public JToken special;
 }
 

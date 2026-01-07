@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 [Serializable]
 public class DaneGracza
 {
-    public int zloto = 15000;
+    public float zloto = 15000f;
 
     public Dictionary<string, int> ekwipunek = new Dictionary<string, int> {
         {"metal",100}, {"gems",20}, {"food",50}, {"fuel",50}, {"relics",0}
@@ -34,7 +34,7 @@ public class StanGracza : MonoBehaviour
     };
 
     public event Action<float, float> OnObciazenieZmiana;
-    public event Action<int> OnZlotoZmiana;
+    public event Action<float> OnZlotoZmiana;
     public event Action<string, int> OnEkwipunekZmiana;
 
     private void Awake()
@@ -66,9 +66,9 @@ public class StanGracza : MonoBehaviour
         }
     }
 
-    public void DodajZloto(int ilosc)
+    public void DodajZloto(float ilosc)
     {
-        dane.zloto = Math.Max(0, dane.zloto + ilosc);
+        dane.zloto = Mathf.Max(0f, dane.zloto + ilosc);
         OnZlotoZmiana?.Invoke(dane.zloto);
     }
 

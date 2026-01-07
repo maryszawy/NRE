@@ -35,10 +35,10 @@ public class WierszMiastaUI : MonoBehaviour
 
         if (miasto.commodities != null && miasto.commodities.TryGetValue(towarID, out var towar))
         {
-            int cenaKupna = RynekMiast.ObliczCeneKupna(miasto, towarID);
-            int ilosc = towar.quantity;
+            float cenaKupna = RynekMiast.ObliczCeneKupna(miasto, towarID);
+            float ilosc = towar.quantity;
 
-            txt.text = $"{cenaKupna}";
+            txt.text = $"{cenaKupna:F2}";
 
             float ratio = RynekMiast.GetStockRatio(miasto, towarID);
 

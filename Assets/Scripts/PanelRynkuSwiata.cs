@@ -8,6 +8,8 @@ public class PanelRynkuSwiata : MonoBehaviour
     public Transform contentParent;
     public GameObject prefabWiersza;
 
+    public bool Widoczny => kontenerGlowny != null && kontenerGlowny.activeSelf;
+
     [Header("Sterowanie")]
     public KeyCode klawisz = KeyCode.M;
 

@@ -60,7 +60,7 @@ public class PanelEkwipunku : MonoBehaviour
 
     // --- OBSŁUGA EVENTÓW ---
 
-    private void OnZlotoZmiana(int noweZloto)
+    private void OnZlotoZmiana(float noweZloto)
     {
         Odswiez();
     }
