@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
@@ -63,7 +62,7 @@ public class PanelPotwierdzenia : MonoBehaviour
         _poAnulowaniu = poAnulowaniu;
 
         if (tekstTytul) tekstTytul.text = $"Czy chcesz jechać do: {nazwaCel}?";
-        if (tekstOpis) tekstOpis.text = $"Z: {nazwaStart} → Do: {nazwaCel}";
+        if (tekstOpis) tekstOpis.text = $"Z: {nazwaStart} → Do: {nazwaCel}\nPotwierdzenie podróży zakończy turę handlu.";
         if (tekstETA) tekstETA.text = $"Czas podróży: {tekstCzasu}";
 
         kontener.SetActive(true);

@@ -28,16 +28,16 @@ public partial class RynekMiast : MonoBehaviour
         float r = GetStockRatio(miasto, towar);
         float mult;
 
-        if (r < 0.2f)       // 0% - 20%: Bardzo du¿y popyt
+        if (r < 0.2f)
             mult = Lerp(1.50f, 1.10f, r / 0.2f);
 
-        else if (r < 0.5f)  // 20% - 50%: Normalny popyt
+        else if (r < 0.5f)
             mult = Lerp(1.10f, 0.90f, (r - 0.2f) / 0.3f);
 
-        else if (r < 1.0f)  // 50% - 100%: Nasycanie rynku
+        else if (r < 1.0f)
             mult = Lerp(0.90f, 0.50f, (r - 0.5f) / 0.5f);
 
-        else                // > 100%: Nadprodukcja (cena spada powoli do 10%)
+        else
             mult = Mathf.Max(0.1f, 0.50f - (r - 1.0f) * 0.2f);
 
         if (_fabrykaDlaTowaru.TryGetValue(towar, out var fab) && !string.IsNullOrEmpty(fab))

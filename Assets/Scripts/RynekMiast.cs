@@ -51,7 +51,7 @@ public partial class RynekMiast : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("[RynekMiast] Startuj�!");
+        Debug.Log("[RynekMiast] Startuje!");
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         DontDestroyOnLoad(gameObject);
@@ -62,18 +62,18 @@ public partial class RynekMiast : MonoBehaviour
     void LoadWorld()
     {
         Debug.Log("Szukam pliku JSON...");
-        Debug.Log("�cie�ka StreamingAssets: " + Application.streamingAssetsPath);
+        Debug.Log("Sciezka StreamingAssets: " + Application.streamingAssetsPath);
 
         string path = File.Exists(sciezkaStanu) ? sciezkaStanu : sciezkaBazowa;
 
-        Debug.Log("U�ywam �cie�ki: " + path);
+        Debug.Log("Uzywam sciezki: " + path);
         Debug.Log("File.Exists? " + File.Exists(path));
         if (File.Exists(sciezkaBazowa))
-            Debug.Log("Zawarto�� StreamingAssets:\n" + string.Join("\n", Directory.GetFiles(Application.streamingAssetsPath)));
+            Debug.Log("Zawartosc StreamingAssets:\n" + string.Join("\n", Directory.GetFiles(Application.streamingAssetsPath)));
 
         if (!File.Exists(path))
         {
-            Debug.LogError("NIE ZNALAZ�EM PLIKU: " + path);
+            Debug.LogError("NIE ZNALAZLEM PLIKU: " + path);
             Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
             Current = Data.cities;
             After = Data.after;
@@ -88,7 +88,7 @@ public partial class RynekMiast : MonoBehaviour
             var root = JsonConvert.DeserializeObject<WorldFile>(text);
             if (root == null)
             {
-                Debug.LogError("Deserializacja zwr�ci�a null!");
+                Debug.LogError("Deserializacja zwrocila null!");
                 Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
                 Current = Data.cities;
                 After = Data.after;
@@ -102,7 +102,7 @@ public partial class RynekMiast : MonoBehaviour
             if (path == sciezkaBazowa && After != null && After.Count > 0)
             {
                 Current = DeepClone(After);
-                Debug.Log("U�ywam danych z 'after' jako bie��cego stanu �wiata (z bazy).");
+                Debug.Log("Uzywam danych z 'after' jako biezacego stanu swiata (z bazy).");
 
                 SaveAfter();
             }
@@ -111,7 +111,7 @@ public partial class RynekMiast : MonoBehaviour
         }
         catch (System.Exception ex)
         {
-            Debug.LogError("B��d parsowania JSON: " + ex.Message);
+            Debug.LogError("Blad parsowania JSON: " + ex.Message);
             Data = new WorldFile { cities = new List<CityData>(), after = new List<CityData>() };
             Current = Data.cities;
             After = Data.after;
@@ -143,7 +143,7 @@ public partial class RynekMiast : MonoBehaviour
         return JsonConvert.DeserializeObject<T>(json);
     }
 
-    public bool AdjustCommodity(string city, string commodity, int deltaQty, int? newPrice = null)
+    public bool AdjustCommodity(string city, string commodity, float deltaQty, float? newPrice = null)
     {
         var c = FindCity(city);
 
@@ -175,5 +175,42 @@ public partial class RynekMiast : MonoBehaviour
 
         SaveAfter();
         return true;
+    }
+
+    public void ReloadData()
+    {
+        Debug.Log("[RynekMiast] Przeladowuje dane z pliku (ReloadData)...");
+
+        string path = sciezkaStanu;
+
+        if (!File.Exists(path))
+        {
+            Debug.LogError($"[RynekMiast] Blad: Plik zapisu nie istnieje: {path}. Nie mozna odswiezyc danych.");
+            return;
+        }
+
+        try
+        {
+            string json = File.ReadAllText(path);
+
+            var root = JsonConvert.DeserializeObject<WorldFile>(json);
+
+            if (root != null)
+            {
+                Data = root;
+                Current = root.cities ?? new List<CityData>();
+                After = root.after;
+
+                Debug.Log($"[RynekMiast] Dane odswiezone pomyslnie! Wczytano {Current.Count} miast.");
+            }
+            else
+            {
+                Debug.LogWarning("[RynekMiast] Plik JSON byl pusty lub uszkodzony (root == null).");
+            }
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogError($"[RynekMiast] Blad krytyczny podczas przeładowywania JSON: {ex.Message}");
+        }
     }
 }

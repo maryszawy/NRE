@@ -1,11 +1,14 @@
 {
   "name": "bot0",
-  "zloto": 2240.0,
+  "zloto": 20504.88,
+  "current_city": "Porto",
   "ekwipunek": {
-    "metal": 95,
-    "gems": 21,
-    "food": 60,
-    "fuel": 49,
-    "relics": 0
+    "fuel": 15.0
+  },
+  "inventory_full": {
+    "fuel": {
+      "quantity": 15.0,
+      "avg_buy_price": 61.66666666666666
+    }
   }
 }

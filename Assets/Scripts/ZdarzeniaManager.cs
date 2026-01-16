@@ -66,7 +66,7 @@ public class ZdarzeniaManager : MonoBehaviour
             var root = JsonConvert.DeserializeObject<EventsFile>(text);
             _events = root?.events ?? new Dictionary<string, EventDef>();
 
-            Debug.Log($"[ZdarzeniaManager] Wczytano events_player.json, liczba eventów: {_events.Count}");
+            Debug.Log($"[ZdarzeniaManager] Wczytano events_player.json, liczba eventow: {_events.Count}");
         }
         catch (Exception ex)
         {
@@ -101,7 +101,7 @@ public class ZdarzeniaManager : MonoBehaviour
         }
         catch (Exception ex)
         {
-            Debug.LogError("[ZdarzeniaManager] B³¹d przy wczytywaniu curr_event_player.json: " + ex.Message);
+            Debug.LogError("[ZdarzeniaManager] Blad przy wczytywaniu curr_event_player.json: " + ex.Message);
             _currEventId = null;
         }
     }
@@ -125,9 +125,8 @@ public class ZdarzeniaManager : MonoBehaviour
 
         if (panelZdarzenia == null)
         {
-            Debug.LogWarning("[ZdarzeniaManager] Brak panelZdarzenia – event bez UI, stosujê efekty od razu.");
+            Debug.LogWarning("[ZdarzeniaManager] Brak panelZdarzenia – event bez UI, stosuje efekty od razu.");
 
-            // awaryjnie: stosujemy efekty i czyœcimy event
             if (ev.target != null && ev.target.Equals("player", StringComparison.OrdinalIgnoreCase))
                 ZastosujEfektyNaGraczu(ev);
 
@@ -136,7 +135,6 @@ public class ZdarzeniaManager : MonoBehaviour
             return;
         }
 
-        // Teraz: najpierw pokazujemy panel, a dopiero PO klikniêciu OK stosujemy efekty
         panelZdarzenia.Pokaz(
             ev.name,
             ev.description,
@@ -148,7 +146,7 @@ public class ZdarzeniaManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log($"[ZdarzeniaManager] Event '{_currEventId}' target={ev.target} – pomijam efekty (na razie tylko player).");
+                    Debug.Log($"[ZdarzeniaManager] Event '{_currEventId}' target={ev.target} – pomijam efekty.");
                 }
 
                 WyczyscCurrEvent();
@@ -165,7 +163,7 @@ public class ZdarzeniaManager : MonoBehaviour
         var stan = StanGracza.Instance;
         if (stan == null)
         {
-            Debug.LogWarning("[ZdarzeniaManager] Brak StanGracza – nie mogê zastosowaæ eventu na graczu.");
+            Debug.LogWarning("[ZdarzeniaManager] Brak StanGracza – nie moge zastosowac eventu na graczu.");
             return;
         }
 
@@ -173,7 +171,6 @@ public class ZdarzeniaManager : MonoBehaviour
         if (playerToken == null)
             return;
 
-        // z³oto
         int goldDelta = 0;
         if (playerToken["gold"] != null)
             goldDelta = playerToken.Value<int>("gold");
@@ -186,7 +183,6 @@ public class ZdarzeniaManager : MonoBehaviour
             Debug.Log($"[ZdarzeniaManager] Event '{_currEventId}' zmienia z³oto o {goldDelta}.");
         }
 
-        // ekwipunek
         var invToken = playerToken["inventory"] as JObject;
         if (invToken != null)
         {
@@ -213,7 +209,7 @@ public class ZdarzeniaManager : MonoBehaviour
         }
         catch (Exception ex)
         {
-            Debug.LogError("[ZdarzeniaManager] B³¹d przy zapisie curr_event_player.json: " + ex.Message);
+            Debug.LogError("[ZdarzeniaManager] Blad przy zapisie curr_event_player.json: " + ex.Message);
         }
     }
 }

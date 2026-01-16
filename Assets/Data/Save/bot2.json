@@ -1,11 +1,19 @@
 {
   "name": "bot2",
-  "zloto": 8401.0,
+  "zloto": 19834.949999999997,
+  "current_city": "Rybnik",
   "ekwipunek": {
-    "metal": 36,
-    "gems": 192,
-    "food": 36,
-    "fuel": 190,
-    "relics": 1
+    "metal": 1.0,
+    "food": 78
+  },
+  "inventory_full": {
+    "metal": {
+      "quantity": 1.0,
+      "avg_buy_price": 41.0
+    },
+    "food": {
+      "quantity": 78,
+      "avg_buy_price": 24.0
+    }
   }
 }

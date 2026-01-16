@@ -39,17 +39,28 @@ public class GraczController : MonoBehaviour
     {
         czyWTrasie = true;
 
+        if (CzasGry.Instance != null)
+            CzasGry.Instance.czasPlynie = true;
+
         List<Vector3> punktyPelne = ZbudujPelnaListePunktow(sciezka);
         if (punktyPelne == null || punktyPelne.Count < 2)
         {
             Debug.LogWarning("Brak punktów trasy.");
             czyWTrasie = false;
+
+            if (CzasGry.Instance != null)
+                CzasGry.Instance.czasPlynie = false;
+
             yield break;
         }
 
         float dystansCalk = PoliczDystans(punktyPelne);
         float sekReal = dystansCalk / Mathf.Max(0.0001f, predkosc);
-        float minGry = sekReal * ((CzasGry.Instance != null) ? CzasGry.Instance.minutyNaSekunde : 1f);
+        float minGry = 0f;
+        if (CzasGry.Instance != null && CzasGry.Instance.realneSekundyNaDzien > 0)
+        {
+            minGry = sekReal / CzasGry.Instance.realneSekundyNaDzien;
+        }
 
         OnPodrozStart?.Invoke(new InfoPodrozy
         {
@@ -83,6 +94,10 @@ public class GraczController : MonoBehaviour
 
         AktualneMiasto = sciezka[sciezka.Count - 1];
         czyWTrasie = false;
+
+        if (CzasGry.Instance != null)
+            CzasGry.Instance.czasPlynie = false;
+
         OnPodrozPostep?.Invoke(1f);
         OnPodrozKoniec?.Invoke();
         MapaGry.Instance?.PoDotarciuDoCelu(AktualneMiasto);

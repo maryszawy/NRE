@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Diagnostics;
+using System.Threading.Tasks;
 
 public class MapaGry : MonoBehaviour
 {
@@ -31,6 +33,7 @@ public class MapaGry : MonoBehaviour
     public Button btnHandel;
 
     [Header("Gameplay")]
+    private bool _wymagaOdswiezeniaDanych = false;
     public bool moznaHandlowac = false;
 
     public bool CzyMapaZablokowana =>
@@ -38,6 +41,7 @@ public class MapaGry : MonoBehaviour
      || (panelPotwierdzenia != null && panelPotwierdzenia.Widoczny)
      || (panelWejsciaMiasta != null && panelWejsciaMiasta.Widoczny)
      || (panelZdarzenia != null && panelZdarzenia.Widoczny);
+
 
     private void Awake()
     {
@@ -50,7 +54,7 @@ public class MapaGry : MonoBehaviour
     {
         if (listaMiast.Count == 0)
         {
-            Debug.LogError("Brak miast na mapie!");
+            UnityEngine.Debug.LogError("Brak miast na mapie!");
             return;
         }
 
@@ -69,7 +73,15 @@ public class MapaGry : MonoBehaviour
         if (btnHandel) btnHandel.interactable = false;
     }
 
-    //=============== KLIK NA MIASTO ============================
+    private void Update()
+    {
+        if (_wymagaOdswiezeniaDanych)
+        {
+            _wymagaOdswiezeniaDanych = false;
+            OdswiezDaneZJsonow();
+        }
+    }
+
     public void KliknietoMiasto(Miasto miasto)
     {
         if (gracz == null || gracz.czyWTrasie) return;
@@ -83,25 +95,28 @@ public class MapaGry : MonoBehaviour
         if (sciezka == null)
         {
             PodgladujSciezke(null);
-            Debug.LogWarning($"Brak drogi do {miasto.nazwa}");
+            UnityEngine.Debug.LogWarning($"Brak drogi do {miasto.nazwa}");
             return;
         }
 
         PodgladujSciezke(sciezka);
 
-        var (_, _, minGry) = ObliczCzasPodrozy(sciezka);
-        string eta = FormatujMinutyGry(minGry);
+        var (_, _, dniGry) = ObliczCzasPodrozy(sciezka);
+        string eta = FormatujCzasPodrozy(dniGry);
 
         panelPotwierdzenia.Pokaz(
             gracz.AktualneMiasto.nazwa,
             miasto.nazwa,
             eta,
-            poPotwierdzeniu: () => gracz.RuszajPoSciezce(sciezka),
+            poPotwierdzeniu: () =>
+            {
+                gracz.RuszajPoSciezce(sciezka);
+                UruchomBotyAI();
+            },
             poAnulowaniu: () => { PodgladujSciezke(null); WyczyscPodswietlenia(); }
         );
     }
 
-    //=============== PO DOJECHANIU — EVENT + MIASTO =============
     public void PoDotarciuDoCelu(Miasto miasto)
     {
         PodgladujSciezke(null);
@@ -119,7 +134,6 @@ public class MapaGry : MonoBehaviour
         }
     }
 
-    //=============== WEJŒCIE DO MIASTA PO EVENCIE ================
     private void KontynuujWejscieDoMiasta(Miasto miasto)
     {
         var dataMiasta = RynekMiast.Instance?.FindCity(miasto.nazwa);
@@ -161,7 +175,7 @@ public class MapaGry : MonoBehaviour
     {
         if (listaMiast == null || listaMiast.Count == 0)
         {
-            Debug.LogWarning("MapaGry: listaMiast jest pusta – upewnij siê, ¿e podpi¹³eœ miasta w Inspectorze.");
+            UnityEngine.Debug.LogWarning("MapaGry: listaMiast jest pusta – upewnij siê, ¿e podpi¹³eœ miasta w Inspectorze.");
             return;
         }
 
@@ -256,7 +270,7 @@ public class MapaGry : MonoBehaviour
         return null;
     }
 
-    private (float dystans, float sekReal, float minGry) ObliczCzasPodrozy(List<Miasto> sciezka)
+    private (float dystans, float sekReal, float dniGry) ObliczCzasPodrozy(List<Miasto> sciezka)
     {
         if (sciezka == null || sciezka.Count < 2 || gracz == null) return (0, 0, 0);
 
@@ -268,15 +282,62 @@ public class MapaGry : MonoBehaviour
         }
 
         float sekReal = dystans / Mathf.Max(0.0001f, gracz.predkosc);
-        float minGry = sekReal * ((CzasGry.Instance != null) ? CzasGry.Instance.minutyNaSekunde : 1f);
-        return (dystans, sekReal, minGry);
+
+        float dniGry = 0f;
+        if (CzasGry.Instance != null && CzasGry.Instance.realneSekundyNaDzien > 0)
+        {
+            dniGry = sekReal / CzasGry.Instance.realneSekundyNaDzien;
+        }
+
+        return (dystans, sekReal, dniGry);
     }
 
-    private string FormatujMinutyGry(float min)
+    private string FormatujCzasPodrozy(float dni)
     {
-        int m = Mathf.RoundToInt(min);
-        int h = m / 60;
-        int mm = m % 60;
-        return (h > 0) ? $"{h}h {mm}m" : $"{mm}m";
+        if (dni < 1f) return "< 1 dzieñ";
+        return $"{dni:F1} dni";
+    }
+
+    private void UruchomBotyAI()
+    {
+        Task.Run(() =>
+        {
+            try
+            {
+                Process process = new Process();
+                process.StartInfo.FileName = "docker";
+                process.StartInfo.Arguments = "exec nre uv run nre-ai -a 10";
+
+                process.StartInfo.UseShellExecute = false;
+                process.StartInfo.RedirectStandardOutput = true;
+                process.StartInfo.RedirectStandardError = true;
+                process.StartInfo.CreateNoWindow = true;
+
+                process.Start();
+
+                string output = process.StandardOutput.ReadToEnd();
+                string error = process.StandardError.ReadToEnd();
+
+                process.WaitForExit();
+            }
+            catch (System.Exception e)
+            {
+                UnityEngine.Debug.LogError($"Nie uda³o siê uruchomiæ AI: {e.Message}");
+            }
+        });
+    }
+    private void OdswiezDaneZJsonow()
+    {
+        UnityEngine.Debug.Log("Docker zakoñczy³ pracê. Odœwie¿am dane z JSON...");
+
+        if (RynekMiast.Instance != null)
+        {
+            RynekMiast.Instance.ReloadData(); 
+        }
+
+        if (MenadzerUI.Instance != null && MenadzerUI.Instance.panelRankingu != null && MenadzerUI.Instance.panelRankingu.Widoczny)
+        {
+            MenadzerUI.Instance.panelRankingu.PrzelaczWidok();
+        }
     }
 }

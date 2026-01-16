@@ -1,0 +1,14 @@
+{
+  "name": "bot9",
+  "zloto": 9594.75,
+  "current_city": "Aleksandria",
+  "ekwipunek": {
+    "metal": 5
+  },
+  "inventory_full": {
+    "metal": {
+      "quantity": 5,
+      "avg_buy_price": 81.05
+    }
+  }
+}

@@ -20,7 +20,6 @@ public class PanelEkwipunku : MonoBehaviour
     {
         if (kontener) kontener.SetActive(false);
 
-        // SUBSKRYPCJE (działają poprawnie)
         if (StanGracza.Instance != null)
         {
             StanGracza.Instance.OnZlotoZmiana += OnZlotoZmiana;
@@ -28,7 +27,6 @@ public class PanelEkwipunku : MonoBehaviour
             StanGracza.Instance.OnObciazenieZmiana += OnObciazenieZmiana;
         }
 
-        // odśwież dane od razu, żeby mieć aktualne wartości
         Odswiez();
     }
 
@@ -58,8 +56,6 @@ public class PanelEkwipunku : MonoBehaviour
             Odswiez();
     }
 
-    // --- OBSŁUGA EVENTÓW ---
-
     private void OnZlotoZmiana(float noweZloto)
     {
         Odswiez();
@@ -75,8 +71,6 @@ public class PanelEkwipunku : MonoBehaviour
         if (txtObciazenie != null)
             txtObciazenie.text = $"{aktualne:0.#} / {max:0.#}";
     }
-
-    // --- ODŚWIEŻANIE UI ---
 
     public void Odswiez()
     {

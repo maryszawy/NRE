@@ -1,0 +1,14 @@
+{
+  "name": "bot6",
+  "zloto": 18006.05,
+  "current_city": "Afryka",
+  "ekwipunek": {
+    "metal": 25.0
+  },
+  "inventory_full": {
+    "metal": {
+      "quantity": 25.0,
+      "avg_buy_price": 49.0
+    }
+  }
+}

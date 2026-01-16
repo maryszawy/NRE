@@ -6,17 +6,20 @@ public class CzasGry : MonoBehaviour
     public static CzasGry Instance { get; private set; }
 
     [Header("Tempo czasu")]
-    [Tooltip("Ile minut gry up³ywa w 1 sekundê rzeczywist¹")]
-    public float minutyNaSekunde = 1f;
+    [Tooltip("Ile sekund rzeczywistych musi min¹æ, by up³yn¹³ 1 dzieñ w grze")]
+    public float realneSekundyNaDzien = 4f;
 
-    [Header("Aktualny czas gry")]
+    [Header("Sterowanie")]
+    public bool czasPlynie = false;
+
+    [Header("Kalendarz")]
     public int dzien = 1;
-    public int godzina = 8;
-    public int minuta = 0;
+    public int miesiac = 1;
+    public int rok = 2305;
 
     public event Action OnZmianaCzasu;
-
-    private float akumulator;
+    private float _akumulator;
+    private readonly int[] _dniWMiesiacach = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
     private void Awake()
     {
@@ -26,17 +29,53 @@ public class CzasGry : MonoBehaviour
 
     private void Update()
     {
-        akumulator += Time.deltaTime * minutyNaSekunde;
-        while (akumulator >= 1f)
+        if (!czasPlynie) return;
+
+        _akumulator += Time.deltaTime;
+
+        if (_akumulator >= realneSekundyNaDzien)
         {
-            akumulator -= 1f;
-            minuta++;
-            if (minuta >= 60) { minuta = 0; godzina++; }
-            if (godzina >= 24) { godzina = 0; dzien++; }
-            OnZmianaCzasu?.Invoke();
+            _akumulator -= realneSekundyNaDzien;
+
+            PrzejdzDoNastepnegoDnia();
         }
     }
 
-    public string FormatujGodzine() => $"{godzina:00}:{minuta:00}";
-    public string FormatujDzienIGodzine() => $"Day {dzien}  {godzina:00}:{minuta:00}";
+    private void PrzejdzDoNastepnegoDnia()
+    {
+        dzien++;
+
+        int maxDni = _dniWMiesiacach[miesiac];
+
+        if (miesiac == 2 && CzyRokPrzestepny(rok)) maxDni = 29;
+
+        if (dzien > maxDni)
+        {
+            dzien = 1;
+            miesiac++;
+
+            if (miesiac > 12)
+            {
+                miesiac = 1;
+                rok++;
+            }
+        }
+
+        OnZmianaCzasu?.Invoke();
+    }
+
+    private bool CzyRokPrzestepny(int y)
+    {
+        return (y % 4 == 0 && (y % 100 != 0 || y % 400 == 0));
+    }
+
+    public string FormatujDate()
+    {
+        return $"{dzien:D2}.{miesiac:D2}.{rok}";
+    }
+
+    public string FormatujTekstowo()
+    {
+        return $"Dzieñ {dzien}, {rok}";
+    }
 }

@@ -67,22 +67,17 @@ public class PanelMiastoInfo : MonoBehaviour
 
                 ui.nazwaTowaru = kv.Key;
 
-                // Pobieramy floaty
                 float cenaKupna = RynekMiast.ObliczCeneKupna(miasto, kv.Key);
                 float wyplata = RynekMiast.ObliczWyplateSprzedazy(miasto, kv.Key);
 
                 ui.txtNazwa.text = kv.Key;
 
-                // --- ZMIANA TUTAJ (Dodano :F2) ---
                 ui.txtCena.text = $"Cena: {cenaKupna:F2} | Skup: ~{wyplata:F2}";
-                // ---------------------------------
 
                 ui.txtMiastoIlosc.text = $"Miasto: {kv.Value.quantity}";
                 ui.txtGraczIlosc.text = $"Ty: {StanGracza.Instance.IleTowaru(kv.Key)}";
 
                 ui.btnKup.onClick.RemoveAllListeners();
-                // Uwaga: Tutaj rzutujemy na (int), jeœli AdjustCommodity nadal przyjmuje int
-                // Jeœli zmieni³eœ AdjustCommodity na float, usuñ (int)
                 ui.btnKup.onClick.AddListener(() => KupJednostke(kv.Key));
 
                 ui.btnSprzedaj.onClick.RemoveAllListeners();
@@ -110,13 +105,13 @@ public class PanelMiastoInfo : MonoBehaviour
 
         if (c.quantity <= 0)
         {
-            Debug.Log("Miasto nie ma ju¿ tego towaru.");
+            Debug.Log("Miasto nie ma juz tego towaru.");
             return;
         }
 
         if (StanGracza.Instance.dane.zloto < cena)
         {
-            Debug.Log("Za ma³o z³ota.");
+            Debug.Log("Za malo zlota.");
             return;
         }
 
@@ -126,7 +121,7 @@ public class PanelMiastoInfo : MonoBehaviour
 
         if (aktualneObc + wagaJednostki > maxObc)
         {
-            Debug.Log("Nie uniesiesz wiêcej tego towaru – przekroczysz maksymalny udŸwig.");
+            Debug.Log("Nie uniesiesz wiecej tego towaru – przekroczysz maksymalny udzwig.");
             return;
         }
 
@@ -165,9 +160,7 @@ public class PanelMiastoInfo : MonoBehaviour
         float cenaKupna = RynekMiast.ObliczCeneKupna(m, towar);
         float wyplata = RynekMiast.ObliczWyplateSprzedazy(m, towar);
 
-        // --- ZMIANA TUTAJ (Dodano :F2) ---
         ui.txtCena.text = $"Cena: {cenaKupna:F2}  |  Skup: ~{wyplata:F2}";
-        // ---------------------------------
 
         ui.txtMiastoIlosc.text = $"Miasto: {c.quantity}";
         ui.txtGraczIlosc.text = $"Ty: {StanGracza.Instance.IleTowaru(towar)}";

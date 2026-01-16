@@ -1,0 +1,14 @@
+{
+  "name": "bot5",
+  "zloto": 5019.04,
+  "current_city": "Rybnik",
+  "ekwipunek": {
+    "fuel": 48
+  },
+  "inventory_full": {
+    "fuel": {
+      "quantity": 48,
+      "avg_buy_price": 103.77
+    }
+  }
+}

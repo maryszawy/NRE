@@ -1,11 +1,24 @@
 {
   "name": "bot1",
-  "zloto": 12040.0,
+  "zloto": 6688.6900000000005,
+  "current_city": "Aleksandria",
   "ekwipunek": {
-    "metal": 15,
-    "gems": 231,
-    "food": 60,
-    "fuel": 71,
-    "relics": 3
+    "food": 345.0,
+    "metal": 6.0,
+    "fuel": 5.0
+  },
+  "inventory_full": {
+    "food": {
+      "quantity": 345.0,
+      "avg_buy_price": 38.50307246376813
+    },
+    "metal": {
+      "quantity": 6.0,
+      "avg_buy_price": 46.0
+    },
+    "fuel": {
+      "quantity": 5.0,
+      "avg_buy_price": 52.0
+    }
   }
 }

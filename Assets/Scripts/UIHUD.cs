@@ -50,7 +50,7 @@ public class UIHUD : MonoBehaviour
     private void OdwiezCzas()
     {
         if (txtCzas != null && CzasGry.Instance != null)
-            txtCzas.text = CzasGry.Instance.FormatujDzienIGodzine();
+            txtCzas.text = CzasGry.Instance.FormatujDate();
     }
 
     private void UkryjPodroz()
